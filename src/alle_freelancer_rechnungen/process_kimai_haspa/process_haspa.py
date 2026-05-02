@@ -2,6 +2,16 @@ from alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import load_
 import polars as pl
 
 
+
+def remove_empty_columns(df: pl.DataFrame) -> pl.DataFrame:
+    empty_cols = [
+        col for col in df.columns
+        if df[col].is_null().all() or (df[col].cast(pl.Utf8).fill_null("") == "").all()
+    ]
+    return df.drop(empty_cols)
+
+
+
 def filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df: pl.DataFrame,
         beguenstigter_zahlungspflichtiger: str,
@@ -78,7 +88,7 @@ def process_haspa() -> pl.DataFrame:
     df = filter_null_ueberweisungen(df)
     df = filter_steuerberater_kosten(df)
 
-
+    df = remove_empty_columns(df)
 
     return df
 

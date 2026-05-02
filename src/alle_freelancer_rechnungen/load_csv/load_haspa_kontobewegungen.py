@@ -61,6 +61,14 @@ def _apply_column_parsing(df: pl.DataFrame) -> pl.DataFrame:
     return df
 
 
+def _remove_empty_columns(df: pl.DataFrame) -> pl.DataFrame:
+    empty_cols = [
+        col for col in df.columns
+        if df[col].is_null().all() or (df[col].cast(pl.Utf8).fill_null("") == "").all()
+    ]
+    return df.drop(empty_cols)
+
+
 def _rename_columns(df: pl.DataFrame) -> pl.DataFrame:
     rename_map = {
         name: spec["target"]
@@ -89,6 +97,7 @@ def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
 
 def load_multiple_haspa_kontobewegungen_camt52v8(file_names: list[str]) -> pl.DataFrame:
     dfs = pl.concat([load_haspa_kontobewegungen_camt52v8(x) for x in file_names])
+    dfs = _remove_empty_columns(dfs)
     return dfs
 
 def load_haspa_history() -> pl.DataFrame:

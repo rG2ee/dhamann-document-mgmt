@@ -5,9 +5,7 @@ import duckdb
 import pyarrow as pa
 import riffq
 
-from alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import (
-    load_haspa_history,
-)
+from alle_freelancer_rechnungen.process_kimai_haspa.process_haspa import process_haspa
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -27,7 +25,7 @@ def _is_pg_compat_noise(sql: str) -> bool:
 
 def build_duckdb() -> duckdb.DuckDBPyConnection:
     logger.info("Lade Haspa-Kontobewegungen …")
-    kontobewegungen = load_haspa_history()
+    kontobewegungen = process_haspa()
     logger.info(
         "  %d Zeilen, %d Spalten geladen", kontobewegungen.height, kontobewegungen.width
     )
