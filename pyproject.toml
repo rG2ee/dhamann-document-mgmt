@@ -1,0 +1,6 @@
+[project]
+name = "alle-freelancer-rechnungen"
+version = "0.1.0"
+description = "Rechnungsübersicht für Freelancer"
+requires-python = ">=3.12"
+dependencies = []
