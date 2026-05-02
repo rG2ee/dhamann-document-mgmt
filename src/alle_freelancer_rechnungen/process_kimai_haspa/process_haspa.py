@@ -49,14 +49,6 @@ def filter_finanzamt_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
     )
 
 
-
-"""
-"SHBB StBges. mbH Kiel"
-"DE81210900070091231000"
-"""
-
-
-
 def filter_haspa_kosten(df: pl.DataFrame) -> pl.DataFrame:
     return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df,

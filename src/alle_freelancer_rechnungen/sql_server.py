@@ -6,6 +6,7 @@ import pyarrow as pa
 import riffq
 
 from alle_freelancer_rechnungen.process_kimai_haspa.process_haspa import process_haspa
+from alle_freelancer_rechnungen.process_kimai_haspa.process_kimai import process_kimai
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
