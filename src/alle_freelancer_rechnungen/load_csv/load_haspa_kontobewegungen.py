@@ -26,23 +26,23 @@ def _parse_german_date(expr: pl.Expr) -> pl.Expr:
 ColumnSpec = dict[str, pl.DataType | Callable[[pl.Expr], pl.Expr]]
 
 HASPA_CSV_COLUMNS: OrderedDict[str, ColumnSpec] = OrderedDict({
-    "Auftragskonto":                    {"dtype": pl.Utf8},
-    "Buchungstag":                      {"dtype": pl.Date,    "parse": _parse_german_date},
-    "Valutadatum":                      {"dtype": pl.Date,    "parse": _parse_german_date},
-    "Buchungstext":                     {"dtype": pl.Utf8},
-    "Verwendungszweck":                 {"dtype": pl.Utf8},
-    "Glaeubiger ID":                    {"dtype": pl.Utf8},
-    "Mandatsreferenz":                  {"dtype": pl.Utf8},
-    "Kundenreferenz (End-to-End)":      {"dtype": pl.Utf8},
-    "Sammlerreferenz":                  {"dtype": pl.Utf8},
-    "Lastschrift Ursprungsbetrag":      {"dtype": pl.Utf8},
-    "Auslagenersatz Ruecklastschrift":  {"dtype": pl.Utf8},
-    "Beguenstigter/Zahlungspflichtiger": {"dtype": pl.Utf8},
-    "Kontonummer/IBAN":                 {"dtype": pl.Utf8},
-    "BIC (SWIFT-Code)":                 {"dtype": pl.Utf8},
-    "Betrag":                           {"dtype": pl.Float64, "parse": _parse_german_decimal},
-    "Waehrung":                         {"dtype": pl.Utf8},
-    "Info":                             {"dtype": pl.Utf8},
+    "Auftragskonto":                    {"dtype": pl.Utf8,    "target": "AUFTRAGSKONTO"},
+    "Buchungstag":                      {"dtype": pl.Date,    "target": "BUCHUNGSTAG",                       "parse": _parse_german_date},
+    "Valutadatum":                      {"dtype": pl.Date,    "target": "VALUTADATUM",                       "parse": _parse_german_date},
+    "Buchungstext":                     {"dtype": pl.Utf8,    "target": "BUCHUNGSTEXT"},
+    "Verwendungszweck":                 {"dtype": pl.Utf8,    "target": "VERWENDUNGSZWECK"},
+    "Glaeubiger ID":                    {"dtype": pl.Utf8,    "target": "GLAEUBIGER_ID"},
+    "Mandatsreferenz":                  {"dtype": pl.Utf8,    "target": "MANDATSREFERENZ"},
+    "Kundenreferenz (End-to-End)":      {"dtype": pl.Utf8,    "target": "KUNDENREFERENZ_END_TO_END"},
+    "Sammlerreferenz":                  {"dtype": pl.Utf8,    "target": "SAMMLERREFERENZ"},
+    "Lastschrift Ursprungsbetrag":      {"dtype": pl.Utf8,    "target": "LASTSCHRIFT_URSPRUNGSBETRAG"},
+    "Auslagenersatz Ruecklastschrift":  {"dtype": pl.Utf8,    "target": "AUSLAGENERSATZ_RUECKLASTSCHRIFT"},
+    "Beguenstigter/Zahlungspflichtiger": {"dtype": pl.Utf8,   "target": "BEGUENSTIGTER_ZAHLUNGSPFLICHTIGER"},
+    "Kontonummer/IBAN":                 {"dtype": pl.Utf8,    "target": "KONTONUMMER_IBAN"},
+    "BIC (SWIFT-Code)":                 {"dtype": pl.Utf8,    "target": "BIC_SWIFT_CODE"},
+    "Betrag":                           {"dtype": pl.Float64, "target": "BETRAG",                            "parse": _parse_german_decimal},
+    "Waehrung":                         {"dtype": pl.Utf8,    "target": "WAEHRUNG"},
+    "Info":                             {"dtype": pl.Utf8,    "target": "INFO"},
 })
 
 
@@ -61,6 +61,15 @@ def _apply_column_parsing(df: pl.DataFrame) -> pl.DataFrame:
     return df
 
 
+def _rename_columns(df: pl.DataFrame) -> pl.DataFrame:
+    rename_map = {
+        name: spec["target"]
+        for name, spec in HASPA_CSV_COLUMNS.items()
+        if "target" in spec
+    }
+    return df.rename(rename_map)
+
+
 def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
     file_path = get_haspa_file_path(file_name)
 
@@ -73,6 +82,7 @@ def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
     )
 
     df = _apply_column_parsing(df)
+    df = _rename_columns(df)
 
     return df
 
