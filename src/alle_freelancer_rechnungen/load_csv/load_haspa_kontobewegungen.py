@@ -4,7 +4,7 @@ from typing import Callable
 
 import polars as pl
 
-from src.alle_freelancer_rechnungen.constants import PROJECT_ROOT
+from alle_freelancer_rechnungen.constants import PROJECT_ROOT
 
 HASPA_EXPORT_DIR = PROJECT_ROOT / "dokumente" / "haspa-export"
 

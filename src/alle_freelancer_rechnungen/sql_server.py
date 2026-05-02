@@ -3,7 +3,7 @@ import logging
 import duckdb
 import riffq
 
-from src.alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import (
+from alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import (
     load_haspa_history,
 )
 
