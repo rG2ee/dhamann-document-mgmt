@@ -1,6 +1,8 @@
 import logging
+import re
 
 import duckdb
+import pyarrow as pa
 import riffq
 
 from alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import (
@@ -13,6 +15,14 @@ logger = logging.getLogger(__name__)
 LISTEN_ADDR = "127.0.0.1:5433"
 
 duckdb_con: duckdb.DuckDBPyConnection | None = None
+
+_PG_SET_RE = re.compile(r"^\s*set\s+", re.IGNORECASE)
+_PG_SHOW_RE = re.compile(r"^\s*show\s+", re.IGNORECASE)
+
+
+def _is_pg_compat_noise(sql: str) -> bool:
+    """DataGrip/psql send PG-specific SET/SHOW commands that DuckDB doesn't support."""
+    return bool(_PG_SET_RE.match(sql) or _PG_SHOW_RE.match(sql))
 
 
 def build_duckdb() -> duckdb.DuckDBPyConnection:
@@ -33,14 +43,33 @@ class Connection(riffq.BaseConnection):
         callback(True)
 
     def _handle_query(self, sql: str, callback, **kwargs):
+        sql_stripped = sql.strip()
+
+        if not sql_stripped:
+            batch = self.arrow_batch(
+                [pa.array(["OK"]), pa.array(["empty query"])],
+                ["status", "message"],
+            )
+            self.send_reader(batch, callback)
+            return
+
+        if _is_pg_compat_noise(sql_stripped):
+            batch = self.arrow_batch(
+                [pa.array(["OK"]), pa.array([sql_stripped])],
+                ["status", "message"],
+            )
+            self.send_reader(batch, callback)
+            return
+
         try:
             cur = duckdb_con.cursor()
-            reader = cur.execute(sql).fetch_record_batch()
+            result = cur.execute(sql_stripped)
+            reader = result.fetch_record_batch()
             self.send_reader(reader, callback)
         except Exception as exc:
-            logger.warning("Query-Fehler: %s\n  SQL: %s", exc, sql)
+            logger.warning("Query-Fehler: %s\n  SQL: %s", exc, sql_stripped)
             batch = self.arrow_batch(
-                [("ERROR", str(exc))],
+                [pa.array(["ERROR"]), pa.array([str(exc)])],
                 ["status", "message"],
             )
             self.send_reader(batch, callback)
