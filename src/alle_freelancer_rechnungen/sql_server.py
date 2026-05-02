@@ -41,6 +41,22 @@ def build_duckdb() -> duckdb.DuckDBPyConnection:
     ]
     con.execute(f"CREATE TABLE kontobewegungen AS SELECT {', '.join(select_exprs)} FROM _raw")
     con.execute("DROP VIEW _raw")
+
+    logger.info("Lade Kimai-Rechnungen …")
+    kimai_rechnungen = process_kimai()
+    logger.info(
+        "  %d Zeilen, %d Spalten geladen (Kimai)", kimai_rechnungen.height, kimai_rechnungen.width
+    )
+    arrow_kimai = kimai_rechnungen.to_arrow()
+    con.register("_raw_kimai", arrow_kimai)
+    varchar_cols_kimai = [f.name for f in arrow_kimai.schema if pa.types.is_string(f.type) or pa.types.is_large_string(f.type)]
+    select_exprs_kimai = [
+        f'LOWER("{col}") AS "{col}"' if col in varchar_cols_kimai else f'"{col}"'
+        for col in arrow_kimai.schema.names
+    ]
+    con.execute(f"CREATE TABLE kimai_rechnungen AS SELECT {', '.join(select_exprs_kimai)} FROM _raw_kimai")
+    con.execute("DROP VIEW _raw_kimai")
+
     logger.info("DuckDB bereit – registrierte Tabellen: %s", con.execute("SHOW TABLES").fetchall())
     return con
 
