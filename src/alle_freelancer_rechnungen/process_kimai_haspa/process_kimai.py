@@ -1,10 +1,9 @@
 import polars as pl
 
 from alle_freelancer_rechnungen.load_csv.load_kimai_invoices import load_kimai_history
-# ['id', 'date', 'invoice_number', 'status', 'customer', 'subtotal', 'total_price', 'tax', 'currency', 'tax_rate', 'payment_term_days', 'payment_target', 'payment_date', 'user', 'file', 'account', 'comment']
 
 def remove_df_cols(df: pl.DataFrame, column_names: tuple[str, ...]) -> pl.DataFrame:
-    return df
+    return df.drop(*column_names)
 
 
 def remove_always_unused_colums(df: pl.DataFrame) -> pl.DataFrame:
@@ -15,12 +14,15 @@ def remove_always_unused_colums(df: pl.DataFrame) -> pl.DataFrame:
         "comment",
     )
 
-    return remove_df_cols(always_unused_columns)
+    return remove_df_cols(df, always_unused_columns)
 
 
 
 def remove_currently_unused_colums(df: pl.DataFrame) -> pl.DataFrame:
     currently_unused_columns = (
+        # may be used for ordering?
+        "id",
+
         # payment date may be used in kimai
         "payment_date",
 
@@ -31,13 +33,16 @@ def remove_currently_unused_colums(df: pl.DataFrame) -> pl.DataFrame:
         "payment_term_days",
     )
 
-    return remove_df_cols(currently_unused_columns)
+    return remove_df_cols(df, currently_unused_columns)
 
 
 
 
 def process_kimai() -> pl.DataFrame:
     df = load_kimai_history()
+    df = remove_always_unused_colums(df)
+    df = remove_currently_unused_colums(df)
+
     return df
 
 
