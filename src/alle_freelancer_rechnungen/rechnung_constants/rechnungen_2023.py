@@ -32,18 +32,27 @@ RECHNUNGEN_2023_F_PATHS = OrderedDict((
     ("2023-01-LR", PATH_2023 / "pleuger" / "DennisHamann-2023-01-LR.pdf"),
 
     # docu bot
-    ("2023-09-lemonade-research", PATH_2023 / "docu-bot" / "2023 - 09 - lemonade - research - Lemonade_Research_GmbH - DocuBot.pdf"),
-    ("2023-10-lemonade-research", PATH_2023 / "docu-bot" / "2023 - 10 - lemonade - research - Lemonade_Research_GmbH - DocuBot.pdf"),
-    ("2023-11-lemonade-research", PATH_2023 / "docu-bot" / "2023 - 11 - lemonade - research - Lemonade_Research_GmbH - DocuBot.pdf"),
-    ("2023-12-lemonade-research", PATH_2023 / "docu-bot" / "2023 - 12 - lemonade - research - Lemonade_Research_GmbH.pdf"),
+    ("2023-09-lemonade-research", PATH_2023 / "docu-bot" / "2023-09-lemonade-research-Lemonade_Research_GmbH-DocuBot.pdf"),
+    ("2023-10-lemonade-research", PATH_2023 / "docu-bot" / "2023-10-lemonade-research-Lemonade_Research_GmbH-DocuBot.pdf"),
+    ("2023-11-lemonade-research", PATH_2023 / "docu-bot" / "2023-11-lemonade-research-Lemonade_Research_GmbH-DocuBot.pdf"),
+    ("2023-12-lemonade-research", PATH_2023 / "docu-bot" / "2023-12-lemonade-research-Lemonade_Research_GmbH.pdf"),
 
     # human sign
-    ("2023-001-gintech-ag",  PATH_2023 / "human-sign" / "2023 - 001 - gintech - ag.pdf"),
-    ("2023-002-gintech-ag",  PATH_2023 / "human-sign" / "2023 - 002 - gintech - ag - Gintech_AG.pdf"),
-    ("2023-003-gintech-ag",  PATH_2023 / "human-sign" / "2023 - 003 - gintech - ag - Gintech_AG.pdf"),
-    ("2023-004-gintech-ag",  PATH_2023 / "human-sign" / "2023 - 004 - gintech - ag - Gintech_AG.pdf"),
-    ("2023-005-gintech-ag",  PATH_2023 / "human-sign" / "2023 - 005 - gintech - ag - Gintech_AG.pdf"),
+    ("2023-001-gintech-ag",  PATH_2023 / "human-sign" / "2023-001-gintech-ag.pdf"),
+    ("2023-002-gintech-ag",  PATH_2023 / "human-sign" / "2023-002-gintech-ag-Gintech_AG.pdf"),
+    ("2023-003-gintech-ag",  PATH_2023 / "human-sign" / "2023-003-gintech-ag-Gintech_AG.pdf"),
+    ("2023-004-gintech-ag",  PATH_2023 / "human-sign" / "2023-004-gintech-ag-Gintech_AG.pdf"),
+    ("2023-005-gintech-ag",  PATH_2023 / "human-sign" / "2023-005-gintech-ag-Gintech_AG.pdf"),
 ))
 
+
+
+import os
 if __name__ == '__main__':
     print(len(RECHNUNGEN_2023_F_PATHS))
+
+    for key, val in RECHNUNGEN_2023_F_PATHS.items():
+        print(val)
+        print(os.path.isfile(val))
+
+
