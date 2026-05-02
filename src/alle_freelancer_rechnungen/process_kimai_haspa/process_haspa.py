@@ -8,13 +8,13 @@ def filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         kontonummer_iban: str
 ) -> pl.DataFrame:
     return df.filter(
-        (pl.col("beguenstigter_zahlungspflichtiger") != beguenstigter_zahlungspflichtiger)
-        & pl.col("kontonummer_iban") != kontonummer_iban)
+        ~((pl.col("beguenstigter_zahlungspflichtiger") == beguenstigter_zahlungspflichtiger)
+        & (pl.col("kontonummer_iban") == kontonummer_iban)))
 
 
 
 def filter_dennis_private_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
-    #return df.filter(pl.col("kontonummer_iban") != "DE41250100300629948302")
+
 
     return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df,
@@ -23,27 +23,50 @@ def filter_dennis_private_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
     )
 
 
-
 def filter_finanzamt_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
+
+    # aktive Zahlungen
+    df = filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
+        df,
+        beguenstigter_zahlungspflichtiger="Finanzamt Hambug - Am Tierpark",
+        kontonummer_iban="DE03200000000020001530"
+    )
+    # Pfändung
     return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df,
-        beguenstigter_zahlungspflichtiger="Dennis Hamann",
+        beguenstigter_zahlungspflichtiger="Steuerkasse Hamburg",
         kontonummer_iban="DE03200000000020001530"
     )
 
-    return df.filter(pl.col("kontonummer_iban") != "DE03200000000020001530")
+
+
+"""
+"SHBB StBges. mbH Kiel"
+"DE81210900070091231000"
+"""
 
 
 
 def filter_haspa_kosten(df: pl.DataFrame) -> pl.DataFrame:
-    return df.filter(
-        (pl.col("kontonummer_iban") != "0000000000")
-        & (pl.col("betrag") != 0)
+    return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
+        df,
+        beguenstigter_zahlungspflichtiger="",
+        kontonummer_iban="0000000000"
     )
 
 
 
-"""SHBB StBges. mbH Kiel""","""DE81210900070091231000"""
+def filter_null_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
+    return df.filter(pl.col("betrag") != 0)
+
+
+def filter_steuerberater_kosten(df: pl.DataFrame) -> pl.DataFrame:
+    return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
+        df,
+        beguenstigter_zahlungspflichtiger="SHBB StBges. mbH Kiel",
+        kontonummer_iban="DE81210900070091231000"
+    )
+
 
 
 
@@ -52,6 +75,9 @@ def process_haspa() -> pl.DataFrame:
     df = filter_dennis_private_ueberweisungen(df)
     df = filter_finanzamt_ueberweisungen(df)
     df = filter_haspa_kosten(df)
+    df = filter_null_ueberweisungen(df)
+    df = filter_steuerberater_kosten(df)
+
 
 
     return df
