@@ -4,7 +4,15 @@ version = "0.1.0"
 description = "Rechnungsübersicht für Freelancer"
 requires-python = ">=3.12"
 dependencies = [
+    "duckdb",
     "fastexcel>=0.20.1",
     "polars",
     "riffq",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alle_freelancer_rechnungen"]
