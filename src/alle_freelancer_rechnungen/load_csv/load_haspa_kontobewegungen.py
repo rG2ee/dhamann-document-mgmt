@@ -77,8 +77,17 @@ def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
     return df
 
 
+def load_multiple_haspa_kontobewegungen_camt52v8(file_names: list[str]) -> pl.DataFrame:
+    dfs = pl.concat([load_haspa_kontobewegungen_camt52v8(x) for x in file_names])
+    return dfs
+
+def load_haspa_history() -> pl.DataFrame:
+    file_names = [
+        "20260502-1238211435-umsatz-camt52v8-von2023_05_02bis2024_05_02.CSV",
+        "20260502-1238211435-umsatz-camt52v8-von2024_05_03bis2026_05_02.CSV",
+    ]
+    return load_multiple_haspa_kontobewegungen_camt52v8(file_names)
+
 if __name__ == "__main__":
-    df = load_haspa_kontobewegungen_camt52v8(
-        "20260502-1238211435-umsatz-camt52v8.CSV"
-    )
+    df = load_haspa_history()
     print(df)
