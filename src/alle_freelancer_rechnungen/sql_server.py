@@ -33,7 +33,15 @@ def build_duckdb() -> duckdb.DuckDBPyConnection:
     )
 
     con = duckdb.connect()
-    con.register("kontobewegungen", kontobewegungen.to_arrow())
+    arrow_table = kontobewegungen.to_arrow()
+    con.register("_raw", arrow_table)
+    varchar_cols = [f.name for f in arrow_table.schema if pa.types.is_string(f.type) or pa.types.is_large_string(f.type)]
+    select_exprs = [
+        f'LOWER("{col}") AS "{col}"' if col in varchar_cols else f'"{col}"'
+        for col in arrow_table.schema.names
+    ]
+    con.execute(f"CREATE TABLE kontobewegungen AS SELECT {', '.join(select_exprs)} FROM _raw")
+    con.execute("DROP VIEW _raw")
     logger.info("DuckDB bereit – registrierte Tabellen: %s", con.execute("SHOW TABLES").fetchall())
     return con
 
