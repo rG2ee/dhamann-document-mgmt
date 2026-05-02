@@ -19,30 +19,30 @@ def _parse_german_decimal(expr: pl.Expr) -> pl.Expr:
 
 
 def _parse_german_date(expr: pl.Expr) -> pl.Expr:
-    """'30.04.26' -> date(2026, 4, 30)"""
-    return expr.str.to_date("%d.%m.%y")
+    """'30.04.26' -> '2026-04-30' (ISO-8601 string for PG wire compat)"""
+    return expr.str.to_date("%d.%m.%y").dt.to_string("%Y-%m-%d")
 
 
 ColumnSpec = dict[str, pl.DataType | Callable[[pl.Expr], pl.Expr]]
 
 HASPA_CSV_COLUMNS: OrderedDict[str, ColumnSpec] = OrderedDict({
-    "Auftragskonto":                    {"dtype": pl.Utf8,    "target": "AUFTRAGSKONTO"},
-    "Buchungstag":                      {"dtype": pl.Date,    "target": "BUCHUNGSTAG",                       "parse": _parse_german_date},
-    "Valutadatum":                      {"dtype": pl.Date,    "target": "VALUTADATUM",                       "parse": _parse_german_date},
-    "Buchungstext":                     {"dtype": pl.Utf8,    "target": "BUCHUNGSTEXT"},
-    "Verwendungszweck":                 {"dtype": pl.Utf8,    "target": "VERWENDUNGSZWECK"},
-    "Glaeubiger ID":                    {"dtype": pl.Utf8,    "target": "GLAEUBIGER_ID"},
-    "Mandatsreferenz":                  {"dtype": pl.Utf8,    "target": "MANDATSREFERENZ"},
-    "Kundenreferenz (End-to-End)":      {"dtype": pl.Utf8,    "target": "KUNDENREFERENZ_END_TO_END"},
-    "Sammlerreferenz":                  {"dtype": pl.Utf8,    "target": "SAMMLERREFERENZ"},
-    "Lastschrift Ursprungsbetrag":      {"dtype": pl.Utf8,    "target": "LASTSCHRIFT_URSPRUNGSBETRAG"},
-    "Auslagenersatz Ruecklastschrift":  {"dtype": pl.Utf8,    "target": "AUSLAGENERSATZ_RUECKLASTSCHRIFT"},
-    "Beguenstigter/Zahlungspflichtiger": {"dtype": pl.Utf8,   "target": "BEGUENSTIGTER_ZAHLUNGSPFLICHTIGER"},
-    "Kontonummer/IBAN":                 {"dtype": pl.Utf8,    "target": "KONTONUMMER_IBAN"},
-    "BIC (SWIFT-Code)":                 {"dtype": pl.Utf8,    "target": "BIC_SWIFT_CODE"},
-    "Betrag":                           {"dtype": pl.Float64, "target": "BETRAG",                            "parse": _parse_german_decimal},
-    "Waehrung":                         {"dtype": pl.Utf8,    "target": "WAEHRUNG"},
-    "Info":                             {"dtype": pl.Utf8,    "target": "INFO"},
+    "Auftragskonto":                    {"dtype": pl.Utf8,    "target": "auftragskonto"},
+    "Buchungstag":                      {"dtype": pl.Utf8,    "target": "buchungstag",                       "parse": _parse_german_date},
+    "Valutadatum":                      {"dtype": pl.Utf8,    "target": "valutadatum",                       "parse": _parse_german_date},
+    "Buchungstext":                     {"dtype": pl.Utf8,    "target": "buchungstext"},
+    "Verwendungszweck":                 {"dtype": pl.Utf8,    "target": "verwendungszweck"},
+    "Glaeubiger ID":                    {"dtype": pl.Utf8,    "target": "glaeubiger_id"},
+    "Mandatsreferenz":                  {"dtype": pl.Utf8,    "target": "mandatsreferenz"},
+    "Kundenreferenz (End-to-End)":      {"dtype": pl.Utf8,    "target": "kundenreferenz_end_to_end"},
+    "Sammlerreferenz":                  {"dtype": pl.Utf8,    "target": "sammlerreferenz"},
+    "Lastschrift Ursprungsbetrag":      {"dtype": pl.Utf8,    "target": "lastschrift_ursprungsbetrag"},
+    "Auslagenersatz Ruecklastschrift":  {"dtype": pl.Utf8,    "target": "auslagenersatz_ruecklastschrift"},
+    "Beguenstigter/Zahlungspflichtiger": {"dtype": pl.Utf8,   "target": "beguenstigter_zahlungspflichtiger"},
+    "Kontonummer/IBAN":                 {"dtype": pl.Utf8,    "target": "kontonummer_iban"},
+    "BIC (SWIFT-Code)":                 {"dtype": pl.Utf8,    "target": "bic_swift_code"},
+    "Betrag":                           {"dtype": pl.Float64, "target": "betrag",                            "parse": _parse_german_decimal},
+    "Waehrung":                         {"dtype": pl.Utf8,    "target": "waehrung"},
+    "Info":                             {"dtype": pl.Utf8,    "target": "info"},
 })
 
 
@@ -70,6 +70,12 @@ def _rename_columns(df: pl.DataFrame) -> pl.DataFrame:
     return df.rename(rename_map)
 
 
+def _lowercase_strings(df: pl.DataFrame) -> pl.DataFrame:
+    """riffq lowercases SQL string literals, so we match by lowering data too."""
+    str_cols = [c for c, dt in zip(df.columns, df.dtypes) if dt == pl.Utf8]
+    return df.with_columns(pl.col(c).str.to_lowercase() for c in str_cols)
+
+
 def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
     file_path = get_haspa_file_path(file_name)
 
@@ -83,6 +89,7 @@ def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
 
     df = _apply_column_parsing(df)
     df = _rename_columns(df)
+    df = _lowercase_strings(df)
 
     return df
 
