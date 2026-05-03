@@ -1,7 +1,8 @@
 from alle_freelancer_rechnungen.load_csv.load_haspa_kontobewegungen import load_haspa_history
 import polars as pl
-
-
+from pydantic import BaseModel
+import datetime
+from decimal import Decimal
 
 def remove_empty_columns(df: pl.DataFrame) -> pl.DataFrame:
     empty_cols = [
@@ -42,19 +43,26 @@ def filter_finanzamt_ueberweisungen(df: pl.DataFrame) -> pl.DataFrame:
         kontonummer_iban="DE03200000000020001530"
     )
     # Pfändung
-    return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
+    df = filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df,
         beguenstigter_zahlungspflichtiger="Steuerkasse Hamburg",
         kontonummer_iban="DE03200000000020001530"
     )
 
-
-def filter_haspa_kosten(df: pl.DataFrame) -> pl.DataFrame:
+    # Rückerstattungm
     return filter_beguenstigter_zahlungspflichtiger_and_kontonummer_iban(
         df,
-        beguenstigter_zahlungspflichtiger="",
-        kontonummer_iban="0000000000"
+        beguenstigter_zahlungspflichtiger="Freie und Hansestadt Hamburg Steuerkasse Hamburg",
+        kontonummer_iban="DE03200000000020001530"
     )
+
+
+
+
+def filter_haspa_kosten(df: pl.DataFrame) -> pl.DataFrame:
+    return df.filter(
+        ~((pl.col("bic_swift_code") == '20050550')
+          & (pl.col("kontonummer_iban") == '')))
 
 
 
@@ -73,6 +81,7 @@ def filter_steuerberater_kosten(df: pl.DataFrame) -> pl.DataFrame:
 
 
 def process_haspa() -> pl.DataFrame:
+
     df = load_haspa_history()
     df = filter_dennis_private_ueberweisungen(df)
     df = filter_finanzamt_ueberweisungen(df)
@@ -84,6 +93,21 @@ def process_haspa() -> pl.DataFrame:
 
     return df
 
+
+
+class HaspaKontobewegung(BaseModel):
+    buchungstag: datetime.date
+    verwendungszweck: str
+    betrag: Decimal
+    beguenstigter_zahlungspflichtiger: str
+
+
+def get_haspa_kontobewegungen_pydantic() -> list[HaspaKontobewegung]:
+    df_result = process_haspa()
+    rows = df_result.select(
+        "buchungstag", "verwendungszweck", "betrag", "beguenstigter_zahlungspflichtiger"
+    ).to_dicts()
+    return [HaspaKontobewegung(**row) for row in rows]
 
 
 

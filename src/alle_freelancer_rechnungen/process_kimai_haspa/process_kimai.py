@@ -1,5 +1,7 @@
 import polars as pl
-
+from pydantic import BaseModel
+import datetime
+from decimal import Decimal
 from alle_freelancer_rechnungen.load_csv.load_kimai_invoices import load_kimai_history
 
 def remove_df_cols(df: pl.DataFrame, column_names: tuple[str, ...]) -> pl.DataFrame:
@@ -45,6 +47,31 @@ def process_kimai() -> pl.DataFrame:
 
     return df
 
+
+
+class KimaiRechnung(BaseModel):
+    date: datetime.date
+    invoice_number: str
+    subtotal: Decimal
+    total_price: Decimal
+    tax: Decimal
+    tax_rate: Decimal
+    customer: str
+    file: str
+
+def get_kimai_rechnungen_pydantic() -> list[KimaiRechnung]:
+    df_result = process_kimai()
+    rows = df_result.select(
+        "date",
+        "invoice_number",
+        "subtotal",
+        "total_price",
+        "tax",
+        "tax_rate",
+        "customer",
+        "file"
+    ).to_dicts()
+    return [KimaiRechnung(**row) for row in rows]
 
 
 
