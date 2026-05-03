@@ -61,14 +61,6 @@ def _apply_column_parsing(df: pl.DataFrame) -> pl.DataFrame:
     return df
 
 
-def _remove_empty_columns(df: pl.DataFrame) -> pl.DataFrame:
-    empty_cols = [
-        col for col in df.columns
-        if df[col].is_null().all() or (df[col].cast(pl.Utf8).fill_null("") == "").all()
-    ]
-    return df.drop(empty_cols)
-
-
 def _rename_columns(df: pl.DataFrame) -> pl.DataFrame:
     rename_map = {
         name: spec["target"]
@@ -97,13 +89,17 @@ def load_haspa_kontobewegungen_camt52v8(file_name: str) -> pl.DataFrame:
 
 def load_multiple_haspa_kontobewegungen_camt52v8(file_names: list[str]) -> pl.DataFrame:
     dfs = pl.concat([load_haspa_kontobewegungen_camt52v8(x) for x in file_names])
-    dfs = _remove_empty_columns(dfs)
     return dfs
 
 def load_haspa_history() -> pl.DataFrame:
     file_names = [
-        "20260502-1238211435-umsatz-camt52v8-von2023_05_02bis2024_05_02.CSV",
-        "20260502-1238211435-umsatz-camt52v8-von2024_05_03bis2026_05_02.CSV",
+    #    "20260502-1238211435-umsatz-camt52v8-von2023_05_02bis2024_05_02.CSV",
+    #    "20260502-1238211435-umsatz-camt52v8-von2024_05_03bis2026_05_02.CSV",
+
+        "20260502-1238211435-umsatz_von_2023_05_03_bis2023_12_31.CSV",
+        "20260502-1238211435-umsatz_von_2024_01_01_bis2024_12_31.CSV",
+        "20260502-1238211435-umsatz_von_2025_01_01_bis2025_12_31.CSV",
+        "20260502-1238211435-umsatz_von_2026_01_01_bis2026_05_02.CSV",
     ]
     return load_multiple_haspa_kontobewegungen_camt52v8(file_names)
 
