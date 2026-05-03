@@ -78,6 +78,27 @@ def filter_steuerberater_kosten(df: pl.DataFrame) -> pl.DataFrame:
     )
 
 
+def filter_storno_rechnung_kdw_2024_8(df: pl.DataFrame) -> pl.DataFrame:
+    # rueckuberweisung
+    df =  df.filter(
+        ~((pl.col("verwendungszweck") == 'Doppelt bezahlte Rechnung f�r Bestellung 4510000552 - STORNO.Rechnungsnummer 2024-8-kadewe DATUM 26.09.2024, 15.17 UHR ')
+          & (pl.col("beguenstigter_zahlungspflichtiger") == 'KaDeWe GmbH')
+          & (pl.col("betrag") == -19040.0)
+          ))
+
+    # netto doppelt
+    df =  df.filter(
+        ~((pl.col("verwendungszweck") == 'Am Zirkus 2DE10117 BerlinBETRAG:EUR 16000,00 ENTGELTREGELUNG:SHAR VWZ:Angebot PowerBI, Warehousing BanF 13270869 UETR: 2a6c22bf-f884-46bb-8a7b-19cdb63df803 ERST:COBADEFFXXX ')
+          & (pl.col("beguenstigter_zahlungspflichtiger") == 'KaDeWe GmbH')
+          & (pl.col("betrag") == 16000.0)
+    ))
+
+    # ust doppel
+    return df.filter(
+        ~((pl.col("verwendungszweck") == 'UST zu PO 4510000552 ')
+          & (pl.col("beguenstigter_zahlungspflichtiger") == 'KaDeWe GmbH')
+          & (pl.col("betrag") == 3040.0)
+          ))
 
 
 def process_haspa() -> pl.DataFrame:
@@ -88,6 +109,8 @@ def process_haspa() -> pl.DataFrame:
     df = filter_haspa_kosten(df)
     df = filter_null_ueberweisungen(df)
     df = filter_steuerberater_kosten(df)
+    df = filter_storno_rechnung_kdw_2024_8(df)
+
 
     df = remove_empty_columns(df)
 

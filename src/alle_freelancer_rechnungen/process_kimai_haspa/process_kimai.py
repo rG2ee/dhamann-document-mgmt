@@ -3,6 +3,9 @@ from pydantic import BaseModel
 import datetime
 from decimal import Decimal
 from alle_freelancer_rechnungen.load_csv.load_kimai_invoices import load_kimai_history
+from alle_freelancer_rechnungen.rechnung_constants.rechnungen_ohne_kontobewegungen import \
+    RECHNUNGEN_OHNE_KONTOBEWEGUNGEN
+
 
 def remove_df_cols(df: pl.DataFrame, column_names: tuple[str, ...]) -> pl.DataFrame:
     return df.drop(*column_names)
@@ -58,6 +61,14 @@ class KimaiRechnung(BaseModel):
     tax_rate: Decimal
     customer: str
     file: str
+
+    @property
+    def keine_bewegung_grund(self) -> str | None:
+        related_bewegung = [x for x in RECHNUNGEN_OHNE_KONTOBEWEGUNGEN if x.rechnung_nr == self.invoice_number]
+        if len(related_bewegung) == 0:
+            return None
+        return related_bewegung[0].grund
+
 
 def get_kimai_rechnungen_pydantic() -> list[KimaiRechnung]:
     df_result = process_kimai()

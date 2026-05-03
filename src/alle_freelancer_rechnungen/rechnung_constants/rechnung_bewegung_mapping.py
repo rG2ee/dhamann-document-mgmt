@@ -69,10 +69,10 @@ VERWENDUNGSZWECK_RECHNUNG_MAPPINGS: list[VerwendungszweckRechnungMapping] = [
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/2025-08-kadewe 2.10.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-08-kadewe"),
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/2025-09-kadewe 13.11.2025-leistungszeitraum ab 29.01.24/inv/2025-10-kadewe 13.11.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-09-kadewe"),
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/2025-09-kadewe 13.11.2025-leistungszeitraum ab 29.01.24/inv/2025-10-kadewe 13.11.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-10-kadewe"),
-    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-09-kadewe-R1"),
-    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-10-kadewe-R1"),
+    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-09-kadewe-r1"),
+    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-10-kadewe-r1"),
     VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-11-kadewe"),
-    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-12-kadewe-R0"),
+    VerwendungszweckRechnungMapping(verwendungszweck="/adv/2000065969 9.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-12-kadewe-r0"),
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/25-11-kadewe-r1 24.12.2025-leistungszeitraum ab 29.01.24/inv/25-12-kadewe-r1 24.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-11-kadewe-r1"),
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/25-11-kadewe-r1 24.12.2025-leistungszeitraum ab 29.01.24/inv/25-12-kadewe-r1 24.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2025-12-kadewe-r1"),
     # =========================================================================
