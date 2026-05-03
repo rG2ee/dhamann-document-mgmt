@@ -1,3 +1,8 @@
+import pprint
+from decimal import Decimal
+from pathlib import Path
+
+import polars as pl
 from pydantic import BaseModel
 
 from alle_freelancer_rechnungen.process_kimai_haspa.process_haspa import HaspaKontobewegung,get_haspa_kontobewegungen_pydantic
@@ -62,25 +67,88 @@ def load_rechnungs_combiner() -> list[RechnungCombiner]:
     return rechnung_combiners
 
 
-def rechungs_combiner_to_xslx_sheet() -> None:
+XLSX_OUTPUT_PATH = Path(__file__).parents[3] / "rechnungsuebersicht.xlsx"
+
+
+def yearly_checker() -> None:
+
     rechnungs_combiners = load_rechnungs_combiner()
+
+    years = {
+        2023: {
+            "brutto": Decimal("0"),
+            "netto": Decimal("0"),
+            "ust": Decimal("0"),
+        },
+        2024: {
+            "brutto": Decimal("0"),
+            "netto": Decimal("0"),
+            "ust": Decimal("0"),
+        },
+        2025: {
+            "brutto": Decimal("0"),
+            "netto": Decimal("0"),
+            "ust": Decimal("0"),
+        },
+        2026: {
+            "brutto": Decimal("0"),
+            "netto": Decimal("0"),
+            "ust": Decimal("0"),
+        }
+    }
 
     for rechnungs_combiner in rechnungs_combiners:
         for kimai_rechnung in rechnungs_combiner.kimai_rechnungen:
 
+            year = kimai_rechnung.date.year
 
-            rechnungserstellungsdatum = kimai_rechnung.date
-            rechnung_nr = kimai_rechnung.invoice_number
-            betrag_ust = kimai_rechnung.tax
-            betrag_netto = kimai_rechnung.subtotal
-            betrag_brutto = kimai_rechnung.total_price
-            # todo later dateipfad = kimai_rechnung.file
+            years[year]["brutto"]  += kimai_rechnung.total_price
+            years[year]["netto"] += kimai_rechnung.subtotal
+            years[year]["ust"] += kimai_rechnung.tax
 
-            zahlungsdatum = rechnungs_combiner.haspa_bewegung.buchungstag
-            betrag_kontobewegung = rechnungs_combiner.haspa_bewegung.betrag
+            assert years[year]["brutto"]  == years[year]["netto"] + years[year]["ust"]
 
+    total = {
+        "brutto": Decimal("0"),
+        "netto": Decimal("0"),
+        "ust": Decimal("0"),
+    }
+
+    for values in years.values():
+        total["brutto"] += values["brutto"]
+        total["netto"] += values["netto"]
+        total["ust"] += values["ust"]
+
+    years["total"] = total
+
+    pprint.pprint(years)
+
+
+
+
+def rechungs_combiner_to_xslx_sheet() -> Path:
+    rechnungs_combiners = load_rechnungs_combiner()
+
+    rows: list[dict] = []
+    for rechnungs_combiner in rechnungs_combiners:
+        for kimai_rechnung in rechnungs_combiner.kimai_rechnungen:
+            rows.append({
+                "rechnungserstellungsdatum": kimai_rechnung.date,
+                "rechnung_nr": kimai_rechnung.invoice_number,
+                "kunde": kimai_rechnung.customer,
+                "betrag_ust": float(kimai_rechnung.tax),
+                "betrag_netto": float(kimai_rechnung.subtotal),
+                "betrag_brutto": float(kimai_rechnung.total_price),
+                "zahlungsdatum": rechnungs_combiner.haspa_bewegung.buchungstag,
+                "betrag_kontobewegung": float(rechnungs_combiner.haspa_bewegung.betrag),
+            })
+
+    df = pl.DataFrame(rows)
+    df.write_excel(XLSX_OUTPUT_PATH)
+    print(f"XLSX geschrieben: {XLSX_OUTPUT_PATH}")
+    return XLSX_OUTPUT_PATH
 
 
 if __name__ == '__main__':
-
-    load_rechnungs_combiner()
+    #yearly_checker()
+    rechungs_combiner_to_xslx_sheet()

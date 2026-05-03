@@ -9,6 +9,7 @@ dependencies = [
     "polars",
     "pydantic>=2.13.3",
     "riffq",
+    "xlsxwriter>=3.2.9",
 ]
 
 [build-system]

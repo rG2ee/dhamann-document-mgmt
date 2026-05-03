@@ -125,15 +125,34 @@ class HaspaKontobewegung(BaseModel):
     beguenstigter_zahlungspflichtiger: str
 
 
+
+def missing_pleuger_kontobewegungen_pydantic() -> list[HaspaKontobewegung]:
+    return [
+        HaspaKontobewegung(
+            buchungstag=datetime.date(2023, 1, 23),
+            verwendungszweck="2022-12-LR",
+            betrag=Decimal("7000"),
+            beguenstigter_zahlungspflichtiger="Lemonade Research GmbH",
+        ),
+        HaspaKontobewegung(
+            buchungstag=datetime.date(2023, 3, 6),
+            verwendungszweck="2023-01-LR",
+            betrag=Decimal( "6997.20" ),
+            beguenstigter_zahlungspflichtiger="Lemonade Research GmbH",
+        )
+    ]
+
+
 def get_haspa_kontobewegungen_pydantic() -> list[HaspaKontobewegung]:
     df_result = process_haspa()
     rows = df_result.select(
         "buchungstag", "verwendungszweck", "betrag", "beguenstigter_zahlungspflichtiger"
     ).to_dicts()
-    return [HaspaKontobewegung(**row) for row in rows]
+    return [HaspaKontobewegung(**row) for row in rows] + missing_pleuger_kontobewegungen_pydantic()
 
 
 
 if __name__ == '__main__':
     df_result = process_haspa()
+    bewegunegn = get_haspa_kontobewegungen_pydantic()
     print(df_result)

@@ -70,6 +70,31 @@ class KimaiRechnung(BaseModel):
         return related_bewegung[0].grund
 
 
+def missing_pleuger_rechnungen() -> list[KimaiRechnung]:
+    return [
+        KimaiRechnung(
+            date=datetime.date(2023, 1, 2),
+            invoice_number="2022-12-LR",
+            subtotal=Decimal("7000"),
+            total_price=Decimal("7000"),
+            tax=Decimal("0"),
+            tax_rate=Decimal("0"),
+            customer="lemonade research gmbh",
+            file = "DennisHamann-2022-12-LR.pdf",
+        ),
+        KimaiRechnung(
+            date=datetime.date(2023, 1, 27),
+            invoice_number="2023-01-LR",
+            subtotal=Decimal("5880"),
+            total_price=Decimal("6997.20"),
+            tax=Decimal("1117.20"),
+            tax_rate=Decimal("19"),
+            customer="lemonade research gmbh",
+            file = "DennisHamann-2023-01-LR.pdf",
+        ),
+    ]
+
+
 def get_kimai_rechnungen_pydantic() -> list[KimaiRechnung]:
     df_result = process_kimai()
     rows = df_result.select(
@@ -82,11 +107,12 @@ def get_kimai_rechnungen_pydantic() -> list[KimaiRechnung]:
         "customer",
         "file"
     ).to_dicts()
-    return [KimaiRechnung(**row) for row in rows]
+    return [KimaiRechnung(**row) for row in rows] + missing_pleuger_rechnungen()
 
 
 
 if __name__ == '__main__':
     df_result = process_kimai()
+    rechnungen = get_kimai_rechnungen_pydantic()
 
     print(df_result)

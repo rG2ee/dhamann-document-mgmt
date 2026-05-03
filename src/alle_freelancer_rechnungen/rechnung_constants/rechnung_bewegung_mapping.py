@@ -79,4 +79,9 @@ VERWENDUNGSZWECK_RECHNUNG_MAPPINGS: list[VerwendungszweckRechnungMapping] = [
     # KI Rechnungen
     # =========================================================================
     VerwendungszweckRechnungMapping(verwendungszweck="/inv/2024-07-kadewe-k 20.12.2025-leistungszeitraum ab 29.01.24 ", rechnung_nr="2024-07-kadewe-ki"),
+
+
+    # manuall: missing pleuger...
+    VerwendungszweckRechnungMapping(verwendungszweck="2022-12-LR", rechnung_nr="2022-12-LR"),
+    VerwendungszweckRechnungMapping(verwendungszweck="2023-01-LR", rechnung_nr="2023-01-LR"),
 ]

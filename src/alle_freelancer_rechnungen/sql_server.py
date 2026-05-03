@@ -7,6 +7,7 @@ import riffq
 
 from alle_freelancer_rechnungen.process_kimai_haspa.process_haspa import process_haspa
 from alle_freelancer_rechnungen.process_kimai_haspa.process_kimai import process_kimai
+from alle_freelancer_rechnungen.rechnung_constants.process_constants import process_rechnungen_constants
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -56,6 +57,21 @@ def build_duckdb() -> duckdb.DuckDBPyConnection:
     ]
     con.execute(f"CREATE TABLE kimai_rechnungen AS SELECT {', '.join(select_exprs_kimai)} FROM _raw_kimai")
     con.execute("DROP VIEW _raw_kimai")
+
+    logger.info("Lade Rechnungs-Konstanten …")
+    rechnungen_constants = process_rechnungen_constants()
+    logger.info(
+        "  %d Zeilen, %d Spalten geladen (Konstanten)", rechnungen_constants.height, rechnungen_constants.width
+    )
+    arrow_constants = rechnungen_constants.to_arrow()
+    con.register("_raw_constants", arrow_constants)
+    varchar_cols_constants = [f.name for f in arrow_constants.schema if pa.types.is_string(f.type) or pa.types.is_large_string(f.type)]
+    select_exprs_constants = [
+        f'LOWER("{col}") AS "{col}"' if col in varchar_cols_constants else f'"{col}"'
+        for col in arrow_constants.schema.names
+    ]
+    con.execute(f"CREATE TABLE rechnungen_constants AS SELECT {', '.join(select_exprs_constants)} FROM _raw_constants")
+    con.execute("DROP VIEW _raw_constants")
 
     logger.info("DuckDB bereit – registrierte Tabellen: %s", con.execute("SHOW TABLES").fetchall())
     return con
