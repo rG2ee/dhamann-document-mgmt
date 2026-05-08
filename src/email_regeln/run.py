@@ -11,317 +11,400 @@ ZUORDNUNGEN: dict[str, list[str]] = {
     # --- Bestehende Ordner in filter-andwendungen ---
 
     "Folders/filter-andwendungen/etke-host": [
-        "aine@etke.cc",
-        "noreply@notifs.matrix.org",
+        "aine@etke.cc", # ok
+
     ],
     "Folders/filter-andwendungen/amd": [
-        "amdcommunity.mailer@amd.com",
-        "noreply@shop.amd.com",
+        "amdcommunity.mailer@amd.com", # ok
+        "noreply@shop.amd.com", # ok
     ],
     "Folders/filter-andwendungen/vattenfall": [
-        "angebot@vattenfall.de",
+        "angebot@vattenfall.de",  # ok
     ],
     "Folders/filter-andwendungen/proton": [
-        "contact@protonmail.com",
-        "usersfeedback@protonmail.com",
-        "no-reply@app.protonmail.com",
-        "no-reply@app.protonvpn.com",
-        "no-reply@news.protonmail.com",
-        "no-reply@notify.protonmail.com",
-        "no-reply@notify.protonvpn.com",
-        "mailer-daemon@protonmail.com",
+        "contact@protonmail.com",  # ok
+        "usersfeedback@protonmail.com",  # ok
+        "no-reply@app.protonmail.com", # ok
+        "no-reply@app.protonvpn.com", # ok
+        "no-reply@news.protonmail.com", # ok
+        "no-reply@notify.protonmail.com", # ok
+        "no-reply@notify.protonvpn.com", # ok
+        "mailer-daemon@protonmail.com", # ok
     ],
     "Folders/filter-andwendungen/remarkable": [
-        "team@mail.remarkable.com",
-        "team@remarkable.com",
-        "donotreply@remarkable.com",
+        "team@mail.remarkable.com", # ok
+        "team@remarkable.com", # ok
+        "donotreply@remarkable.com",  # ok
     ],
     "Folders/filter-andwendungen/qubes-os": [
-        "team@research.qubes-os.org",
-        "no-reply@qubes-os.opencollective.com",
+        "team@research.qubes-os.org",  # ok
+        "no-reply@qubes-os.opencollective.com",  # ok
     ],
     "Folders/filter-andwendungen/doodle": [
-        "time@doodle.com",
+        "time@doodle.com",  # ok
     ],
     "Folders/filter-andwendungen/miles-car-sharing": [
-        "sophia@news.miles-mobility.com",
+        "sophia@news.miles-mobility.com",  # ok
     ],
     "Folders/filter-andwendungen/barclays": [
-        "service@email.barclaycard.de",
-        "info@rueckzahlung.barclays.de",
+        "service@email.barclaycard.de",  # ok
+        "info@rueckzahlung.barclays.de",  # ok
     ],
     "Folders/filter-andwendungen/dhl-post": [
-        "paket@dhl.de",
-        "noreply@dhl.com",
-        "noreply.kundenkonto@dhl.de",
+        "paket@dhl.de", # ok
+        "noreply@dhl.com", # ok
+        "noreply.kundenkonto@dhl.de", # ok
     ],
     "Folders/filter-andwendungen/ionos": [
-        "noreply@ionos.com",
+        "noreply@ionos.com", # ok
     ],
     "Folders/filter-andwendungen/stakingrewards": [
-        "noreply@stakingrewards.com",
+        "noreply@stakingrewards.com",  # ok
     ],
     "Folders/filter-andwendungen/interactive-brokers": [
-        "computershare.npcegbcecmgekcdecd@cpucommunications.com",
-        "computershare.npcegbjemjgecdjejd@cpucommunications.com",
-        "computershare.npcegdgemcjecdlebl@cpucommunications.com",
-        "computershare.npcegdmeblcebhfemg@cpucommunications.com",
-        "computershare.npceggkejdbedfgedf@cpucommunications.com",
-        "connect@data.nasdaq.com",
-        "connect@quandl.com",
-        "service@onvista-bank.de",
-        "sburgsdorff@mmwarburg.com",
-        "rbudinsky@mmwarburg.com",
-        "thomas.weinmann@astorius.net",
+        "computershare.npcegbcecmgekcdecd@cpucommunications.com", # not ok, -> computershare
+        "computershare.npcegbjemjgecdjejd@cpucommunications.com", # not ok, -> computershare
+        "computershare.npcegdgemcjecdlebl@cpucommunications.com", # not ok, -> computershare
+        "computershare.npcegdmeblcebhfemg@cpucommunications.com", # not ok, -> computershare
+        "computershare.npceggkejdbedfgedf@cpucommunications.com", # not ok, -> computershare
+
+        "service@onvista-bank.de", # not ok -> onvista
+        "sburgsdorff@mmwarburg.com", # not ok -> warburg
+        "rbudinsky@mmwarburg.com", # not ok -> warburg
+        "thomas.weinmann@astorius.net", # not ok -> warburg
         "interactive brokers client services",
-        "info@flatex.de",
+        "info@flatex.de", # not ok -> flatex
     ],
     "Folders/filter-andwendungen/dpd": [
-        "empfangen@dpd.de",
-        "info@paket.dpd.de",
+        "empfangen@dpd.de", # ok
+        "info@paket.dpd.de", # ok
     ],
     "Folders/filter-andwendungen/gorillas": [
-        "feedback@gorillasapp.com",
-        "feedback@mail.gorillasapp.es",
+        "feedback@gorillasapp.com", # ok
+        "feedback@mail.gorillasapp.es", # ok
     ],
     "Folders/filter-andwendungen/flink": [
-        "funda.zurnaci@flink-44a615fa4e6a.intercom-mail.com",
-        "hello@goflink.com",
-        "jonah@flink-44a615fa4e6a.intercom-mail.com",
-        "operator@flink-44a615fa4e6a.intercom-mail.com",
+        "funda.zurnaci@flink-44a615fa4e6a.intercom-mail.com", # ok
+        "hello@goflink.com", # ok
+        "jonah@flink-44a615fa4e6a.intercom-mail.com", #ok
+        "operator@flink-44a615fa4e6a.intercom-mail.com",  #ok
     ],
     "Folders/filter-andwendungen/samedi": [
-        "info@mail.samedi.de",
-        "dkluge@hanseatic-physio.de",
-        "noreply@jameda.de",
+        "info@mail.samedi.de",  # ok
+        "dkluge@hanseatic-physio.de",  # hanseatic-physio
+        "noreply@jameda.de", # ok
     ],
     "Folders/filter-andwendungen/webo-hosting": [
-        "info@webo.hosting",
+        "info@webo.hosting", # ok
     ],
     "Folders/filter-andwendungen/debeka": [
-        "kundenservice@debeka.de",
-        "noreply-newsletter@debeka.de",
+        "kundenservice@debeka.de", # ok
+        "noreply-newsletter@debeka.de", # ok
     ],
     "Folders/filter-andwendungen/medium": [
-        "members@medium.com",
+        "members@medium.com", # ok
     ],
     "Folders/filter-andwendungen/vodafone": [
-        "nicht.antworten@kundenservice.vodafone.com",
+        "nicht.antworten@kundenservice.vodafone.com", # ok
     ],
     "Folders/filter-andwendungen/fiverr": [
-        "no-reply@fiverr.com",
+        "no-reply@fiverr.com",  # ok
     ],
     "Folders/filter-andwendungen/eversports": [
-        "no-reply@priority-send.eversports.com",
+        "no-reply@priority-send.eversports.com",  # ok
     ],
     "Folders/filter-andwendungen/github": [
-        "noreply@github.com",
+        "noreply@github.com",  # ok
     ],
     "Folders/filter-andwendungen/discord": [
-        "noreply@discordapp.com",
+        "noreply@discordapp.com",  # ok
     ],
     "Folders/filter-andwendungen/buymeacoffee": [
-        "notifications@buymeacoffee.com",
+        "notifications@buymeacoffee.com",   # ok
     ],
     "Folders/filter-andwendungen/google": [
-        "no-reply@youtube.com",
-        "noreply-utos@google.com",
+        "no-reply@youtube.com",  # ok
+        "noreply-utos@google.com",  # ok
     ],
     "Folders/filter-andwendungen/stadt-hamburg": [
-        "automatischeantwort@finanzamt.hamburg.de",
-        "do-not-reply@mgs-eportal.de",
-        "bremer-rheumatologie@hamburg.de",
-        "info@stadtradhamburg.de",
+        "automatischeantwort@finanzamt.hamburg.de", # not ok >  finanzamt-hamburg
+        "do-not-reply@mgs-eportal.de", # not ok -> gesundheit
+        "bremer-rheumatologie@hamburg.de", # not ok -> gesundheit
+        "info@stadtradhamburg.de", # ok
     ],
     "Folders/filter-andwendungen/alternate": [
-        "studio@djmerlin.com",
+        "studio@djmerlin.com",  # ok
     ],
     "Folders/filter-andwendungen/freelancer-agenturen": [
-        "a.frietsch@computerfutures.de",
+
     ],
 
     # --- Bestehende Ordner in Folders ---
 
     "Folders/shopping": [
-        "coupons@galaxus.de",
-        "team@notebooksbilliger.de",
-        "service@notebooksbilliger.de",
-        "pricezilla@versand-status.de",
-        "retoure@x-kom.de",
-        "noreply@notice-eu.roborock.com",
-        "do.not.reply@ikea.com",
-        "noreply@ikea.com",
-        "emails@mail.etsy.com",
-        "noreply@etsy.com",
-        "noreply@mail.etsy.com",
-        "galaxus@galaxus.de",
-        "galaxus@security.galaxus.de",
-        "info@arena-supplements.de",
-        "info@aspire-shop.de",
-        "info@computeruniverse.net",
-        "info@morenutrition.de",
-        "info@onlysports.de",
-        "info@physiosupplies.de",
-        "info@rundetrends.com",
-        "info@sertronics.shop",
-        "kundenservice@amorelie.de",
-        "no-reply@amorelie.de",
-        "kundenservice@pricezilla.de",
-        "orderconfirmation@digitalriver.com",
-        "noreply@frittenwerk-shop.de",
+        "coupons@galaxus.de", # not ok eigener ordner
+        "team@notebooksbilliger.de",  # not ok eigener ordner
+        "service@notebooksbilliger.de",  # not ok eigener ordner
+        "pricezilla@versand-status.de", # not ok eigener ordner
+
+
+
+        "noreply@notice-eu.roborock.com", # not ok eigener ordner
+        "do.not.reply@ikea.com",  # not ok eigener ordner
+        "noreply@ikea.com",# not ok eigener ordner
+        "emails@mail.etsy.com", # not ok eigener ordner
+        "noreply@etsy.com", # not ok eigener ordner
+        "noreply@mail.etsy.com", # not ok eigener ordner
+        "galaxus@galaxus.de", # not ok eigener ordner
+        "galaxus@security.galaxus.de", # not ok eigener ordner
+
+        "info@physiosupplies.de", # not ok eigener ordner
+
+        "kundenservice@amorelie.de", # not ok eigener ordner
+
+        "orderconfirmation@digitalriver.com", # amd
+
     ],
     "Folders/account management": [
-        "billing@b.etesync.com",
-        "support-mailer@b.etesync.com",
-        "upcoming-invoice+acct_1apfzwjetinljgaa@stripe.com",
-        "receipts+acct_1apfzwjetinljgaa@stripe.com",
-        "sepa-awpde@allianz.com",
-        "service-reise@allianz.com",
-        "hello@1password.com",
-        "no-reply@coinbase.com",
-        "info@cb.mail.coinbase.com",
-        "donotreply@godaddy.com",
-        "no-reply@transparenzregister.de",
-        "meineschufa@schufa.de",
-        "no-reply-pk@schufa.de",
-        "noreply@buhl.de",
+        "billing@b.etesync.com", # etke-host
+        "support-mailer@b.etesync.com", # etke-host
+
+        "sepa-awpde@allianz.com", # allianz
+        "service-reise@allianz.com", # allianz
+        "hello@1password.com", # coinbase
+        "no-reply@coinbase.com", # coinbase
+        "info@cb.mail.coinbase.com", # coinbase
+
+        "no-reply@transparenzregister.de", # transparenzregister
+        "meineschufa@schufa.de", # schufa
+        "no-reply-pk@schufa.de", # schufa
+        "noreply@buhl.de", # delete
     ],
     "Folders/computer": [
-        "noreply@kaggle.com",
-        "do-not-reply@stackoverflow.email",
-        "no-reply@notify.docker.com",
-        "noreply@notifications.getpostman.com",
-        "noreply@discuss.grapheneos.org",
-        "news@nvidia.com",
+
     ],
     "Folders/Steuer-2022": [
-        "svencarstens@carstens-stb.de",
-        "vbs22@bafin.de",
+        "svencarstens@carstens-stb.de", # steuer
+        "vbs22@bafin.de", # flatex
     ],
-    "Folders/wichtig": [
+    "Folders/wichtig": [  ## -> bitte in Folders/filter-andwendungen/persoenliche-kontakte umbenennen
         "andrearuff@gmx.de",
         "danja.kluever@gruene-hu.de",
         "ulf.kluever@gruene-hu.de",
         "ulf.kluever@gruene-se-kv.de",
         "ulf.kluever@protonmail.com",
-        "dennis.hamann@ownly.de",
-        "dennis@cubicl.de",
-        "uwe@harste.org",
+        "dennis.hamann@ownly.de", # warburg
+        "dennis@cubicl.de", # cubibl
+        "uwe@harste.org", # ramona-mertens
         "safli@web.de",
         "pascal_dominik.greder@smail.th-koeln.de",
-        "pia-info@pleugerindustries.com",
+        "pia-info@pleugerindustries.com", # cubibl
     ],
     "Labels/INBOX.Wohnung": [
-        "beratung@mieterverein-hamburg.de",
+        "beratung@mieterverein-hamburg.de",  # not ok -> mietverein-hamburg
     ],
 
     # --- Verbleiben in to-be-deleted (wirklich loeschbar) ---
 
     "Folders/to-be-deleted": [
-        "email@em.blizzard.com",
-        "noreply@blizzard.com",
-        "noreply@em.blizzard.com",
-        "empfang@trude-hh.de",
-        "ergebnis@testformular.de",
-        "eta@1avisum.de",
-        "info@1avisum.de",
-        "failed-payments+acct_1apfzwjetinljgaa@stripe.com",
-        "flight_notification@bangkokair.com",
-        "foundation@dfinity.org",
-        "irving.yang@dfinity.org",
-        "irving_yang@dfinity.org",
-        "michael_hunte@dfinity.org",
-        "hallo@getir.com",
-        "info@getir.com",
-        "heide@alex-kitchen.de",
-        "hello@filebase.com",
-        "hello@skynetlabs.com",
-        "hello@storj.io",
-        "help@disneyplus.com",
-        "member.services@disneyaccount.com",
-        "help@gotinder.com",
+
+        "empfang@trude-hh.de", # tuhh
+
+        "eta@1avisum.de", # eigener ordner
+        "info@1avisum.de", # eigener ordner
+        "failed-payments+acct_1apfzwjetinljgaa@stripe.com", # etke
+
+
+
         "help@paddle.com",
         "hoheluft@pokehamburg.de",
         "huami@email.huami.com",
         "mifit-feedback-auto@email.huami.com",
         "official@amazfit.com",
-        "igor@hiveon.net",
-        "immigrationofficegovernmentcomplexchaengwattanard@imm1division.onmicrosoft.com",
-        "inez@cubicl.de",
-        "jan.steinke@ownly.de",
-        "info@cryptomator.org",
-        "info@deltakonnect.de",
-        "info@dkb.de",
-        "info@dom-ticket.de",
-        "info@dyndnss.net",
-        "noreply@ddnss.de",
-        "info@ew.eurowings.com",
-        "news@ew.eurowings.com",
-        "no-answer@condor.com",
-        "noreply@condor.com",
-        "info@feel-festival.de",
-        "info@hnoamrothenbaum.de",
-        "info@mail.termin2go.com",
-        "info@news.dominos.de",
-        "info@service.premiumkino.de",
-        "info@whitebit.com",
-        "jc95573@gmail.com",
-        "julia@plattenmonster.com",
-        "kundendialog@nah.sh",
-        "kundenservice@spb-garant.de",
-        "learn@email1.asana.com",
-        "mail@argon-orthopaedie.de",
-        "mail@service.tvnow.de",
-        "mail@testme.hamburg",
-        "marketing@mail.wolt.com",
-        "meital.matsafi@testproject.io",
-        "noreply@testproject.io",
-        "message.npcefmledbcedhmecg@cpucommunications.com",
-        "message.npcegbbemhfegllejg@cpucommunications.com",
-        "message.npcegbbemhfehbdedd@cpucommunications.com",
-        "message.npcegbbemhgecfbekl@cpucommunications.com",
-        "message.npcegdmefddedfkejh@cpucommunications.com",
-        "messenger@webex.com",
-        "miguelchapero@icloud.com",
-        "msb@atelier-bachert.de",
-        "neugebauer_katharina@ymail.com",
-        "newsletter.de@clickandboat.com",
-        "nora.futaky@clickandboat.com",
-        "newsletter@eat-the-world.com",
-        "newsletter@news.eat-the-world.com",
-        "newsletterversand@pizzamax.de",
-        "nm@activatio.de",
-        "no-reply@agoda-email.com",
-        "no-reply@security.agoda.com",
-        "no-reply@sg.sgt.agoda-email.com",
-        "no-reply@akash.network",
-        "no-reply@announcements.soundcloud.com",
-        "no-reply@asana.com",
-        "no-reply@auth.appnotify.io",
-        "no-reply@jameda.de",
-        "no-reply@mailer.opodo.com",
-        "noreply@opodo.com",
-        "no-reply@notification.skype.com",
-        "no-reply@quandl.com",
-        "no-reply@restablo.de",
-        "no-reply@xoom.com",
-        "no-reply@zoom.us",
-        "noreply.invitations@trustpilotmail.com",
-        "noreply@astorius.net",
-        "noreply@coinpayments.net",
-        "noreply@d.tube",
-        "noreply@europe-west-1.tardigrade.io",
-        "noreply@impfterminservice.de",
-        "noreply@lfconnect.com",
-        "noreply@newsletter.callabike-interaktiv.de",
-        "noreply@prosieben.de",
-        "noreply@tof.de",
-        "noreply@trackmyshipment.co",
-        "noreply@trymagic.com",
-        "noreply_mia@mieterverein-hamburg.de",
-        "notifications@tchncs.de",
+
+        "immigrationofficegovernmentcomplexchaengwattanard@imm1division.onmicrosoft.com", # 1a-visum
+
+        "jan.steinke@ownly.de", # warburg
+
+        "info@deltakonnect.de", # deltakonnect
+        "info@dkb.de", # dbk
+
+        "info@hnoamrothenbaum.de", # gesundheit
+
+
+
+        "kundenservice@spb-garant.de", # alternate
+
+        "mail@argon-orthopaedie.de", # gesundheit
+
+
+        "message.npcefmledbcedhmecg@cpucommunications.com", # computershare
+        "message.npcegbbemhfegllejg@cpucommunications.com", # computershare
+        "message.npcegbbemhfehbdedd@cpucommunications.com", # computershare
+        "message.npcegbbemhgecfbekl@cpucommunications.com", # computershare
+        "message.npcegdmefddedfkejh@cpucommunications.com", # computershare
+
+
+
+        "miguelchapero@icloud.com",   # persoenliche-kontatke
+        "msb@atelier-bachert.de",  # persoenliche-kontatke
+        "neugebauer_katharina@ymail.com", # persoenliche-kontatke
+
+        "nm@activatio.de",  # activatio
+        "no-reply@agoda-email.com", # agoda
+        "no-reply@security.agoda.com", # agoda
+        "no-reply@sg.sgt.agoda-email.com", # agoda
+        "no-reply@announcements.soundcloud.com", # soundcloud
+
+
+        "no-reply@jameda.de", # eigener ordner
+
+
+
+        "noreply@astorius.net",  # warburg
+
+
+
+
+
+        "noreply_mia@mieterverein-hamburg.de", # mietverein-hamburg
     ],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZUORDNUNGEN = {
+
+
+"Folders/to-be-deleted": [
+    "noreply@notifs.matrix.org", # wrong -> delete
+    "connect@data.nasdaq.com",  # -> just delete
+    "connect@quandl.com",  # just delete
+    "a.frietsch@computerfutures.de", # not ok, just delete
+    "retoure@x-kom.de", # just delete
+
+    "info@arena-supplements.de", # delete
+    "info@aspire-shop.de", # delete
+    "info@computeruniverse.net", # delete
+    "info@morenutrition.de", # deltee
+    "info@onlysports.de", # delete
+
+    "info@rundetrends.com", # delete
+    "info@sertronics.shop", # delete
+    "no-reply@amorelie.de", # delete
+
+    "kundenservice@pricezilla.de", # delete
+    "noreply@frittenwerk-shop.de", # delete
+
+    "upcoming-invoice+acct_1apfzwjetinljgaa@stripe.com", # delete
+    "receipts+acct_1apfzwjetinljgaa@stripe.com", # delte
+    "donotreply@godaddy.com", # delete
+
+    "noreply@kaggle.com",  # delete
+    "do-not-reply@stackoverflow.email",  # delete
+    "no-reply@notify.docker.com",  # delete
+    "noreply@notifications.getpostman.com",  # delete
+    "noreply@discuss.grapheneos.org",  # delete
+    "news@nvidia.com",  # delete
+
+    "email@em.blizzard.com", # delete
+    "noreply@blizzard.com", # delete
+    "noreply@em.blizzard.com", # delete
+
+    "ergebnis@testformular.de", # delete
+
+    "flight_notification@bangkokair.com",  # delete
+    "foundation@dfinity.org", # delete
+    "irving.yang@dfinity.org", # delete
+    "irving_yang@dfinity.org", # delete
+    "michael_hunte@dfinity.org", # delete
+    "hallo@getir.com", # delete
+    "info@getir.com", # delete
+
+    "hello@storj.io", # delete
+    "help@disneyplus.com", # delete
+    "member.services@disneyaccount.com", # delete
+    "help@gotinder.com", # delete
+
+    "heide@alex-kitchen.de", # delete
+    "hello@filebase.com", # delete
+    "hello@skynetlabs.com", # delete
+
+    "igor@hiveon.net", # delte
+
+    "info@ew.eurowings.com",  # delte
+    "news@ew.eurowings.com",  # delte
+    "no-answer@condor.com",  # delte
+    "info@cryptomator.org",  # delte
+
+    "inez@cubicl.de",# cubicl
+
+    "info@feel-festival.de",  # delte
+
+    "newsletter.de@clickandboat.com", # delete
+    "nora.futaky@clickandboat.com", # delete
+    "newsletter@eat-the-world.com", # delete
+    "newsletter@news.eat-the-world.com", # delete
+    "newsletterversand@pizzamax.de",  # delete
+
+    "messenger@webex.com", # delete
+    "learn@email1.asana.com", # delete
+
+    "info@news.dominos.de", # delete
+    "info@service.premiumkino.de", # delete
+    "no-reply@asana.com",  # delete
+    "no-reply@akash.network", # deltete
+    "noreply@prosieben.de",
+    "noreply@lfconnect.com",
+    "noreply@newsletter.callabike-interaktiv.de",
+    "noreply@tof.de",
+    "notifications@tchncs.de",
+    "noreply@trackmyshipment.co",
+    "noreply@trymagic.com",
+
+    "no-reply@xoom.com",
+    "no-reply@zoom.us",
+    "no-reply@notification.skype.com",
+    "noreply@d.tube",
+    "noreply@coinpayments.net",
+    "noreply.invitations@trustpilotmail.com",
+    "no-reply@restablo.de",
+    "no-reply@quandl.com",
+
+    "no-reply@mailer.opodo.com",
+    "noreply@opodo.com",
+    "noreply@impfterminservice.de",
+    "noreply@europe-west-1.tardigrade.io",
+    "no-reply@auth.appnotify.io",
+    "info@dom-ticket.de",
+    "info@dyndnss.net",
+    "noreply@ddnss.de",
+    "noreply@condor.com",
+
+    "info@mail.termin2go.com",
+
+    "info@whitebit.com",
+    "marketing@mail.wolt.com",
+    "mail@service.tvnow.de",
+    "kundendialog@nah.sh",
+    "julia@plattenmonster.com",
+    "jc95573@gmail.com",
+    "mail@testme.hamburg",
+    "noreply@testproject.io",
+    "meital.matsafi@testproject.io",
+],
+}
+
 
 
 FOLDERS_TO_BE_CREATED: list[str] = [
