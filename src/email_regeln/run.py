@@ -334,5 +334,5 @@ def move_emails(dry_run: bool):
 
 
 if __name__ == "__main__":
-    create_dirs()
-    #move_emails(dry_run=True)
+    #create_dirs()
+    move_emails(dry_run=False)
