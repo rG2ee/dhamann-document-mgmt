@@ -529,3 +529,117 @@ ZUORDNUNGEN4: dict[str, list[str]] = {
         "identification@nespresso.com",
     ],
 }
+
+
+
+ZUORDNUNGEN5 = {
+
+    "Folders/to-be-deleted": [
+
+        # ?? 'rathaus-apotheke via no-q digital customer queueing',
+        'postmaster@mail.publicip.nl',
+        'receipts+acct_1apfzwjetinljgaa@stripe.com',
+        'reception.senses@labranda.com',
+        'renato@doodle.com',
+        'reservation@bangkokair.com',
+        'postbooking@mail.condor.com',
+        'produktempfehlung@eis.de',
+        'notifications@mailer.opodo.com',
+        'postman-team@email.postman.com',
+        'postman-team@notifications.postman.com',
+        'registration@facebookmail.com',
+        'review@hostelworld.com',
+        'robot2@openweathermap.org',
+        'robot4@openweathermap.org',
+        'rpodcoworkingspace@gmail.com',
+        'sales@imperatorworks.com',
+
+
+        #############################################
+
+        'security@facebookmail.com',
+        'service@1avisum.de',
+        'service@morenutrition.de',
+        'service@okluge.de',
+        'service@webid-solutions.de',
+        'service@pixum.com',
+        'shipping@pixum.com',
+        'shop@krimi-trails.de',
+        'spaintravelhealth-no-reply@spth.gob.es',
+        'supermini@akash.network',
+        'supernova_hackathon@dfinity.org',
+        'support@coronafreepass.de',
+        'support@intaste.de',
+        'support@my.tvnow.de',
+        'support@nordaccount.com',
+        'support@pishop.us',
+        'support@proshop.de',
+        'support@protonmail.zendesk.com',
+        'support@protonvpn.zendesk.com',
+        'support@support.whatsapp.com',
+        'support@urbansports.zendesk.com',
+        'support@whitebit.com',
+        'support@wolt.com',
+        'tci.phiphi@gmail.com',
+        'teamzoom@zoom.us',
+        'terminservice@lbv-termine.de',
+        'testzentrum colonnaden 72 via no-q digital customer queueing',
+        'thaievisa@mfa.go.th',
+        'tinder@stellaconnect.net',
+        'transaction@etsy.com',
+        'versandbestaetigung@eis.de',
+        'webex_comm@em.webex.com',
+        'welcome@urvin.finance',
+        # ??? 'wildpark schwarze berge online shop',
+        # ??? 'wir',
+        'yy6ntzzgzr78_opg4lesjejdpw4t@protonmail.com',
+
+        'account@eis.de',
+        'accountconfirm@ups.com',
+        'accounts@e.coinmarketcap.com',
+        'alex@urvin.ai',
+
+        'anh@easymeal.de',
+        'anmeldung@activatio.de',
+
+        # ??? 'antares-apotheke hohe weide via no-q digital customer queueing',
+        # ??? 'apotheke am hauptbahnhof via no-q digital customer queueing',
+
+        'bestellung@blum-akupunktur.de',
+
+
+        'bestellung@eis.de',
+        'bewertung@pricezilla.de',
+
+        'booking@booking.eurowings.com',
+        'booking@teburio.de',
+
+
+        'buchung@eat-the-world.com',
+        'buchungen@lasertag-barmbek.com',
+        'c-agjunpwpz8uwb0zp@checkout.idealo.de',
+        'c-og84naohjqa3bhyo@checkout.idealo.de',
+        'carl-cunnersdorf@t-online.de',
+
+        'carolinh@live.de',
+
+
+        'cascadeclub.thailand@gmail.com',
+        'cc-forum@uni-hamburg.de',
+
+        'chen@1avisum.de',
+        'christian@bancanteen.com',
+        'club@pizzamax.de',
+
+
+        'communications@urvin.finance',
+        'community@iohk.io',
+        'confirm@account.pinterest.com',
+        'customer-notifications@ups.com',
+        'debiteuren@fysiosupplies.nl',
+        'deinebestellung@reply.amorelie.de',
+        'disneyplus@mail.disneyplus.com',
+        'disputeth@care.lazada.com',
+
+    ],
+}
