@@ -1,0 +1,69 @@
+All Mail
+Archive
+Drafts
+Folders
+  Steuer-2021
+  Steuer-2022
+  Steuer-2023
+  Steuer-2024
+  account management
+  computer
+  filter-andwendungen
+    allgeier
+    amazon
+    american-express
+    antrophic
+    audible
+    booking.com
+    cursor
+    dhl-post
+    emmy
+    epost
+    flink
+    freelancer-agenturen
+      freelancermap
+      randstand
+      soorce
+    fusion-festival
+    haspa
+    interactive-brokers
+    kagi
+    kaufhaus-des-westens
+    lieferando
+    miles-car-sharing
+    netcup
+    newsletter
+    openai
+    qubes-os
+    remarkable
+    restic-backup
+    stadtsalat
+    telekom
+    trip.com
+    uber
+    vodafone
+    wasabi
+    wise
+  shopping
+  t-online
+  to-be-deleted
+  unwichtig
+  wichtig
+INBOX
+Labels
+  INBOX.Amazon
+  INBOX.DHL
+  INBOX.Rechnungen_Steuer
+  INBOX.Sent
+  INBOX.Wohnung
+  INBOX.Wohnung.HUK
+  INBOX.Wohnung.Internet o2
+  INBOX.Wohnung.NK
+  Imported Oct-04-2020 17:29
+  Imported Oct-04-2020 19:40
+  Imported Oct-04-2020 21:56
+  Imported Oct-05-2020 08:34
+Sent
+Spam
+Starred
+Trash
