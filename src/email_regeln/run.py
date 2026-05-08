@@ -8,6 +8,11 @@ ZUORDNUNGEN: dict[str, list[str]] = {
   # TODO next run
 }
 
+FOLDERS_TO_BE_CREATED: list[str] = [
+    # TODO
+]
+
+
 if __name__ == "__main__":
     for ordner, absender in ZUORDNUNGEN.items():
         print(f"\n--- Verschiebe nach: {ordner} ---")

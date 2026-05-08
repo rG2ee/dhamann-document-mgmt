@@ -59,16 +59,77 @@ def list_folders(mail: imaplib.IMAP4 | None = None) -> list[str]:
             mail.logout()
 
 
+def _folder_message_count(mail: imaplib.IMAP4, folder: str) -> int | None:
+    """Gibt die Anzahl der Nachrichten in *folder* zurueck (None bei Fehler)."""
+    try:
+        status, data = mail.status(f'"{folder}"', "(MESSAGES)")
+        if status == "OK" and data and data[0]:
+            m = re.search(rb"MESSAGES\s+(\d+)", data[0])
+            if m:
+                return int(m.group(1))
+    except imaplib.IMAP4.error:
+        pass
+    return None
+
+
 def print_folder_tree(mail: imaplib.IMAP4 | None = None) -> None:
-    """Gibt die Ordnerstruktur als Baum auf stdout aus."""
-    folders = list_folders(mail)
+    """Gibt die Ordnerstruktur als Baum auf stdout aus (mit Mail-Anzahl)."""
+    own_connection = mail is None
+    if own_connection:
+        mail = connect()
 
-    for folder in folders:
-        depth = folder.count("/")
-        name = folder.rsplit("/", 1)[-1]
-        print(f"{'  ' * depth}{name}")
+    try:
+        folders = list_folders(mail)
 
+        for folder in folders:
+            depth = folder.count("/")
+            name = folder.rsplit("/", 1)[-1]
+            count = _folder_message_count(mail, folder)
+            count_str = f" ({count})" if count is not None else ""
+            print(f"{'  ' * depth}{name}{count_str}")
+    finally:
+        if own_connection:
+            mail.logout()
+
+
+
+def create_email_folder_in_filter_anwendungen(
+    folder_name: str, *, mail: imaplib.IMAP4 | None = None
+) -> str:
+    """Erstellt einen Ordner unter Folders/filter-andwendungen/.
+
+    Gibt den vollen Pfad des erstellten Ordners zurueck.
+    Existiert der Ordner bereits, wird nichts geaendert.
+    """
+    full_path = f"Folders/filter-andwendungen/{folder_name}"
+
+    own_connection = mail is None
+    if own_connection:
+        mail = connect()
+
+    try:
+        status, _ = mail.create(full_path)
+        if status == "OK":
+            print(f"Ordner erstellt: {full_path}")
+        else:
+            print(f"Ordner existiert bereits oder Fehler: {full_path}")
+        mail.subscribe(full_path)
+        print(f"Ordner abonniert (subscribe): {full_path}")
+    finally:
+        if own_connection:
+            mail.logout()
+
+    return full_path
 
 
 if __name__ == '__main__':
     print_folder_tree()
+
+    """
+    from email_regeln.imap_connection import connect
+    mail = connect()
+    mail.subscribe("Folders/filter-andwendungen/test")
+    mail.logout()
+    """
+
+    # create_email_folder_in_filter_anwendungen(folder_name="test1")
