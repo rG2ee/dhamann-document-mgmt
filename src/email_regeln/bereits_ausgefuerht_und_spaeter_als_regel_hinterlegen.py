@@ -127,3 +127,73 @@ FOLDERS_TO_BE_CREATED2: list[str] = [
     "ionos",
     "doctolib",
 ]
+
+
+
+
+FOLDERS_TO_BE_CREATED3: list[str] = [
+    "fiverr",
+    "eventim",
+    "eversports",
+    "moia",
+    "dpd",
+    "bitwarden",
+    "idealo",
+    "patreon",
+    "splitwise",
+    "xing",
+    "steam",
+]
+
+
+
+
+ZUORDNUNGEN3: dict[str, list[str]] = {
+    # --- Bestehende Ordner, neue Adressen ---
+    "Folders/filter-andwendungen/dhl-post": [
+        "noreply.odd@dhl.com",
+    ],
+    "Folders/filter-andwendungen/trade-republic": [
+        "service@traderepublic.com",
+    ],
+    # --- Neue Ordner (siehe FOLDERS_TO_BE_CREATED) ---
+    "Folders/filter-andwendungen/fiverr": [
+        "noreply@e.fiverr.com",
+    ],
+    "Folders/filter-andwendungen/eventim": [
+        "email@service.eventim.de",
+    ],
+    "Folders/filter-andwendungen/eversports": [
+        "no-reply@eversports.com",
+    ],
+    "Folders/filter-andwendungen/moia": [
+        "service@news.moia.io",
+    ],
+    "Folders/filter-andwendungen/dpd": [
+        "noreply@service.dpd.de",
+    ],
+    "Folders/filter-andwendungen/bitwarden": [
+        "no-reply@bitwarden.com",
+    ],
+    "Folders/filter-andwendungen/idealo": [
+        "nachrichten@de.idealo.com",
+    ],
+    "Folders/filter-andwendungen/patreon": [
+        "bingo@patreon.com",
+    ],
+    "Folders/filter-andwendungen/splitwise": [
+        "hello@splitwise.com",
+    ],
+    "Folders/filter-andwendungen/xing": [
+        "mailrobot@mail.xing.com",
+    ],
+    "Folders/filter-andwendungen/steam": [
+        "noreply@steampowered.com",
+    ],
+    "Folders/to-be-deleted": [
+        "noreply@ideascale.com",
+        "noreply@ideascaleapp.eu",
+        "support@nordvpn.com",
+        "noreply@gotinder.com",
+    ],
+}
