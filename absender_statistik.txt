@@ -1,90 +1,74 @@
 Verbinde mit Protonmail Bridge …
 Lese INBOX …
 
-  Fetche Nachrichten 1–200 von 10652 …
-  Fetche Nachrichten 201–400 von 10652 …
-  Fetche Nachrichten 401–600 von 10652 …
-  Fetche Nachrichten 601–800 von 10652 …
-  Fetche Nachrichten 801–1000 von 10652 …
-  Fetche Nachrichten 1001–1200 von 10652 …
-  Fetche Nachrichten 1201–1400 von 10652 …
-  Fetche Nachrichten 1401–1600 von 10652 …
-  Fetche Nachrichten 1601–1800 von 10652 …
-  Fetche Nachrichten 1801–2000 von 10652 …
-  Fetche Nachrichten 2001–2200 von 10652 …
-  Fetche Nachrichten 2201–2400 von 10652 …
-  Fetche Nachrichten 2401–2600 von 10652 …
-  Fetche Nachrichten 2601–2800 von 10652 …
-  Fetche Nachrichten 2801–3000 von 10652 …
-  Fetche Nachrichten 3001–3200 von 10652 …
-  Fetche Nachrichten 3201–3400 von 10652 …
-  Fetche Nachrichten 3401–3600 von 10652 …
-  Fetche Nachrichten 3601–3800 von 10652 …
-  Fetche Nachrichten 3801–4000 von 10652 …
-  Fetche Nachrichten 4001–4200 von 10652 …
-  Fetche Nachrichten 4201–4400 von 10652 …
-  Fetche Nachrichten 4401–4600 von 10652 …
-  Fetche Nachrichten 4601–4800 von 10652 …
-  Fetche Nachrichten 4801–5000 von 10652 …
-  Fetche Nachrichten 5001–5200 von 10652 …
-  Fetche Nachrichten 5201–5400 von 10652 …
-  Fetche Nachrichten 5401–5600 von 10652 …
-  Fetche Nachrichten 5601–5800 von 10652 …
-  Fetche Nachrichten 5801–6000 von 10652 …
-  Fetche Nachrichten 6001–6200 von 10652 …
-  Fetche Nachrichten 6201–6400 von 10652 …
-  Fetche Nachrichten 6401–6600 von 10652 …
-  Fetche Nachrichten 6601–6800 von 10652 …
-  Fetche Nachrichten 6801–7000 von 10652 …
-  Fetche Nachrichten 7001–7200 von 10652 …
-  Fetche Nachrichten 7201–7400 von 10652 …
-  Fetche Nachrichten 7401–7600 von 10652 …
-  Fetche Nachrichten 7601–7800 von 10652 …
-  Fetche Nachrichten 7801–8000 von 10652 …
-  Fetche Nachrichten 8001–8200 von 10652 …
-  Fetche Nachrichten 8201–8400 von 10652 …
-  Fetche Nachrichten 8401–8600 von 10652 …
-  Fetche Nachrichten 8601–8800 von 10652 …
-  Fetche Nachrichten 8801–9000 von 10652 …
-  Fetche Nachrichten 9001–9200 von 10652 …
-  Fetche Nachrichten 9201–9400 von 10652 …
-  Fetche Nachrichten 9401–9600 von 10652 …
-  Fetche Nachrichten 9601–9800 von 10652 …
-  Fetche Nachrichten 9801–10000 von 10652 …
-  Fetche Nachrichten 10001–10200 von 10652 …
-  Fetche Nachrichten 10201–10400 von 10652 …
-  Fetche Nachrichten 10401–10600 von 10652 …
-  Fetche Nachrichten 10601–10652 von 10652 …
+  Fetche Nachrichten 1–200 von 9236 …
+  Fetche Nachrichten 201–400 von 9236 …
+  Fetche Nachrichten 401–600 von 9236 …
+  Fetche Nachrichten 601–800 von 9236 …
+  Fetche Nachrichten 801–1000 von 9236 …
+  Fetche Nachrichten 1001–1200 von 9236 …
+  Fetche Nachrichten 1201–1400 von 9236 …
+  Fetche Nachrichten 1401–1600 von 9236 …
+  Fetche Nachrichten 1601–1800 von 9236 …
+  Fetche Nachrichten 1801–2000 von 9236 …
+  Fetche Nachrichten 2001–2200 von 9236 …
+  Fetche Nachrichten 2201–2400 von 9236 …
+  Fetche Nachrichten 2401–2600 von 9236 …
+  Fetche Nachrichten 2601–2800 von 9236 …
+  Fetche Nachrichten 2801–3000 von 9236 …
+  Fetche Nachrichten 3001–3200 von 9236 …
+  Fetche Nachrichten 3201–3400 von 9236 …
+  Fetche Nachrichten 3401–3600 von 9236 …
+  Fetche Nachrichten 3601–3800 von 9236 …
+  Fetche Nachrichten 3801–4000 von 9236 …
+  Fetche Nachrichten 4001–4200 von 9236 …
+  Fetche Nachrichten 4201–4400 von 9236 …
+  Fetche Nachrichten 4401–4600 von 9236 …
+  Fetche Nachrichten 4601–4800 von 9236 …
+  Fetche Nachrichten 4801–5000 von 9236 …
+  Fetche Nachrichten 5001–5200 von 9236 …
+  Fetche Nachrichten 5201–5400 von 9236 …
+  Fetche Nachrichten 5401–5600 von 9236 …
+  Fetche Nachrichten 5601–5800 von 9236 …
+  Fetche Nachrichten 5801–6000 von 9236 …
+  Fetche Nachrichten 6001–6200 von 9236 …
+  Fetche Nachrichten 6201–6400 von 9236 …
+  Fetche Nachrichten 6401–6600 von 9236 …
+  Fetche Nachrichten 6601–6800 von 9236 …
+  Fetche Nachrichten 6801–7000 von 9236 …
+  Fetche Nachrichten 7001–7200 von 9236 …
+  Fetche Nachrichten 7201–7400 von 9236 …
+  Fetche Nachrichten 7401–7600 von 9236 …
+  Fetche Nachrichten 7601–7800 von 9236 …
+  Fetche Nachrichten 7801–8000 von 9236 …
+  Fetche Nachrichten 8001–8200 von 9236 …
+  Fetche Nachrichten 8201–8400 von 9236 …
+  Fetche Nachrichten 8401–8600 von 9236 …
+  Fetche Nachrichten 8601–8800 von 9236 …
+  Fetche Nachrichten 8801–9000 von 9236 …
+  Fetche Nachrichten 9001–9200 von 9236 …
+  Fetche Nachrichten 9201–9236 von 9236 …
 
 Absender                                                                       |   2020 |   2021 |   2022 |   2023 |   2024 |   2025 |   2026 | Gesamt
 -------------------------------------------------------------------------------+--------+--------+--------+--------+--------+--------+--------+-------
 service@email.barclays.de                                                      |      0 |      7 |     12 |     77 |    161 |     45 |      2 |    304
-tradingassistant@interactivebrokers.com                                        |      0 |     60 |    241 |      0 |      0 |      0 |      0 |    301
 info@gulp.de                                                                   |      0 |      0 |      0 |      0 |    187 |     53 |      0 |    240
 noreply@info.ing.de                                                            |      0 |     32 |     41 |     41 |     28 |     38 |     12 |    192
 dennis.hamann@deltakonnect.de                                                  |      0 |      0 |      0 |    161 |      0 |      0 |      0 |    161
-noreply@dhl.de                                                                 |     16 |     17 |     21 |     16 |     35 |     37 |     13 |    155
 noreply@e.fiverr.com                                                           |      0 |     27 |      0 |     16 |     98 |      0 |     12 |    153
 noreply@booking-time.com                                                       |      0 |      0 |     78 |     67 |      5 |      2 |      0 |    152
 hello@gorillasapp.com                                                          |      0 |     39 |     88 |     21 |      0 |      0 |      0 |    148
 notifications@github.com                                                       |      1 |     48 |     73 |     11 |      0 |      0 |      0 |    133
-noreply@freelancermap.de                                                       |      0 |      0 |      0 |      0 |     71 |     51 |      9 |    131
-invoice@update.miles-mobility.com                                              |      2 |      3 |     29 |     39 |     17 |     18 |      4 |    112
 no-reply@accounts.google.com                                                   |      8 |     11 |     20 |     21 |     28 |     13 |      2 |    103
 email@service.eventim.de                                                       |      0 |      0 |      0 |     31 |     43 |     25 |      0 |     99
-hello@news.goflink.com                                                         |      0 |     10 |     42 |     23 |      3 |     17 |      0 |     95
-noreply@uber.com                                                               |      0 |      0 |      0 |      0 |      0 |     83 |     10 |     93
 news@newsletter.gorillasapp.de                                                 |      0 |     17 |     35 |     25 |     15 |      0 |      0 |     92
 noreply@ideascale.com                                                          |      0 |     41 |     41 |      7 |      0 |      0 |      0 |     89
 no-reply@eversports.com                                                        |      2 |      2 |      4 |      7 |     59 |     14 |      0 |     88
-info@audible.de                                                                |      0 |     22 |     24 |     33 |      7 |      0 |      0 |     86
-contact@goflink.com                                                            |      0 |     63 |     23 |      0 |      0 |      0 |      0 |     86
 noreply_serviceportal-hamburg@dataport.de                                      |      0 |     42 |     24 |      6 |      4 |      2 |      6 |     84
 support@mathpix.com                                                            |      5 |     15 |     17 |     10 |     13 |     13 |      5 |     78
 shop@hauer-naturprodukte.com                                                   |     15 |      2 |      8 |      8 |     10 |     33 |      0 |     76
 no-reply@doctolib.de                                                           |      0 |     11 |      1 |     44 |      0 |     18 |      0 |     74
 team@tresorit.com                                                              |      0 |      0 |     25 |     19 |     13 |     13 |      3 |     73
-americanexpress@welcome.americanexpress.com                                    |      0 |      0 |      0 |      0 |      0 |     58 |     14 |     72
 automated@airbnb.com                                                           |      0 |      0 |      0 |      0 |      0 |     59 |      9 |     68
 info@ramona-mertens.com                                                        |     23 |      1 |     20 |      7 |      7 |      8 |      2 |     68
 noreply@ionos.de                                                               |      0 |      2 |     13 |     16 |     14 |     15 |      5 |     65
@@ -94,8 +78,6 @@ admin@gearinstock.com                                                          |
 express@airbnb.com                                                             |      0 |      0 |      0 |      0 |      0 |     53 |      6 |     59
 info@orgainic.com                                                              |      0 |      0 |      0 |      0 |      5 |     53 |      0 |     58
 support@webo.hosting                                                           |     22 |     33 |      1 |      0 |      0 |      0 |      0 |     56
-mail@netcup.de                                                                 |      0 |      9 |     15 |     17 |      9 |      2 |      2 |     54
-noreply@booking.com                                                            |      0 |      0 |      1 |      5 |     19 |     12 |     16 |     53
 kontakt@mkt.de.vorwerk.com                                                     |      0 |      0 |      0 |      0 |      0 |     41 |     12 |     53
 noreply@treatwell.de                                                           |      0 |      0 |      0 |      0 |      0 |     52 |      0 |     52
 service@news.moia.io                                                           |      0 |      0 |     15 |     19 |      5 |     13 |      0 |     52
@@ -104,7 +86,6 @@ contact@nymtech.net                                                            |
 support@tresorit.com                                                           |      0 |      0 |      9 |     12 |     12 |     12 |      4 |     49
 dennis.hamann@protonmail.com                                                   |     10 |     15 |      5 |      1 |      5 |     11 |      2 |     49
 noreply@ideascaleapp.eu                                                        |      0 |      0 |      0 |     25 |     24 |      0 |      0 |     49
-noreply@tm.openai.com                                                          |      0 |      0 |      0 |     25 |     11 |      9 |      3 |     48
 uwe@harste.org                                                                 |     23 |     24 |      1 |      0 |      0 |      0 |      0 |     48
 email@news.traderepublic.com                                                   |      0 |      0 |      5 |      4 |     11 |     19 |      7 |     46
 noreply@service.dpd.de                                                         |      5 |     13 |     14 |      0 |      8 |      6 |      0 |     46
@@ -117,13 +98,10 @@ nachrichten@de.idealo.com                                                      |
 noreply@hiveos.farm                                                            |      0 |     40 |      3 |      0 |      0 |      0 |      0 |     43
 bingo@patreon.com                                                              |      0 |      0 |      0 |      6 |     17 |     13 |      6 |     42
 info@balloonapp.de                                                             |      0 |     42 |      0 |      0 |      0 |      0 |      0 |     42
-donotreply@netcup.de                                                           |      0 |      0 |      2 |      0 |      0 |     19 |     20 |     41
 hello@splitwise.com                                                            |      3 |      8 |      8 |      2 |      4 |     13 |      3 |     41
 info@solver.com                                                                |      1 |      0 |     36 |      4 |      0 |      0 |      0 |     41
 noreply@lemniscus.de                                                           |      1 |      0 |     16 |      4 |      6 |     11 |      2 |     40
-my@remarkable.com                                                              |      0 |     11 |      9 |      3 |     10 |      2 |      5 |     40
 noreply@gotinder.com                                                           |      3 |      3 |     10 |     11 |      5 |      2 |      3 |     37
-qubes_os@discoursemail.com                                                     |      8 |     29 |      0 |      0 |      0 |      0 |      0 |     37
 catalyst@iohk.io                                                               |      0 |      0 |      0 |      0 |     21 |     13 |      2 |     36
 info@easymeal.de                                                               |     19 |     10 |      7 |      0 |      0 |      0 |      0 |     36
 mailrobot@mail.xing.com                                                        |      0 |      0 |      0 |      1 |     16 |     17 |      1 |     35
@@ -161,9 +139,9 @@ ebay@reply.ebay.de                                                             |
 info@fitmart.de                                                                |      0 |      0 |     24 |      1 |      0 |      0 |      0 |     25
 info@community.boomfestival.org                                                |      0 |      0 |      0 |      0 |      3 |     20 |      1 |     24
 service-de@traderepublic.com                                                   |      0 |     24 |      0 |      0 |      0 |      0 |      0 |     24
-newsletters@email.remarkable.com                                               |      0 |      0 |      1 |      9 |      7 |      4 |      2 |     23
-pip@mail.doppelgaenger.io                                                      |      0 |      0 |      0 |      0 |      0 |      4 |     19 |     23
 noreply@email.hostelworld.com                                                  |      0 |      0 |      0 |      0 |      0 |     17 |      6 |     23
+pip@mail.doppelgaenger.io                                                      |      0 |      0 |      0 |      0 |      0 |      4 |     19 |     23
+newsletters@email.remarkable.com                                               |      0 |      0 |      1 |      9 |      7 |      4 |      2 |     23
 productupdates@bitwarden.com                                                   |      0 |      0 |      2 |      3 |      9 |      7 |      2 |     23
 googledev-noreply@google.com                                                   |      0 |      0 |      0 |      1 |      5 |     15 |      2 |     23
 no-reply@supportmessaging.airbnb.com                                           |      0 |      0 |      0 |      0 |      0 |     23 |      0 |     23
@@ -242,8 +220,8 @@ noreply-payments@booking.com                                                   |
 hello@duolingo.com                                                             |      0 |      0 |      0 |      0 |      0 |     10 |      1 |     11
 chelsea.c@ifttt.com                                                            |      0 |      0 |      0 |      0 |      0 |     11 |      0 |     11
 bestellungen@dampfdorado.de                                                    |      0 |      0 |      0 |      5 |      0 |      6 |      0 |     11
-info@research.fiverr.com                                                       |      0 |      0 |      0 |      0 |      6 |      5 |      0 |     11
 alexandra.wudel@fem-ai.com                                                     |      0 |      0 |      0 |      0 |      0 |     11 |      0 |     11
+info@research.fiverr.com                                                       |      0 |      0 |      0 |      0 |      6 |      5 |      0 |     11
 nespresso-no-reply@versand-status.de                                           |      0 |      0 |      0 |      0 |      0 |     11 |      0 |     11
 no-reply@mail.instagram.com                                                    |      1 |      0 |      1 |      5 |      2 |      2 |      0 |     11
 onlineshop@mediamarkt.de                                                       |      0 |      0 |      0 |      0 |      0 |     11 |      0 |     11
@@ -274,8 +252,8 @@ info@mailing.tivoli.de                                                         |
 gdpr@email.hays.com                                                            |      0 |      0 |      0 |      0 |      0 |      8 |      1 |      9
 g.feldhusen-schwarz@hauer-naturprodukte.com                                    |      0 |      0 |      1 |      0 |      1 |      6 |      1 |      9
 notifications@discord.com                                                      |      0 |      0 |      6 |      1 |      1 |      1 |      0 |      9
-no-reply@login.soundcloud.com                                                  |      0 |      1 |      1 |      3 |      1 |      3 |      0 |      9
 info@meetup.com                                                                |      0 |      0 |      0 |      0 |      0 |      9 |      0 |      9
+no-reply@login.soundcloud.com                                                  |      0 |      1 |      1 |      3 |      1 |      3 |      0 |      9
 support@wasabi.com                                                             |      0 |      0 |      0 |      0 |      0 |      9 |      0 |      9
 no.reply@order.email.ikea.com                                                  |      0 |      6 |      0 |      0 |      0 |      3 |      0 |      9
 pkginfo@ups.com                                                                |      0 |      0 |      0 |      0 |      6 |      3 |      0 |      9
@@ -310,6 +288,7 @@ felix.martin@soorce.de                                                         |
 no-reply@notify.proton.me                                                      |      0 |      0 |      0 |      2 |      3 |      1 |      1 |      7
 va-katja.bardon@proton.me                                                      |      0 |      0 |      0 |      0 |      0 |      0 |      7 |      7
 ant.wilson@supabase.com                                                        |      0 |      0 |      0 |      0 |      0 |      3 |      4 |      7
+enews@info.tapmilesandgo.com                                                   |      0 |      0 |      0 |      0 |      0 |      2 |      5 |      7
 no-reply@infos.doctolib.com                                                    |      0 |      0 |      1 |      1 |      1 |      0 |      4 |      7
 partner@developer.etebase.com                                                  |      0 |      0 |      0 |      3 |      3 |      1 |      0 |      7
 invoice+statements+acct_1dyefsangonnitrp@stripe.com                            |      0 |      0 |      0 |      0 |      0 |      7 |      0 |      7
@@ -335,12 +314,11 @@ failed-payments+acct_1apfzwjetinljgaa@stripe.com                               |
 info@getir.com                                                                 |      0 |      3 |      4 |      0 |      0 |      0 |      0 |      7
 kundendialog@nah.sh                                                            |      0 |      7 |      0 |      0 |      0 |      0 |      0 |      7
 noreply@shore.com                                                              |      0 |      0 |      0 |      5 |      0 |      0 |      1 |      6
-enews@info.tapmilesandgo.com                                                   |      0 |      0 |      0 |      0 |      0 |      2 |      4 |      6
-customer.service@booking.com                                                   |      0 |      0 |      0 |      0 |      2 |      3 |      1 |      6
 tickets@xceed.me                                                               |      0 |      0 |      0 |      1 |      1 |      3 |      1 |      6
 mailing@rply.flatex.de                                                         |      0 |      0 |      0 |      0 |      0 |      4 |      2 |      6
-m_kuepers@taures.de                                                            |      0 |      0 |      0 |      0 |      0 |      5 |      1 |      6
+customer.service@booking.com                                                   |      0 |      0 |      0 |      0 |      2 |      3 |      1 |      6
 orthopädikum                                                                   |      0 |      0 |      0 |      0 |      0 |      3 |      3 |      6
+m_kuepers@taures.de                                                            |      0 |      0 |      0 |      0 |      0 |      5 |      1 |      6
 noreply@email.harveynash.com                                                   |      0 |      0 |      0 |      0 |      1 |      3 |      2 |      6
 hello@chess.com                                                                |      0 |      0 |      0 |      0 |      1 |      2 |      3 |      6
 produktempfehlung@mailing.amorelie.de                                          |      0 |      0 |      0 |      0 |      0 |      6 |      0 |      6
@@ -350,8 +328,8 @@ erechnung@welcome.americanexpress.com                                          |
 julia@mail.wolt.com                                                            |      0 |      0 |      1 |      2 |      2 |      1 |      0 |      6
 de@delivery.hm.com                                                             |      0 |      0 |      0 |      0 |      0 |      6 |      0 |      6
 noreply@kaufland-marktplatz.de                                                 |      0 |      0 |      0 |      0 |      0 |      6 |      0 |      6
-gigi@powherbeat.com                                                            |      0 |      0 |      0 |      0 |      1 |      5 |      0 |      6
 invoice+statements+acct_1c0kgpbolzqytay9@stripe.com                            |      0 |      0 |      0 |      0 |      0 |      6 |      0 |      6
+gigi@powherbeat.com                                                            |      0 |      0 |      0 |      0 |      1 |      5 |      0 |      6
 no-reply@skribble.com                                                          |      0 |      0 |      0 |      0 |      0 |      6 |      0 |      6
 microsoft account team                                                         |      0 |      0 |      0 |      0 |      3 |      3 |      0 |      6
 christian@cubicl.de                                                            |      0 |      0 |      0 |      0 |      6 |      0 |      0 |      6
@@ -389,16 +367,14 @@ noreply@mountainduck.io                                                        |
 receipt@chess.com                                                              |      0 |      0 |      0 |      0 |      0 |      4 |      1 |      5
 no-reply@gymmasteronline.com                                                   |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 flight.service@information.lufthansa.com                                       |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
-de                                                                             |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 aorus@gigabyte.com                                                             |      0 |      3 |      0 |      0 |      0 |      2 |      0 |      5
 welcome@supabase.com                                                           |      0 |      0 |      0 |      0 |      0 |      4 |      1 |      5
 noreply@novafind.eu                                                            |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 info@dsit.de                                                                   |      0 |      0 |      0 |      0 |      3 |      2 |      0 |      5
 chelsea@ifttt.com                                                              |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
-encarnação                                                                     |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 info@mail.my.mediamarkt.de                                                     |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
-info@hamburgopenatp500.com                                                     |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 noreply@galaxus.de                                                             |      0 |      0 |      0 |      1 |      0 |      4 |      0 |      5
+info@hamburgopenatp500.com                                                     |      0 |      0 |      0 |      0 |      0 |      5 |      0 |      5
 mail@eg.expedia.com                                                            |      0 |      0 |      0 |      1 |      2 |      2 |      0 |      5
 notification@facebookmail.com                                                  |      0 |      0 |      0 |      3 |      1 |      1 |      0 |      5
 noreply@letsencrypt.org                                                        |      0 |      0 |      1 |      0 |      0 |      4 |      0 |      5
@@ -433,16 +409,16 @@ no-reply@asana.com                                                             |
 myscout@immobilienscout24.de                                                   |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4
 lilo@info.emmy-sharing.de                                                      |      0 |      0 |      0 |      2 |      1 |      0 |      1 |      4
 noreply@interactivebrokers.ie                                                  |      0 |      0 |      0 |      2 |      1 |      0 |      1 |      4
-info@email.prioritypass.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      3 |      4
 projektpartner@solcom.de                                                       |      0 |      0 |      0 |      0 |      0 |      3 |      1 |      4
+info@email.prioritypass.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      3 |      4
 de_flight@trip.com                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4
 shop@modemfestival.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4
-hello@coworkbooking.com                                                        |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4
 noreply@hostelworld.com                                                        |      0 |      0 |      1 |      0 |      0 |      1 |      2 |      4
+hello@coworkbooking.com                                                        |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4
 andre.stubbs@pal-tv.de                                                         |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
 notifications@link.com                                                         |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
-invite@notification.miro.com                                                   |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
 newsletter@mailing.amorelie.de                                                 |      0 |      0 |      0 |      0 |      2 |      2 |      0 |      4
+invite@notification.miro.com                                                   |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
 info@playchessup.com                                                           |      0 |      0 |      0 |      0 |      2 |      2 |      0 |      4
 dennis.hamann@external.kadewe.com                                              |      0 |      0 |      0 |      0 |      1 |      3 |      0 |      4
 noreply@stadtradhamburg.de                                                     |      0 |      0 |      1 |      1 |      1 |      1 |      0 |      4
@@ -460,8 +436,8 @@ noreply@fedex.com                                                              |
 marketplace@noreply.market.home24.de                                           |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
 hello@mail.hinge.co                                                            |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      4
 store+58967031989@t.shopifyemail.com                                           |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      4
-heinerhamann@t-online.de                                                       |      0 |      1 |      0 |      0 |      3 |      0 |      0 |      4
 webres@sunexpress.com                                                          |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      4
+heinerhamann@t-online.de                                                       |      0 |      1 |      0 |      0 |      3 |      0 |      0 |      4
 support@maskworld.com                                                          |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      4
 cblank.de@gmail.com                                                            |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      4
 no-reply@opentable.de                                                          |      0 |      0 |      0 |      3 |      1 |      0 |      0 |      4
@@ -482,8 +458,8 @@ mailer-daemon@protonmail.com                                                   |
 noreply@notice-eu.roborock.com                                                 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      4
 no-reply@news.protonmail.com                                                   |      0 |      1 |      3 |      0 |      0 |      0 |      0 |      4
 no-reply@app.protonmail.com                                                    |      0 |      1 |      3 |      0 |      0 |      0 |      0 |      4
-newsletter@eat-the-world.com                                                   |      0 |      3 |      1 |      0 |      0 |      0 |      0 |      4
 info@flatex.de                                                                 |      0 |      3 |      1 |      0 |      0 |      0 |      0 |      4
+newsletter@eat-the-world.com                                                   |      0 |      3 |      1 |      0 |      0 |      0 |      0 |      4
 info@morenutrition.de                                                          |      0 |      2 |      2 |      0 |      0 |      0 |      0 |      4
 ergebnis@testformular.de                                                       |      0 |      2 |      2 |      0 |      0 |      0 |      0 |      4
 support@support.whatsapp.com                                                   |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      4
@@ -571,8 +547,8 @@ noreply@mitgliederverwaltung.fitness                                           |
 ablesung@kalo-hamburg.de                                                       |      0 |      0 |      2 |      1 |      0 |      0 |      0 |      3
 workspace-noreply@google.com                                                   |      0 |      0 |      0 |      3 |      0 |      0 |      0 |      3
 frontoffice.skyvilla@the-ascott.com                                            |      0 |      0 |      2 |      1 |      0 |      0 |      0 |      3
-no-reply@security.agoda.com                                                    |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
 notifications@mailer.opodo.com                                                 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
+no-reply@security.agoda.com                                                    |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
 terminservice@lbv-termine.de                                                   |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
 no-reply@restablo.de                                                           |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
 customer-notifications@ups.com                                                 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      3
@@ -585,8 +561,8 @@ antares-apotheke hohe weide via no-q digital customer queueing                 |
 no-reply@transparenzregister.de                                                |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 service@morenutrition.de                                                       |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 service@webid-solutions.de                                                     |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
-dennis@cubicl.de                                                               |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 messenger@webex.com                                                            |      2 |      1 |      0 |      0 |      0 |      0 |      0 |      3
+dennis@cubicl.de                                                               |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 do-not-reply@mgs-eportal.de                                                    |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 nora.futaky@clickandboat.com                                                   |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
 info@dom-ticket.de                                                             |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      3
@@ -600,13 +576,12 @@ team@notebooksbilliger.de                                                      |
 do-not-reply@stackoverflow.email                                               |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      3
 info@paket.dpd.de                                                              |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      3
 crfss@emirates.com                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
-hermes zustellbenachrichtigung                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      1 |      2
 invoice+statements+acct_1reyrsbnuncszfs9@stripe.com                            |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
+hermes zustellbenachrichtigung                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      1 |      2
 no-reply@sita.aero                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
 ayseguel.pinarbas@soorce.de                                                    |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
 do-not-reply@accounts.emirates.email                                           |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
 mieterjournal@news.mieterverein-hamburg.de                                     |      0 |      0 |      0 |      0 |      0 |      1 |      1 |      2
-kiến's                                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
 no-reply@email.doctolib.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      1 |      2
 noreply@info.hostelworld.com                                                   |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
 buchungen@bassliner.org                                                        |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      2
@@ -620,8 +595,8 @@ noreply@lichess.org                                                            |
 info@5612126.brevosend.com                                                     |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 6647943121-hf69.a2gp.4bsn.3p2r@property.booking.com                            |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 datenschutz@digitalassociates.de                                               |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
-no-reply@eventim-light.com                                                     |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 info@redglobal.com                                                             |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+no-reply@eventim-light.com                                                     |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 info@ing.de                                                                    |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 noreply@groq.com                                                               |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 servicedesk@tuhh.de                                                            |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
@@ -630,9 +605,9 @@ do_not_reply@audible.de                                                        |
 kundenservice-hamburgopenatp500@eventim.de                                     |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 airbnb@express.medallia.com                                                    |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no-reply@vicoach.io                                                            |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
-trip                                                                           |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no-reply@recovery.proton.me                                                    |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 service@boardingpass.lufthansa.com                                             |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+de                                                                             |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 noreply@qemailserver.com                                                       |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 info@link2extreme.com                                                          |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 notification@paygenius.co.za                                                   |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
@@ -643,14 +618,14 @@ expedia@eg.expedia.com                                                         |
 notifications@gamma.app                                                        |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 msa@communication.microsoft.com                                                |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 donotreply@audible.com                                                         |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-praxis@orthopaedie-elsterplatz.de                                              |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-info@serverschrank24.de                                                        |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 sanparks-no-reply@sanparks.org                                                 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+praxis@orthopaedie-elsterplatz.de                                              |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 noreply@multisafepay.com                                                       |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
+info@serverschrank24.de                                                        |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 kundenkonto@mailing.rewe.de                                                    |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
-bewerbung@solcom.de                                                            |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-service@your.lufthansa-group.com                                               |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no-reply@info.flytap.com                                                       |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+service@your.lufthansa-group.com                                               |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+bewerbung@solcom.de                                                            |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 info@boomfestival.org                                                          |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no-reply@connect.lieferando.de                                                 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no-reply@notification.miro.com                                                 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
@@ -658,14 +633,14 @@ noreply@news.mieterverein-hamburg.de                                           |
 info@xceed.me                                                                  |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 announcements@figma.com                                                        |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 andre.schreiner@soorce.de                                                      |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-dennis.rossow@haspa.de                                                         |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 nicokriebel95@gmail.com                                                        |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 newsletter@news.mieterverein-hamburg.de                                        |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+dennis.rossow@haspa.de                                                         |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 auto-reply@rezeptwelt.de                                                       |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 info@email.meetup.com                                                          |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 googledevelopers-noreply@google.com                                            |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-onlineshop@deiters.de                                                          |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 noreply@insolvenzschutz-mail.drsf.reise                                        |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
+onlineshop@deiters.de                                                          |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 nhnguyen@redglobal.com                                                         |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 no.reply@ikea.com                                                              |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 mailer-daemon@proton.me                                                        |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
@@ -676,17 +651,17 @@ felix.wagner@debeka.de                                                         |
 mcinfo@ups.com                                                                 |      0 |      0 |      0 |      0 |      1 |      1 |      0 |      2
 travel.id@information.milesandmore.com                                         |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 ebay@info.ebay.de                                                              |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
-drive-shares-dm-noreply@google.com                                             |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 help@builder.io                                                                |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
+drive-shares-dm-noreply@google.com                                             |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 info@audioplay-events.com                                                      |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 noreply@reply.em.home24.de                                                     |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 hello@motelamiio.com                                                           |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 coco@ruby-hotels.com                                                           |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      2
 karten@tivoli.de                                                               |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-l.gleiss@physio-lutterothstrasse.de                                            |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      2
 support@texttodesign.ai                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-purchase@m.maskworld.com                                                       |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
+l.gleiss@physio-lutterothstrasse.de                                            |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      2
 hello@blackroll.com                                                            |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
+purchase@m.maskworld.com                                                       |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 kontakt@emmy-sharing.de                                                        |      0 |      0 |      1 |      0 |      1 |      0 |      0 |      2
 noreply@e.blizzard.com                                                         |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 support@trp.tmecosys.com                                                       |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
@@ -700,10 +675,10 @@ your@account.miro.com                                                          |
 rating-noreply@trustedshops.com                                                |      0 |      0 |      1 |      0 |      1 |      0 |      0 |      2
 noreply@pozngo.com                                                             |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 alibaba@email.alibaba.com                                                      |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
+noreply-marketplace@partners.decathlon.com                                     |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 tribeworks@email.hays.com                                                      |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 rechnungsversand@lexoffice.de                                                  |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 decathlon@feedback.decathlon.com                                               |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-noreply-marketplace@partners.decathlon.com                                     |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 no-reply@enterprise.com                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 info@ticketswap.com                                                            |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 singintapas@t-online.de                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
@@ -711,17 +686,16 @@ support@etke.host                                                              |
 patrick gordon | elbeit consult gmbh                                           |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 contact@laruche-logistique.fr                                                  |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 yfood@delivery-status.com                                                      |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-petros@zenlap.com                                                              |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 billing@ngrok.com                                                              |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
+petros@zenlap.com                                                              |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 noreply@battle.net                                                             |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 damjar.namin@soorce.de                                                         |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 sales2@refeedigital.com                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 nugine@foxmail.com                                                             |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 donotreply@expedia.com                                                         |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      2
 m.kodjabasheva@digitalassociates.de                                            |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-koh                                                                            |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
-ekaterina.boese@hays.de                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 hays-customer-voice@email.hays.com                                             |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
+ekaterina.boese@hays.de                                                        |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 support@eversports.com                                                         |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 noreply@sthree.com                                                             |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
 chantal.thiede@mindsquare.de                                                   |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      2
@@ -741,22 +715,22 @@ info@infos.joyn.de                                                             |
 info@justcom.de                                                                |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      2
 pr@swapzone.io                                                                 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 mirko@stakingrewards.com                                                       |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
-info@biogena.com                                                               |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 versand@biogena.at                                                             |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
+info@biogena.com                                                               |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 billing@notifications.huggingface.co                                           |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 noreply@youtube.com                                                            |      0 |      1 |      0 |      1 |      0 |      0 |      0 |      2
-m.turner@tricentis.com                                                         |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 no-reply@serpapi.com                                                           |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
+m.turner@tricentis.com                                                         |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 dennis.hamann.dev@gmail.com                                                    |      1 |      0 |      0 |      1 |      0 |      0 |      0 |      2
 saschahoff@yahoo.de                                                            |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      2
 tom@etesync.com                                                                |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      2
 review@hostelworld.com                                                         |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 flight_notification@bangkokair.com                                             |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
-disputeth@care.lazada.com                                                      |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 reservation@bangkokair.com                                                     |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
+disputeth@care.lazada.com                                                      |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 apotheke am hauptbahnhof via no-q digital customer queueing                    |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
-registration@facebookmail.com                                                  |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 andrearuff@gmx.de                                                              |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
+registration@facebookmail.com                                                  |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 operator@flink-44a615fa4e6a.intercom-mail.com                                  |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 funda.zurnaci@flink-44a615fa4e6a.intercom-mail.com                             |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
 service@1avisum.de                                                             |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      2
@@ -787,10 +761,10 @@ info@arena-supplements.de                                                      |
 info@news.dominos.de                                                           |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 community@iohk.io                                                              |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 info@cb.mail.coinbase.com                                                      |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
-no-reply@app.protonvpn.com                                                     |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 reception.senses@labranda.com                                                  |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
-pascal_dominik.greder@smail.th-koeln.de                                        |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
+no-reply@app.protonvpn.com                                                     |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 rathaus-apotheke via no-q digital customer queueing                            |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
+pascal_dominik.greder@smail.th-koeln.de                                        |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 info@mail.termin2go.com                                                        |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 julia@plattenmonster.com                                                       |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 produktempfehlung@eis.de                                                       |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
@@ -798,13 +772,13 @@ noreply@prosieben.de                                                           |
 postman-team@email.postman.com                                                 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 bestellung@eis.de                                                              |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 wildpark schwarze berge online shop                                            |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
-pricezilla@versand-status.de                                                   |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 kundenservice@pricezilla.de                                                    |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
+pricezilla@versand-status.de                                                   |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 ulf.kluever@protonmail.com                                                     |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 thomas.weinmann@astorius.net                                                   |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 no-reply@coinbase.com                                                          |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
-noreply@europe-west-1.tardigrade.io                                            |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 noreply@coinpayments.net                                                       |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
+noreply@europe-west-1.tardigrade.io                                            |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2
 news@nvidia.com                                                                |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      2
 info@onlysports.de                                                             |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 info@mail.samedi.de                                                            |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
@@ -813,36 +787,36 @@ orderconfirmation@digitalriver.com                                             |
 noreply@shop.amd.com                                                           |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 donotreply@remarkable.com                                                      |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 time@doodle.com                                                                |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
-ulf.kluever@gruene-hu.de                                                       |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 spaintravelhealth-no-reply@spth.gob.es                                         |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
+ulf.kluever@gruene-hu.de                                                       |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 no-reply@mailer.opodo.com                                                      |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
 noreply@opodo.com                                                              |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      2
-noreply@brasil.tomorrowland.com                                                |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 no-reply-8nemz8hb78szuefe48mqbq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+noreply@brasil.tomorrowland.com                                                |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 5211139891-wc6e.vcqs.yrbt.wwzh@property.booking.com                            |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 all@confirmation.all.com                                                       |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+no-reply-r6ovhw3pmj5djxflrbplja@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 hermes benachrichtigungsfunktion                                               |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 versand@belege.lexware.de                                                      |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-no-reply-r6ovhw3pmj5djxflrbplja@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-vanessamaurer84549@t-online.de                                                 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 team@mail.notion.so                                                            |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+vanessamaurer84549@t-online.de                                                 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 survey@care.emirates.email                                                     |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 no-reply-vw_ru07h3ag4ozbpvv2yqg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply@winter.tomorrowland.com                                                |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply@callabike.de                                                           |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-leonard zimmermann                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 no-reply-eko8lgacqstmrok69o1t7a@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+leonard zimmermann                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 no-reply-rrrsfdsdfq-xuwr40u2q2w@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+der                                                                            |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+noreply@mail.audible.com                                                       |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply+7f8f6c6@id.atlassian.com                                               |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply+a5f2204@id.atlassian.com                                               |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-noreply@mail.audible.com                                                       |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-der                                                                            |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 27855160@b.12go.asia                                                           |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply@tdacservices.immigration.go.th                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-brb@blueribbonbags.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply@12go.asia                                                              |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-no_reply@jetbrains.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+brb@blueribbonbags.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 info@news.xceed.me                                                             |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+no_reply@jetbrains.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 recruiting@allgeier-itc.ch                                                     |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 newsletter@mue-thaimassage.de                                                  |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 noreply@mail.postman.com                                                       |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
@@ -860,92 +834,94 @@ auto-confirm@info.thetrainline.com                                             |
 no-reply-ylzg4voiswtrflljkmkndg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@sport.decathlon.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply@email.claude.com                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+info@e-mail.xing.com                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 uwe.hafer@t-online.de                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 otrs@tuhh.de                                                                   |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-info@e-mail.xing.com                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 your@product.miro.com                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@buyzoxs.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@h5.hilton.com                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply-hays-team@email.hays.com                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-isb8faghetf7jsl7kyzhjg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+trip                                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 reply@email-support.airbnb.com                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-6596025691-4qcr.gmg3.jdy6.myfp@property.booking.com                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-a.gaertner@t-online.de                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 heinz.stickel@t-online.de                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+a.gaertner@t-online.de                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+6596025691-4qcr.gmg3.jdy6.myfp@property.booking.com                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+prod@prosperalink-7.com                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 b.r.waldvogel@t-online.de                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 roesch@rscw.de                                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-prod@prosperalink-7.com                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 notify@updates.notion.so                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@luxotticaretail.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply-a23yj2zy0zrmky7z3bxycq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-lgo-obp-mww5oiujy6yaoq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-accountsreceivable@bitwarden.com                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+no-reply-a23yj2zy0zrmky7z3bxycq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 specialoffer@flyedelweiss.com                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-bgerhard@redglobal.com                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 sad4gr@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-giese.b@t-online.de                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+accountsreceivable@bitwarden.com                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 haas-r@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+bgerhard@redglobal.com                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+giese.b@t-online.de                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@7pass.de                                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 asd3gssad3gg@t-online.de                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 website+xet@huggingface.co                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 heizpi@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 gsd32fdfdsf@t-online.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-briefe@mieterjournal.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 contact_0d944e26-8d3b-458e-ad9e-077f1614d756@email-support.uber.com            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 schwarz-detlef@t-online.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+briefe@mieterjournal.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 r.heravi@t-online.de                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-notice@email.anthropic.com                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 membership@email.hm.com                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-rreiss@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+notice@email.anthropic.com                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply@gpodder.net                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 rechnungsstelle@ionos.de                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+rreiss@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-bj9h9ucnmam1afmrkwqetg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-lqwz_lkxu59191n6ixauww@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 eichin.laempe@t-online.de                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-customersupport@audible.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 do_not_reply@audible.com                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+customersupport@audible.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 abaz.imeri@t-online.de                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 andreasstiedl@t-online.de                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 richard.thrien@venturi-group.com                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 zeppos.support@zepp.com                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 travel.id@information.swiss.com                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-info@noti.swiss.com                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 lisa-marie.blumenschein@soorce.de                                              |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 booking@information.swiss.com                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply@yolawo.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+info@noti.swiss.com                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 wtradmin@sita.aero                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 melanie.eisen@hays.de                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 villaamroseneck@gmx.de                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-bi4ial7u5y3vumnycg-lxw@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply-8g8uvqvcbfn0xiqta-h6tg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 failed-payments@mail.anthropic.com                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-tony.doan@brains-work.de                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+no-reply-8g8uvqvcbfn0xiqta-h6tg@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 accountmanagement@corp.sixt.de                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+tony.doan@brains-work.de                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 ride@sixt.com                                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 cigdem.koese@hays.de                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-jannik.siems@gmail.com                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-ant@supabase.com                                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@supabase.com                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 support@email.remarkable.com                                                   |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+ant@supabase.com                                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@telegram.org                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 georg.wissmeier@t-online.de                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+jannik.siems@gmail.com                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 ✅                                                                              |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-noreply@contact.nespresso.com                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 hello@gamma.app                                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 emmy@info.emmy-sharing.de                                                      |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+noreply@contact.nespresso.com                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 stiebel.ulrich@t-online.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@mieterverein-newsletter.de                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 michael                                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply@alerts.spotify.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 autoemail@autoemail.hm.com                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 vikram01.jha@gmail.com                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-message.npcejlmeclmebldekf@cpucommunications.com                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 product@builder.io                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 fred@fireflies.ai                                                              |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-information@info.email.ikea.com                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+message.npcejlmeclmebldekf@cpucommunications.com                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 information@cm.order.email.ikea.com                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+information@info.email.ikea.com                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 axel.darup@t-online.de                                                         |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@zepp.com                                                               |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+encarnação                                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 k_koeppen@taures.de                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 praktikant@tisso.de                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 6193922396763833211@t-online.de                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
@@ -953,53 +929,53 @@ ramonanieswandt@gmail.com                                                      |
 rechnung@vaporexmachina.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 austrian@smile.austrian.com                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@myflexbox.de                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-emailinfo@ups.com                                                              |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply@tapmilesandgo.com                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply-cc@apcoa.com                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-windmuehle1@t-online.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 promo@tapmilesandgo.com                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+emailinfo@ups.com                                                              |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+no-reply-cc@apcoa.com                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+no-reply@tapmilesandgo.com                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+windmuehle1@t-online.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 brit_martin@t-online.de                                                        |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 recommendations@inspire.pinterest.com                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 sam.pyzer@source-technology.com                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 info@builder.io                                                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply-gr@klarna.gr                                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply-jyathaulnztpg6i1llidjq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-qgxytpxqxz_vfxufgpof0q@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-noreply-debeka-gesundheit@info.debeka.de                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 no-reply-cookidoo@vorwerk.com                                                  |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-metawi@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+no-reply-jyathaulnztpg6i1llidjq@mail.anthropic.com                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+noreply-debeka-gesundheit@info.debeka.de                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 khummel@t-online.de                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+metawi@t-online.de                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply@mediamarkt.de                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-noreply@airbnb.com                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-noreply-nr25rq7y6tucqrza7vg4a3i2@zulip.futo.org                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-webmaster@futo.org                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply-hhs7n2s5ljg6mftuvoucrezo@zulip.futo.org                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+webmaster@futo.org                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+noreply@airbnb.com                                                             |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply-uaep6tztra2i2op47ib6swrk@zulip.futo.org                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 noreply-e7bllkiuoxc6hvpndqsqvxej@zulip.futo.org                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+noreply-nr25rq7y6tucqrza7vg4a3i2@zulip.futo.org                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 jessica@nymtech.net                                                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 info@thermomix-rezeptwelt.maileon.de                                           |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 ticket-36999470@t-online.de                                                    |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 smegrelishvili@redglobal.com                                                   |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 mail@larsglobisch.com                                                          |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 tickets@elbphilharmonie.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-paket-12115927@t-online.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 zufriedenheitsumfrage-thermomix@mkt.vorwerk.com                                |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+paket-12115927@t-online.de                                                     |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 ing-kunde.89421176@t-online.de                                                 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
+account@everfit-mail.com                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 welcome@everfit-mail.com                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
 4952642251-w8wc.3jwe.szvj.wqxt@property.booking.com                            |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-account@everfit-mail.com                                                       |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      1
-no-reply@bvg.de                                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@xcover.com                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply-ptran@info.riverty.com                                                 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+no-reply@bvg.de                                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 appsupport@bvg.de                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 no-reply@cursor.sh                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 team@email2.anthropic.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 computershare.npcejhjeglgelmgegk@cpucommunications.com                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-trackingupdates@fedex.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 feedback@progressiverecruitment.com                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+trackingupdates@fedex.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 store+84431700233@t.shopifyemail.com                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-info@bryghtlabs.com                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 4952642251-d6qr.fcns.hb7h.yd2q@property.booking.com                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+info@bryghtlabs.com                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 hello@wger.de                                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 info@koe-hair.de                                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 shop@promo.istyle.id                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
@@ -1007,27 +983,27 @@ info@krimi-trails.de                                                           |
 groupupdates@facebookmail.com                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 notification@crowdcontrol.co                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 dataofficer@redglobal.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-zrasch@redglobal.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 cookidoo@mkt.vorwerk.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-charlotte.michael@t-online.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+zrasch@redglobal.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 marketing@service.alibaba.com                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+charlotte.michael@t-online.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 reviews@feedback-ekomi.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 kundenservice@service.eventim.de                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 promotion@member.alibaba.com                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 neha.ahluwalia@axitera.de                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-kewan.butt@amoriabond.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+news@mail.cronometer.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 pavlos.batziakas@cyprec.com                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 promotion_01@member.alibaba.com                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-news@mail.cronometer.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+kewan.butt@amoriabond.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 ansgarfoerster@t-online.de                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 tickets@eventix.nl                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 n.kosselt@dhl.com                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 buyer_01@email.alibaba.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+hello@evy.eu                                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 no-reply@sc-fahrpreisnacherhebung.de                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 support@hva-systemes.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-guy.britton@source-technology.com                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-hello@evy.eu                                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 team@e.miro.com                                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+guy.britton@source-technology.com                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 hldoths@t-online.de                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@db-fn.de                                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 hi@tunemymusic.com                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
@@ -1036,25 +1012,25 @@ support@tunemymusic.com                                                        |
 fritsch.t@t-online.de                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 nicolarieger@t-online.de                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 promotion@email.alibaba.com                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-wahner.oberbuchen@t-online.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@vodafone.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+wahner.oberbuchen@t-online.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 lang-alfons@t-online.de                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 robert.polifka@t-online.de                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-infotele9281291@t-online.de                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-famstopp@t-online.de                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-a.kostyra@t-online.de                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 armin.jacob@t-online.de                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+famstopp@t-online.de                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+infotele9281291@t-online.de                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+a.kostyra@t-online.de                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+vip@service.alibaba.com                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 info@campingwagner.de                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 globalsupplier@service.alibaba.com                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-vip@service.alibaba.com                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 refurbed service                                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 no-reply@messages.xoom.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@service.decathlon.com                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@realvnc.com                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 uwe.herpertz@external.kadewegroup.com                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-support@cronometer.com                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-buchhaltung@thomann.de                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 violeneaouinti@gmx.de                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+buchhaltung@thomann.de                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+support@cronometer.com                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 hello@service.refurbed.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 lucas.galbierz@hays.de                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 paketneus83803@servicepaket93.de                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
@@ -1067,70 +1043,70 @@ info@sushifuerhamburg.com                                                      |
 ticketnews@service.eventim.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 receipts@iterate.ch                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 message.npcejbhedkbelkfedk@cpucommunications.com                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-no-reply@yfood.eu                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 noreply@sheinemail.com                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+no-reply@yfood.eu                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 info@yfood.eu                                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-d.ipatii@progressive.de                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 v.smith@managilityltd.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+d.ipatii@progressive.de                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 g.radev@digitalassociates.de                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 onedrive@infomail.microsoft.com                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 support@wandb.com                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-hermes-paketshop@bengalurologicalsociety.org                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 contact@ngrok.com                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-account-security-noreply@accountprotection.microsoft.com                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-microsoft@notificationmail.microsoft.com                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+hermes-paketshop@bengalurologicalsociety.org                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 teams@notifications.microsoft.com                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+microsoft@notificationmail.microsoft.com                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+account-security-noreply@accountprotection.microsoft.com                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 pinterest-recommendations@ideas.pinterest.com                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-kelseyj.harrison0@gmail.com                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 care@bitwarden.com                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+kelseyj.harrison0@gmail.com                                                    |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 verfuegbarkeit@reply.gulp.de                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 hello@info.filebase.com                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 no-reply@ngrok.com                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-sascha.fiebranz@amoriabond.com                                                 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 stakingrewards@mail.beehiiv.com                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-alisourcepro@service.alibaba.com                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+sascha.fiebranz@amoriabond.com                                                 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 member@notice.alibaba.com                                                      |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+alisourcepro@service.alibaba.com                                               |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 email.campaign@sg.booking.com                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 ben@haffer.at                                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-tickets.weird-events.com@tiuldi.createsend7.com                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-community@email.hays.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+gerrit@boardlab.de                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 info@susanne-friedrich.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 expedia@th.expediamail.com                                                     |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-gerrit@boardlab.de                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-confirmation-booking-noreply@booking.com                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-info@tomorrowland.com                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+tickets.weird-events.com@tiuldi.createsend7.com                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+community@email.hays.com                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 mint                                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+info@tomorrowland.com                                                          |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+koh                                                                            |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 11067550@b.12go.asia                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 rebecca.pfeffer@constaff.com                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-alexander.wuthenow@wabcon.de                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 post@mund-consulting.de                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-maurice.schneider@constaff.com                                                 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-e.guellue@sthree.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-aktualisierung@gulp.de                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+alexander.wuthenow@wabcon.de                                                   |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 a.voegel@pcs-it.at                                                             |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+maurice.schneider@constaff.com                                                 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 p                                                                              |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 oliver@thryvetalent.com                                                        |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+e.guellue@sthree.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
+aktualisierung@gulp.de                                                         |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 service@hays.de                                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 tobias.pollmeier@hays.de                                                       |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 laura.martell@joyit-berlin.de                                                  |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 sina@dev-x.tech                                                                |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
 diegu.hax@icloud.com                                                           |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      1
-s.dossantos@lawrenceharvey.com                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-no-reply-debeka-gesundheit@app.debeka.de                                       |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 info@pvs-se.de                                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+no-reply-debeka-gesundheit@app.debeka.de                                       |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 no-reply@pvs-se.de                                                             |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+s.dossantos@lawrenceharvey.com                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 ksmkhan7@gmail.com                                                             |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 service@bookandplay.de                                                         |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 contact@pca.levillagebyca.com                                                  |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-sigmar1.renner@web.de                                                          |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 jorg.brauer89@web.de                                                           |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-news@whitebit.promo                                                            |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+sigmar1.renner@web.de                                                          |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 sarahflensburg95@gmail.com                                                     |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+news@whitebit.promo                                                            |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 myaccount@spectrumemails.com                                                   |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 noreply@ra.co                                                                  |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 kauer@mhpatent.de                                                              |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-verify@x.com                                                                   |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 fitone@cc.magicline.com                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+verify@x.com                                                                   |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 bankmann@mhpatent.de                                                           |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 aktivierung | astor film lounge hafencity hamburg                              |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 info-tele-094274@t-online.de                                                   |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
@@ -1146,16 +1122,16 @@ forwarding-noreply@google.com                                                  |
 reklamation@alternate.de                                                       |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 message.npcehcgebkfembhebj@cpucommunications.com                               |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 notifications@forefront.ai                                                     |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-post@norsan.de                                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+service@norsan.de                                                              |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 philipp@huggingface.co                                                         |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+info@twitter.com                                                               |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+post@norsan.de                                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 michelle@huggingface.co                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 info-tele-39922@t-online.de                                                    |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-service@norsan.de                                                              |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-info@twitter.com                                                               |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 info-tele-6536367@t-online.de                                                  |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-magida@service.emmy-sharing.de                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
-noreply1_iss@lenovo.com                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 noreply@mail.openai.com                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+noreply1_iss@lenovo.com                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
+magida@service.emmy-sharing.de                                                 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 notifications@cuisine.rudirocks.com                                            |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 info@service.eventim.de                                                        |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
 registrierung@eventim.de                                                       |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1
@@ -1168,8 +1144,8 @@ billing@b.etesync.com                                                          |
 cascadeclub.thailand@gmail.com                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 immigrationofficegovernmentcomplexchaengwattanard@imm1division.onmicrosoft.com |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 sophia@news.miles-mobility.com                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-noreply@lfconnect.com                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 automatischeantwort@finanzamt.hamburg.de                                       |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+noreply@lfconnect.com                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 sburgsdorff@mmwarburg.com                                                      |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 tci.phiphi@gmail.com                                                           |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 no-reply@agoda-email.com                                                       |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
@@ -1181,14 +1157,14 @@ security@facebookmail.com                                                      |
 miguelchapero@icloud.com                                                       |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 eta@1avisum.de                                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 welcome@urvin.finance                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+info@1avisum.de                                                                |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 thaievisa@mfa.go.th                                                            |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 jc95573@gmail.com                                                              |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-info@1avisum.de                                                                |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 paket@dhl.de                                                                   |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 computershare.npceggkejdbedfgedf@cpucommunications.com                         |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 angebot@vattenfall.de                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-noreply@mail.etsy.com                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 emails@mail.etsy.com                                                           |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+noreply@mail.etsy.com                                                          |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 noreply@discuss.grapheneos.org                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 irving_yang@dfinity.org                                                        |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 irving.yang@dfinity.org                                                        |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
@@ -1196,70 +1172,70 @@ jonah@flink-44a615fa4e6a.intercom-mail.com                                     |
 kundenservice@spb-garant.de                                                    |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 noreply@buhl.de                                                                |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 computershare.npcegdmeblcebhfemg@cpucommunications.com                         |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-message.npcegdmefddedfkejh@cpucommunications.com                               |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-marketing@mail.wolt.com                                                        |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 foundation@dfinity.org                                                         |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+marketing@mail.wolt.com                                                        |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+message.npcegdmefddedfkejh@cpucommunications.com                               |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 computershare.npcegdgemcjecdlebl@cpucommunications.com                         |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 club@pizzamax.de                                                               |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 noreply@stakingrewards.com                                                     |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
-studio@djmerlin.com                                                            |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 feedback@mail.gorillasapp.es                                                   |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
+studio@djmerlin.com                                                            |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 vbs22@bafin.de                                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 buchungen@lasertag-barmbek.com                                                 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 computershare.npcegbjemjgecdjejd@cpucommunications.com                         |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      1
 no-reply@jameda.de                                                             |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 computershare.npcegbcecmgekcdecd@cpucommunications.com                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 message.npcegbbemhfegllejg@cpucommunications.com                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-message.npcegbbemhgecfbekl@cpucommunications.com                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 message.npcegbbemhfehbdedd@cpucommunications.com                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+message.npcegbbemhgecfbekl@cpucommunications.com                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@frittenwerk-shop.de                                                    |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-buy me a coffee                                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 no-reply@notification.skype.com                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 receipts+acct_1apfzwjetinljgaa@stripe.com                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-noreply@ddnss.de                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 message.npcefmledbcedhmecg@cpucommunications.com                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+noreply@ddnss.de                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 official@amazfit.com                                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-noreply-utos@google.com                                                        |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-inez@cubicl.de                                                                 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-igor@hiveon.net                                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+buy me a coffee                                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@trackmyshipment.co                                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+inez@cubicl.de                                                                 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+noreply-utos@google.com                                                        |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+igor@hiveon.net                                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 yy6ntzzgzr78_opg4lesjejdpw4t@protonmail.com                                    |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@ionos.com                                                              |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 donotreply@godaddy.com                                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-no-reply@akash.network                                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@newsletter.callabike-interaktiv.de                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 postman-team@notifications.postman.com                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-debiteuren@fysiosupplies.nl                                                    |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-svencarstens@carstens-stb.de                                                   |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+no-reply@akash.network                                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 service@email.barclaycard.de                                                   |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+svencarstens@carstens-stb.de                                                   |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+debiteuren@fysiosupplies.nl                                                    |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 interactive brokers client services                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 mifit-feedback-auto@email.huami.com                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-no-reply@quandl.com                                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 kundenservice@debeka.de                                                        |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-noreply.invitations@trustpilotmail.com                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+no-reply@quandl.com                                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 info@stadtradhamburg.de                                                        |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+noreply.invitations@trustpilotmail.com                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 support@coronafreepass.de                                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@dhl.com                                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 mail@service.tvnow.de                                                          |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-jan.steinke@ownly.de                                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 support@my.tvnow.de                                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+jan.steinke@ownly.de                                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 communications@urvin.finance                                                   |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 support@whitebit.com                                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-noreply@ikea.com                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 do.not.reply@ikea.com                                                          |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-sepa-awpde@allianz.com                                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+noreply@ikea.com                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 retoure@x-kom.de                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+sepa-awpde@allianz.com                                                         |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+service-reise@allianz.com                                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@trymagic.com                                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 no-reply@announcements.soundcloud.com                                          |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-service-reise@allianz.com                                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 coupons@galaxus.de                                                             |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 wir                                                                            |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 robot2@openweathermap.org                                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-versandbestaetigung@eis.de                                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 robot4@openweathermap.org                                                      |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+versandbestaetigung@eis.de                                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+account@eis.de                                                                 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 no-reply@auth.appnotify.io                                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 team@research.qubes-os.org                                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-account@eis.de                                                                 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 supermini@akash.network                                                        |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@notifications.getpostman.com                                           |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 heide@alex-kitchen.de                                                          |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
@@ -1272,31 +1248,30 @@ cc-forum@uni-hamburg.de                                                        |
 member.services@disneyaccount.com                                              |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 galaxus@security.galaxus.de                                                    |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 galaxus@galaxus.de                                                             |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-info@dyndnss.net                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 nicht.antworten@kundenservice.vodafone.com                                     |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
-no-reply@xoom.com                                                              |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+info@dyndnss.net                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 carolinh@live.de                                                               |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
+no-reply@xoom.com                                                              |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@d.tube                                                                 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 bremer-rheumatologie@hamburg.de                                                |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1
 kundenservice@amorelie.de                                                      |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 shop@krimi-trails.de                                                           |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 confirm@account.pinterest.com                                                  |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 deinebestellung@reply.amorelie.de                                              |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-frédéric                                                                       |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 christian@bancanteen.com                                                       |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 usersfeedback@protonmail.com                                                   |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 amdcommunity.mailer@amd.com                                                    |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 empfang@trude-hh.de                                                            |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-safli@web.de                                                                   |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 tinder@stellaconnect.net                                                       |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 anh@easymeal.de                                                                |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 support@proshop.de                                                             |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-connect@quandl.com                                                             |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
+safli@web.de                                                                   |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
+noreply@notifs.matrix.org                                                      |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 danja.kluever@gruene-hu.de                                                     |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 no-reply@priority-send.eversports.com                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 info@feel-festival.de                                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-noreply@notifs.matrix.org                                                      |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 info@cryptomator.org                                                           |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
+connect@quandl.com                                                             |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@tof.de                                                                 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 no-reply-pk@schufa.de                                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 meineschufa@schufa.de                                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
@@ -1304,18 +1279,18 @@ learn@email1.asana.com                                                         |
 noreply@discordapp.com                                                         |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 renato@doodle.com                                                              |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 ulf.kluever@gruene-se-kv.de                                                    |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-empfangen@dpd.de                                                               |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 news@ew.eurowings.com                                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
+empfangen@dpd.de                                                               |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 postbooking@mail.condor.com                                                    |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 noreply@condor.com                                                             |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 info@ew.eurowings.com                                                          |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 no-answer@condor.com                                                           |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-postmaster@mail.publicip.nl                                                    |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 booking@booking.eurowings.com                                                  |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
-docile_alligator@creator.patreon.com                                           |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
-rbudinsky@mmwarburg.com                                                        |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 webex_comm@em.webex.com                                                        |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 online_miete@hkl24.com                                                         |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+docile_alligator@creator.patreon.com                                           |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
+postmaster@mail.publicip.nl                                                    |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
+rbudinsky@mmwarburg.com                                                        |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1
 jdabaas@redglobal.com                                                          |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      1
 -------------------------------------------------------------------------------+--------+--------+--------+--------+--------+--------+--------+-------
-TOTAL                                                                          |    411 |   1593 |   1809 |   1619 |   2108 |   2439 |    666 |  10645
+TOTAL                                                                          |    384 |   1369 |   1402 |   1458 |   1924 |   2123 |    569 |   9229
