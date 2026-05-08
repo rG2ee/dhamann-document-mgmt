@@ -532,7 +532,7 @@ ZUORDNUNGEN4: dict[str, list[str]] = {
 
 
 
-ZUORDNUNGEN5 = {
+ZUORDNUNGEN5 = { # pre 2023
 
     "Folders/to-be-deleted": [
 
