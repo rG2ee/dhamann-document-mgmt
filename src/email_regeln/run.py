@@ -7,7 +7,7 @@ import time
 from email_regeln.imap_connection import create_email_folder_in_filter_anwendungen
 from email_regeln.move_to_delete import run
 
-ZUORDNUNGEN: dict[str, list[str]] = {
+ZUORDNUNGEN1: dict[str, list[str]] = {
     # --- Bestehende Ordner in filter-andwendungen ---
 
     "Folders/filter-andwendungen/etke-host": [

@@ -72,7 +72,17 @@ def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
     return stats
 
 
-def _print_table(stats: dict[str, dict[int, int]]) -> None:
+def _aggregate_by_host(stats: dict[str, dict[int, int]]) -> dict[str, dict[int, int]]:
+    """Gruppiert Absender-Statistiken nach Host/Domain (z.B. example.com)."""
+    host_stats: dict[str, dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    for addr, yearly in stats.items():
+        host = addr.rsplit("@", 1)[-1] if "@" in addr else addr
+        for year, count in yearly.items():
+            host_stats[host][year] += count
+    return host_stats
+
+
+def _print_table(stats: dict[str, dict[int, int]], *, label: str = "Absender") -> None:
     if not stats:
         print("Keine Nachrichten in der INBOX gefunden.")
         return
@@ -82,10 +92,10 @@ def _print_table(stats: dict[str, dict[int, int]]) -> None:
     sorted_addrs = sorted(totals, key=lambda a: totals[a], reverse=True)
 
     addr_width = max(len(a) for a in sorted_addrs)
-    addr_width = max(addr_width, len("Absender"))
+    addr_width = max(addr_width, len(label))
     col_w = 6
 
-    header = f"{'Absender':<{addr_width}}"
+    header = f"{label:<{addr_width}}"
     for y in all_years:
         header += f" | {y:>{col_w}}"
     header += f" | {'Gesamt':>{col_w}}"
@@ -135,6 +145,14 @@ def main() -> None:
         inactive = _inactive_since(stats, since_year=2023)
         print(f"\n\nAbsender ohne Mails seit 2023 ({len(inactive)}):\n")
         pprint.pprint(inactive)
+
+        host_stats = _aggregate_by_host(stats)
+        print("\n\n--- Statistik nach Host/Domain ---\n")
+        _print_table(host_stats, label="Host")
+
+        inactive_hosts = _inactive_since(host_stats, since_year=2023)
+        print(f"\n\nHosts ohne Mails seit 2023 ({len(inactive_hosts)}):\n")
+        pprint.pprint(inactive_hosts)
     finally:
         mail.logout()
 

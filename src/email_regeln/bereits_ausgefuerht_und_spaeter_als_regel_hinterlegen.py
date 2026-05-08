@@ -643,3 +643,129 @@ ZUORDNUNGEN5 = { # pre 2023
 
     ],
 }
+
+
+
+
+
+ZUORDNUNGEN6 = {  # pre 2023 next one
+
+
+    "Folders/to-be-deleted": [
+        "noreply@notifs.matrix.org", # wrong -> delete
+        "connect@data.nasdaq.com",  # -> just delete
+        "connect@quandl.com",  # just delete
+        "a.frietsch@computerfutures.de", # not ok, just delete
+        "retoure@x-kom.de", # just delete
+
+        "info@arena-supplements.de", # delete
+        "info@aspire-shop.de", # delete
+        "info@computeruniverse.net", # delete
+        "info@morenutrition.de", # deltee
+        "info@onlysports.de", # delete
+
+        "info@rundetrends.com", # delete
+        "info@sertronics.shop", # delete
+        "no-reply@amorelie.de", # delete
+
+        "kundenservice@pricezilla.de", # delete
+        "noreply@frittenwerk-shop.de", # delete
+
+        "upcoming-invoice+acct_1apfzwjetinljgaa@stripe.com", # delete
+        "receipts+acct_1apfzwjetinljgaa@stripe.com", # delte
+        "donotreply@godaddy.com", # delete
+
+        "noreply@kaggle.com",  # delete
+        "do-not-reply@stackoverflow.email",  # delete
+        "no-reply@notify.docker.com",  # delete
+        "noreply@notifications.getpostman.com",  # delete
+        "noreply@discuss.grapheneos.org",  # delete
+        "news@nvidia.com",  # delete
+
+        "email@em.blizzard.com", # delete
+        "noreply@blizzard.com", # delete
+        "noreply@em.blizzard.com", # delete
+
+        "ergebnis@testformular.de", # delete
+
+        "flight_notification@bangkokair.com",  # delete
+        "foundation@dfinity.org", # delete
+        "irving.yang@dfinity.org", # delete
+        "irving_yang@dfinity.org", # delete
+        "michael_hunte@dfinity.org", # delete
+        "hallo@getir.com", # delete
+        "info@getir.com", # delete
+
+        "hello@storj.io", # delete
+        "help@disneyplus.com", # delete
+        "member.services@disneyaccount.com", # delete
+        "help@gotinder.com", # delete
+
+        "heide@alex-kitchen.de", # delete
+        "hello@filebase.com", # delete
+        "hello@skynetlabs.com", # delete
+
+        "igor@hiveon.net", # delte
+
+        "info@ew.eurowings.com",  # delte
+        "news@ew.eurowings.com",  # delte
+        "no-answer@condor.com",  # delte
+        "info@cryptomator.org",  # delte
+
+        "inez@cubicl.de",# cubicl
+
+        "info@feel-festival.de",  # delte
+
+        "newsletter.de@clickandboat.com", # delete
+        "nora.futaky@clickandboat.com", # delete
+        "newsletter@eat-the-world.com", # delete
+        "newsletter@news.eat-the-world.com", # delete
+        "newsletterversand@pizzamax.de",  # delete
+
+        "messenger@webex.com", # delete
+        "learn@email1.asana.com", # delete
+
+        "info@news.dominos.de", # delete
+        "info@service.premiumkino.de", # delete
+        "no-reply@asana.com",  # delete
+        "no-reply@akash.network", # deltete
+        "noreply@prosieben.de",
+        "noreply@lfconnect.com",
+        "noreply@newsletter.callabike-interaktiv.de",
+        "noreply@tof.de",
+        "notifications@tchncs.de",
+        "noreply@trackmyshipment.co",
+        "noreply@trymagic.com",
+
+        "no-reply@xoom.com",
+        "no-reply@zoom.us",
+        "no-reply@notification.skype.com",
+        "noreply@d.tube",
+        "noreply@coinpayments.net",
+        "noreply.invitations@trustpilotmail.com",
+        "no-reply@restablo.de",
+        "no-reply@quandl.com",
+
+        "no-reply@mailer.opodo.com",
+        "noreply@opodo.com",
+        "noreply@impfterminservice.de",
+        "noreply@europe-west-1.tardigrade.io",
+        "no-reply@auth.appnotify.io",
+        "info@dom-ticket.de",
+        "info@dyndnss.net",
+        "noreply@ddnss.de",
+        "noreply@condor.com",
+
+        "info@mail.termin2go.com",
+
+        "info@whitebit.com",
+        "marketing@mail.wolt.com",
+        "mail@service.tvnow.de",
+        "kundendialog@nah.sh",
+        "julia@plattenmonster.com",
+        "jc95573@gmail.com",
+        "mail@testme.hamburg",
+        "noreply@testproject.io",
+        "meital.matsafi@testproject.io",
+    ],
+}
