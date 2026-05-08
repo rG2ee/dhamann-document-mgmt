@@ -3,14 +3,11 @@
 from __future__ import annotations
 
 import imaplib
-import os
-import ssl
 from collections import defaultdict
 from email.header import decode_header
 from email.utils import parseaddr, parsedate_to_datetime
-from pathlib import Path
 
-from dotenv import load_dotenv
+from email_regeln.imap_connection import connect
 
 
 def _decode_header_value(raw: str) -> str:
@@ -22,25 +19,6 @@ def _decode_header_value(raw: str) -> str:
         else:
             parts.append(fragment)
     return "".join(parts)
-
-
-def _connect() -> imaplib.IMAP4:
-    env_path = Path(__file__).resolve().parents[2] / ".env"
-    load_dotenv(env_path)
-
-    host = os.environ["IMAP_Address"]
-    port = int(os.environ["IMAP_port"])
-    username = os.environ["IMAP_Username"]
-    password = os.environ["IMAP_Password"]
-
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-
-    mail = imaplib.IMAP4(host, port)
-    mail.starttls(ssl_context=ctx)
-    mail.login(username, password)
-    return mail
 
 
 def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
@@ -137,7 +115,7 @@ def _print_table(stats: dict[str, dict[int, int]]) -> None:
 
 def main() -> None:
     print("Verbinde mit Protonmail Bridge …")
-    mail = _connect()
+    mail = connect()
     try:
         print("Lese INBOX …\n")
         stats = _fetch_sender_stats(mail)

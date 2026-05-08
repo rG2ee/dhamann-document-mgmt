@@ -8,6 +8,7 @@ dependencies = [
     "fastexcel>=0.20.1",
     "polars",
     "pydantic>=2.13.3",
+    "python-dotenv",
     "riffq",
     "xlsxwriter>=3.2.9",
 ]

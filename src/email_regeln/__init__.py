@@ -1269,4 +1269,27 @@ jdabaas@redglobal.com                                                          |
 TOTAL                                                                          |    411 |   1673 |   1859 |   1772 |   2182 |   2451 |    665 |  11013
 
 Process finished with exit code 0
+
+
+
+
+to-be-deleted
+
+eingene regel
+
+noreply@ionos.de                                                               |      0 |      2 |     13 |     16 |     14 |     15 |      5 |     65
+no-reply@spotify.com                                                           |      3 |     19 |     18 |     13 |     11 |      0 |      0 |     64
+noreply@hello.klarna.com
+info@orgainic.com
+express@airbnb.com
+support@webo.hosting
+
+noreply@booking.com
+
+
+ordner private-gesundheit:
+info@ramona-mertens.com
+
+
+
 """
