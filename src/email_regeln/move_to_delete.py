@@ -1,4 +1,4 @@
-"""Verschiebt alle Mails bestimmter Absender aus der INBOX nach Folders/to-be-deleted."""
+"""Verschiebt alle Mails bestimmter Absender aus der INBOX in einen konfigurierbaren Zielordner."""
 
 from __future__ import annotations
 
@@ -26,12 +26,17 @@ def _move_messages(
     return len(msg_ids)
 
 
-def run(absender: list[str], *, dry_run: bool = True) -> None:
-    """Verschiebt alle Mails der gegebenen Absender aus INBOX nach to-be-deleted."""
+def run(
+    absender: list[str],
+    *,
+    target_folder: str = TARGET_FOLDER,
+    dry_run: bool = True,
+) -> None:
+    """Verschiebt alle Mails der gegebenen Absender aus INBOX in den Zielordner."""
     if dry_run:
         print("=== DRY RUN – es werden keine Mails verschoben ===\n")
 
-    print("Verbinde mit Protonmail Bridge …")
+    print(f"Verbinde mit Protonmail Bridge … Ziel: {target_folder}")
     mail = connect()
 
     try:
@@ -49,7 +54,7 @@ def run(absender: list[str], *, dry_run: bool = True) -> None:
             if dry_run:
                 print(f"  {sender}: {count} Mail(s) wuerden verschoben")
             else:
-                moved = _move_messages(mail, msg_ids, TARGET_FOLDER)
+                moved = _move_messages(mail, msg_ids, target_folder)
                 total += moved
                 print(f"  {sender}: {moved} Mail(s) verschoben")
 
