@@ -9,322 +9,269 @@ from email_regeln.move_to_delete import run
 
 ZUORDNUNGEN: dict[str, list[str]] = {
     # --- Bestehende Ordner, neue Adressen ---
-    "Folders/filter-andwendungen/openai": [
-        "noreply@email.openai.com",
-    ],
-    "Folders/filter-andwendungen/trade-republic": [
-        "service-de@traderepublic.com",
-    ],
-    "Folders/filter-andwendungen/remarkable": [
-        "newsletters@email.remarkable.com",
-    ],
-    "Folders/filter-andwendungen/bitwarden": [
-        "productupdates@bitwarden.com",
-    ],
-    "Folders/filter-andwendungen/airbnb": [
-        "no-reply@supportmessaging.airbnb.com",
-    ],
-    "Folders/filter-andwendungen/audible": [
-        "noreply@audible.de",
-    ],
-    "Folders/filter-andwendungen/trip.com": [
-        "de_flt_noreply@trip.com",
-    ],
-    "Folders/filter-andwendungen/freelancer-agenturen/soorce": [
-        "daniel.frech@soorce.de",
-    ],
-    "Folders/filter-andwendungen/gorillas": [
-        "news@newsletter.gorillasapp.com",
-    ],
-    "Folders/filter-andwendungen/antrophic": [
-        "support@mail.anthropic.com",
-    ],
+
     # --- Neue Ordner (siehe FOLDERS_TO_BE_CREATED) ---
+
+    "NOT-DELETIONofMAILSbefore2023":
+    [
+        "a.frietsch@computerfutures.de",
+        'aine@etke.cc',
+        'amdcommunity.mailer@amd.com',
+        'andrearuff@gmx.de',
+        'angebot@vattenfall.de',
+        'automatischeantwort@finanzamt.hamburg.de',
+        'beratung@mieterverein-hamburg.de',
+        'billing@b.etesync.com',
+        'bremer-rheumatologie@hamburg.de',
+
+
+        'computershare.npcegbcecmgekcdecd@cpucommunications.com',
+        'computershare.npcegbjemjgecdjejd@cpucommunications.com',
+        'computershare.npcegdgemcjecdlebl@cpucommunications.com',
+        'computershare.npcegdmeblcebhfemg@cpucommunications.com',
+        'computershare.npceggkejdbedfgedf@cpucommunications.com',
+
+        'connect@data.nasdaq.com',
+        'connect@quandl.com',
+        'contact@protonmail.com',
+        'coupons@galaxus.de',
+        'danja.kluever@gruene-hu.de',
+
+        'dennis.hamann@ownly.de',
+        'dennis@cubicl.de',
+        'dkluge@hanseatic-physio.de',
+        'do-not-reply@mgs-eportal.de',
+
+
+        'team@mail.remarkable.com',
+        'team@notebooksbilliger.de',
+        'team@remarkable.com',
+        'team@research.qubes-os.org',
+        'upcoming-invoice+acct_1apfzwjetinljgaa@stripe.com',
+        'usersfeedback@protonmail.com',
+        'uwe@harste.org',
+        'vbs22@bafin.de',
+        'ulf.kluever@gruene-hu.de',
+        'ulf.kluever@gruene-se-kv.de',
+        'ulf.kluever@protonmail.com',
+        'time@doodle.com',
+        'thomas.weinmann@astorius.net',
+        'svencarstens@carstens-stb.de',
+        'support-mailer@b.etesync.com',
+        'sophia@news.miles-mobility.com',
+        'studio@djmerlin.com', # alternate
+        'service@onvista-bank.de',
+        'service@notebooksbilliger.de',
+        'service@email.barclaycard.de',
+        'sepa-awpde@allianz.com',
+        'service-reise@allianz.com',
+        'sburgsdorff@mmwarburg.com',
+        'safli@web.de', # sarah flint
+        'retoure@x-kom.de',
+        'rbudinsky@mmwarburg.com',
+        'paket@dhl.de',
+        'pascal_dominik.greder@smail.th-koeln.de',
+        'pia-info@pleugerindustries.com',
+        'pricezilla@versand-status.de', # pixel 5 gekauft
+
+        'noreply@ionos.com',
+        'noreply@jameda.de',
+        'noreply@kaggle.com',
+        'noreply@notice-eu.roborock.com',
+        'noreply@stakingrewards.com',
+        'receipts+acct_1apfzwjetinljgaa@stripe.com',
+    ],
+
     "Folders/to-be-deleted": [
-        "noreply@booking-time.com",
-        "support@mathpix.com",
-        "admin@gearinstock.com",
-        "noreply@myfritz.net",
-        "noreply@hiveos.farm",
-        "info@balloonapp.de",
-        "info@solver.com",
-        "catalyst@iohk.io",
-        "info@easymeal.de",
-        "reminders@facebookmail.com",
-        "security@mail.instagram.com",
-        "no-reply@storj.io",
-        "chef@cuisine.rudirocks.com",
-        "newsletter@aktuelles.eat-the-world.com",
 
-        "info@reply.pixum.com",
-        "service-de@reply.pixum.com",
-        "reminders@facebookmail.com",
 
-        "donotreply@testflow.eu",
-
-        "info@einfach-zypern.com",
-        "noreply@newsletter.austrian.com",
-
-        "info@theaos.de",
-        "mail@ifttt.com",
-        "noreply@tomorrowland.com",
-        "info@fitmart.de",
-        "news@whitebit.com",
-        "community@pinecone.io",
-        "newsletter@pizzamax.de",
-        "noreply@clickandboat.com",
-        "noreply@pizzeria.de",
-    ],
-    "Folders/filter-andwendungen/google": [
-        "no-reply@accounts.google.com",
-        "googledev-noreply@google.com",
-    ],
-    "Folders/filter-andwendungen/stadt-hamburg": [
-        "noreply_serviceportal-hamburg@dataport.de",
-        "meinserviceportal@dataport.de",
-    ],
-    "Folders/filter-andwendungen/hauer-naturprodukte": [
-        "shop@hauer-naturprodukte.com",
-    ],
-    "Folders/filter-andwendungen/orgainic": [
-        "info@orgainic.com",
-    ],
-    "Folders/filter-andwendungen/webo-hosting": [
-        "support@webo.hosting",
-    ],
-    "Folders/filter-andwendungen/vorwerk": [
-        "kontakt@mkt.de.vorwerk.com",
-    ],
-    "Folders/filter-andwendungen/treatwell": [
-        "noreply@treatwell.de",
-    ],
-    "Folders/filter-andwendungen/weird-events": [
-        "tickets@weird-events.com",
-    ],
-    "Folders/filter-andwendungen/nymtech": [
-        "contact@nymtech.net",
-    ],
-    "Folders/filter-andwendungen/etke-host": [
-        "monitoring@etke.host",
-    ],
-    "Folders/filter-andwendungen/ttv-dance": [
-        "admin@ttv.dance",
-    ],
+         'do-not-reply@stackoverflow.email',
+         'do.not.reply@ikea.com',
+         'donotreply@godaddy.com',
+         'donotreply@remarkable.com',
+         'email@em.blizzard.com',
+         'emails@mail.etsy.com',
 
 
 
+         'empfang@trude-hh.de',
+         'empfangen@dpd.de',
+         'ergebnis@testformular.de',
+         'eta@1avisum.de',
+         'failed-payments+acct_1apfzwjetinljgaa@stripe.com',
+         'feedback@gorillasapp.com',
+         'feedback@mail.gorillasapp.es',
+         'flight_notification@bangkokair.com',
+         'foundation@dfinity.org',
+         'funda.zurnaci@flink-44a615fa4e6a.intercom-mail.com',
+         'galaxus@galaxus.de',
+         'galaxus@security.galaxus.de',
+         'hallo@getir.com',
+         'heide@alex-kitchen.de',
+         'hello@1password.com',
+         'hello@filebase.com',
+         'hello@goflink.com',
+         'hello@skynetlabs.com',
+         'hello@storj.io',
+         'help@disneyplus.com',
+         'help@gotinder.com',
+         'help@paddle.com',
+         'hoheluft@pokehamburg.de',
+         'huami@email.huami.com',
+         'igor@hiveon.net',
+         'immigrationofficegovernmentcomplexchaengwattanard@imm1division.onmicrosoft.com',
+         'inez@cubicl.de',
+         'info@1avisum.de',
+         'info@arena-supplements.de',
+         'info@aspire-shop.de',
+         'info@cb.mail.coinbase.com',
+         'info@computeruniverse.net',
+         'info@cryptomator.org',
+         'info@deltakonnect.de',
+         'info@dkb.de',
+         'info@dom-ticket.de',
+         'info@dyndnss.net',
+         'info@ew.eurowings.com',
+         'info@feel-festival.de',
+         'info@flatex.de',
+         'info@getir.com',
+         'info@hnoamrothenbaum.de',
+         'info@mail.samedi.de',
+         'info@mail.termin2go.com',
+         'info@morenutrition.de',
+         'info@news.dominos.de',
+         'info@onlysports.de',
+         'info@paket.dpd.de',
+         'info@physiosupplies.de',
+         'info@rueckzahlung.barclays.de',
+         'info@rundetrends.com',
+         'info@sertronics.shop',
+         'info@service.premiumkino.de',
+         'info@stadtradhamburg.de',
+         'info@webo.hosting',
+         'info@whitebit.com',
+         'interactive brokers client services',
+         'irving.yang@dfinity.org',
+         'irving_yang@dfinity.org',
+         'jan.steinke@ownly.de',
+         'jc95573@gmail.com',
+         'jonah@flink-44a615fa4e6a.intercom-mail.com',
+         'julia@plattenmonster.com',
+         'kundendialog@nah.sh',
+         'kundenservice@amorelie.de',
+         'kundenservice@debeka.de',
+         'kundenservice@pricezilla.de',
+         'kundenservice@spb-garant.de',
+         'learn@email1.asana.com',
+         'mail@argon-orthopaedie.de',
+         'mail@service.tvnow.de',
+         'mail@testme.hamburg',
+         'mailer-daemon@protonmail.com',
+         'marketing@mail.wolt.com',
+         'meineschufa@schufa.de',
+         'meital.matsafi@testproject.io',
+         'member.services@disneyaccount.com',
+         'members@medium.com',
+         'message.npcefmledbcedhmecg@cpucommunications.com',
+         'message.npcegbbemhfegllejg@cpucommunications.com',
+         'message.npcegbbemhfehbdedd@cpucommunications.com',
+         'message.npcegbbemhgecfbekl@cpucommunications.com',
+         'message.npcegdmefddedfkejh@cpucommunications.com',
+         'messenger@webex.com',
+         'michael_hunte@dfinity.org',
+         'mifit-feedback-auto@email.huami.com',
+         'miguelchapero@icloud.com',
+         'msb@atelier-bachert.de',
+         'neugebauer_katharina@ymail.com',
+         'news@ew.eurowings.com',
+         'news@nvidia.com',
+         'newsletter.de@clickandboat.com',
+         'newsletter@eat-the-world.com',
+         'newsletter@news.eat-the-world.com',
+         'newsletterversand@pizzamax.de',
+         'nicht.antworten@kundenservice.vodafone.com',
+         'nm@activatio.de',
+         'no-answer@condor.com',
+         'no-reply-pk@schufa.de',
+         'no-reply@agoda-email.com',
+         'no-reply@akash.network',
+         'no-reply@amorelie.de',
+         'no-reply@announcements.soundcloud.com',
+         'no-reply@app.protonmail.com',
+         'no-reply@app.protonvpn.com',
+         'no-reply@asana.com',
+         'no-reply@auth.appnotify.io',
+         'no-reply@coinbase.com',
+         'no-reply@fiverr.com',
+         'no-reply@jameda.de',
+         'no-reply@mailer.opodo.com',
+         'no-reply@news.protonmail.com',
+         'no-reply@notification.skype.com',
+         'no-reply@notify.docker.com',
+         'no-reply@notify.protonmail.com',
+         'no-reply@notify.protonvpn.com',
+         'no-reply@priority-send.eversports.com',
+         'no-reply@quandl.com',
+         'no-reply@qubes-os.opencollective.com',
+         'no-reply@restablo.de',
+         'no-reply@security.agoda.com',
+         'no-reply@sg.sgt.agoda-email.com',
+         'no-reply@transparenzregister.de',
+         'no-reply@xoom.com',
+         'no-reply@youtube.com',
+         'no-reply@zoom.us',
+         'nora.futaky@clickandboat.com',
+         'noreply-newsletter@debeka.de',
+         'noreply-utos@google.com',
+         'noreply.invitations@trustpilotmail.com',
+         'noreply.kundenkonto@dhl.de',
+         'noreply@astorius.net',
+         'noreply@blizzard.com',
+         'noreply@buhl.de',
+         'noreply@coinpayments.net',
+         'noreply@condor.com',
+         'noreply@d.tube',
+         'noreply@ddnss.de',
+         'noreply@dhl.com',
+         'noreply@discordapp.com',
+         'noreply@discuss.grapheneos.org',
+         'noreply@em.blizzard.com',
+         'noreply@etsy.com',
+         'noreply@europe-west-1.tardigrade.io',
+         'noreply@frittenwerk-shop.de',
+         'noreply@github.com',
+         'noreply@ikea.com',
+         'noreply@impfterminservice.de',
 
-    "Folders/filter-andwendungen/ramona-mertens": [
-        "noreply@lemniscus.de",
-        "info@tisso.de",
-        "info@nl.biogena.com",
-    ],
+         'noreply@lfconnect.com',
+         'noreply@mail.etsy.com',
+         'noreply@newsletter.callabike-interaktiv.de',
 
-    "Folders/filter-andwendungen/stakingrewards": [
-        "stakingrewards@substack.com",
-        "newsletter@stakingrewards.com",
-    ],
+         'noreply@notifications.getpostman.com',
 
+         'noreply@notifs.matrix.org',
+         'noreply@opodo.com',
+         'noreply@prosieben.de',
+         'noreply@shop.amd.com',
 
-    "Folders/filter-andwendungen/proton": [
-        "no-reply@news.proton.me",
-    ],
-    "Folders/filter-andwendungen/kickstarter": [
-        "no-reply@kickstarter.com",
-    ],
+         'noreply@testproject.io',
+         'noreply@tof.de',
+         'noreply@trackmyshipment.co',
+         'noreply@trymagic.com',
+         'noreply_mia@mieterverein-hamburg.de',
+         'notifications@buymeacoffee.com',
 
-    "Folders/filter-andwendungen/ubiquiti": [
-        "account-noreply@ui.com",
-    ],
+         'notifications@tchncs.de',
+         'official@amazfit.com',
+         'operator@flink-44a615fa4e6a.intercom-mail.com',
+         'orderconfirmation@digitalriver.com',
 
-
-    "Folders/filter-andwendungen/letsencrypt": [
-        "expiry@letsencrypt.org",
-    ],
-
-    "Folders/filter-andwendungen/notion": [
-        "notify@mail.notion.so",
-    ],
-    "Folders/filter-andwendungen/shein": [
-        "noreply@sheinnotice.com",
-    ],
-    "Folders/filter-andwendungen/lazada": [
-        "noreply@support.lazada.co.th",
-    ],
-    "Folders/filter-andwendungen/amd": [
-        "memberservices@amd-member.com",
-    ],
-    "Folders/filter-andwendungen/ebay": [
-        "ebay@reply.ebay.de",
-    ],
-
-
-
-
-
-
-    "Folders/filter-andwendungen/boom-festival": [
-        "info@community.boomfestival.org",
-    ],
-    "Folders/filter-andwendungen/doppelgaenger": [
-        "pip@mail.doppelgaenger.io",
-    ],
-    "Folders/filter-andwendungen/hostelworld": [
-        "noreply@email.hostelworld.com",
-        "no.reply@m.email.hostelworld.com",
-    ],
-    "Folders/filter-andwendungen/grab": [
-        "no-reply@grab.com",
-    ],
-
-    "Folders/filter-andwendungen/free-now": [
-        "no-reply@my.free-now.com",
-    ],
-    "Folders/filter-andwendungen/rewe": [
-        "reweshop@mailing.rewe.de",
-    ],
-    "Folders/filter-andwendungen/alternate": [
-        "info@alternate.de",
-    ],
-    "Folders/filter-andwendungen/samedi": [
-        "no-reply@mail.samedi.de",
-    ],
-    "Folders/filter-andwendungen/miles-and-more": [
-        "mail@mailing.milesandmore.com",
-    ],
-    "Folders/filter-andwendungen/psy-spirits": [
-        "info@psy-spirits.de",
-    ],
-    "Folders/filter-andwendungen/newsletter": [
-        "newsletter@mkt.flytap.com",
-    ],
-
-
-    "Folders/filter-andwendungen/vattenfall": [
-        "onlineservice@vattenfall.de",
-    ],
-
-
-    "Folders/filter-andwendungen/doodle": [
-        "mailer@doodle.com",
-    ],
-    "Folders/filter-andwendungen/chessly": [
-        "team@chessly.com",
-    ],
-    "Folders/filter-andwendungen/discord": [
-        "noreply@discord.com",
-    ],
-    "Folders/filter-andwendungen/refurbed": [
-        "peter@m.refurbed.com",
-    ],
-    "Folders/filter-andwendungen/buymeacoffee": [
-        "hello@buymeacoffee.com",
-    ],
-
-
-    "Folders/filter-andwendungen/hamburg-open-atp": [
-        "ticketing@hamburgopenatp500.com",
-    ],
-    "Folders/filter-andwendungen/debeka": [
-        "noreply-newsletter@info.debeka.de",
-    ],
-    "Folders/filter-andwendungen/emirates": [
-        "do-not-reply@emirates.email",
-    ],
-    "Folders/filter-andwendungen/alibaba": [
-        "alibaba@service.alibaba.com",
-    ],
-    "Folders/filter-andwendungen/medium": [
-        "noreply@medium.com",
-    ],
-    "Folders/filter-andwendungen/nespresso": [
-        "identification@nespresso.com",
     ],
 }
 
+
 FOLDERS_TO_BE_CREATED: list[str] = [
-    #"booking-time",
-    "google",
-    "stadt-hamburg",
-    #"mathpix",
-    "hauer-naturprodukte",
-    #"gearinstock",
-    "orgainic",
-    "webo-hosting",
-    "vorwerk",
-    "treatwell",
-    "weird-events",
-    "nymtech",
-    #"myfritz",
-    "etke-host",
-    "ttv-dance",
-    #"hiveos",
-    #"balloonapp",
-    # "solver",
-    "ramona-mertens",
-    #"iohk",
-    #"easymeal",
-    #"facebook",
-    "stakingrewards",
-   # "instagram",
-  #  "storj",
-    "proton",
-    "kickstarter",
-   # "rudirocks",
-   # "eat-the-world",
-    "ubiquiti",
-   # "pixum",
 
-
-
-   # "testflow",
-   # "austrian-airlines",
-   # "einfach-zypern",
-   # "tisso",
-   # "theaos",
-   # "ifttt",
-    #"biogena",
-    #"letsencrypt",
-    #"tomorrowland",
-    "notion",
-    "shein",
-    "lazada",
-    "amd",
-    "ebay",
-    #"fitmart",
-
-    "boom-festival",
-    "doppelgaenger",
-    "hostelworld",
-    "grab",
-    # "whitebit",
-    "free-now",
-    "rewe",
-    "alternate",
-    "samedi",
-    "miles-and-more",
-    "psy-spirits",
-
-
-    #"flytap",
-    "vattenfall",
-    #"pinecone",
-    #"pizzamax",
-
-
-    "doodle",
-    "chessly",
-    "discord",
-    "refurbed",
-    "buymeacoffee",
-    # "pizzeria-de",
-    # "clickandboat",
-    "hamburg-open-atp",
-    "debeka",
-    "emirates",
-    "alibaba",
-    "medium",
-    "nespresso",
 ]
 
 def create_dirs():

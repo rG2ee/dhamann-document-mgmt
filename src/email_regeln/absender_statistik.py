@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import imaplib
+import pprint
 from collections import defaultdict
 from email.header import decode_header
 from email.utils import parseaddr, parsedate_to_datetime
@@ -113,6 +114,15 @@ def _print_table(stats: dict[str, dict[int, int]]) -> None:
     print(f" | {grand_total:>{col_w}}")
 
 
+def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) -> list[str]:
+    """Gibt alle Absender zurück, die seit *since_year* (inklusive) keine Mail mehr geschickt haben."""
+    return sorted(
+        addr
+        for addr, yearly in stats.items()
+        if max(yearly) < since_year
+    )
+
+
 def main() -> None:
     print("Verbinde mit Protonmail Bridge …")
     mail = connect()
@@ -121,6 +131,10 @@ def main() -> None:
         stats = _fetch_sender_stats(mail)
         print()
         _print_table(stats)
+
+        inactive = _inactive_since(stats, since_year=2023)
+        print(f"\n\nAbsender ohne Mails seit 2023 ({len(inactive)}):\n")
+        pprint.pprint(inactive)
     finally:
         mail.logout()
 
