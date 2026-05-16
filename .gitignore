@@ -33,3 +33,7 @@ htmlcov/
 
 
 .env
+
+# E-Mail Backup
+backup/
+/dokumente/backup-mails/
