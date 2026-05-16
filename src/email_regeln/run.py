@@ -5,7 +5,7 @@ from __future__ import annotations
 import time
 
 from email_regeln.imap_connection import connect, create_email_folder_in_filter_anwendungen
-from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN1 as ZUORDNUNGEN
+
 from email_regeln.move_to_delete import run
 
 """
@@ -62,7 +62,8 @@ def move_emails(dry_run: bool, folder: str = "INBOX"):
     finally:
         mail.logout()
 
+from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN6 as ZUORDNUNGEN
 
 if __name__ == "__main__":
     # create_dirs()
-    move_emails(dry_run=False, folder="All Mail")
+    move_emails(dry_run=True, folder="All Mail")
