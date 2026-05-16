@@ -176,23 +176,20 @@ def main(
         host_stats, years=years, min_num_mails=min_num_mails,
     )
 
-    label = "Filter"
     parts: list[str] = []
     if years:
         parts.append(f"Jahre={years}")
     if min_num_mails > 1:
         parts.append(f"min_mails={min_num_mails}")
-    if parts:
-        label = ", ".join(parts)
-    else:
-        label = "alle Daten, kein Filter"
+    label = ", ".join(parts) if parts else "alle Daten, kein Filter"
     print(f"[{label}]\n")
 
     print("--- Absender-Statistik ---\n")
     _print_table(absender_filtered)
 
     print("\n\n--- Host-Statistik (mit E-Mails) ---\n")
-    host_to_emails_map = _build_host_to_emails(absender_filtered)
+    absender_year_filtered = _filter_stats(absender_stats, years=years, min_num_mails=1)
+    host_to_emails_map = _build_host_to_emails(absender_year_filtered)
     _print_host_with_emails(host_filtered, host_to_emails_map)
 
 
