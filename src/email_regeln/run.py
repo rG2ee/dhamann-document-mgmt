@@ -67,4 +67,4 @@ from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import Z
 if __name__ == "__main__":
     # create_dirs()
 
-    move_emails(dry_run=True, folder="All Mail")
+    move_emails(dry_run=False, folder="All Mail")
