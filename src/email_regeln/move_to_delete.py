@@ -39,17 +39,19 @@ def run(
     absender: list[str],
     *,
     target_folder: str = TARGET_FOLDER,
+    folder: str = "INBOX",
     dry_run: bool = True,
 ) -> None:
-    """Verschiebt alle Mails der gegebenen Absender aus INBOX in den Zielordner."""
+    """Verschiebt alle Mails der gegebenen Absender aus *folder* in den Zielordner."""
     if dry_run:
         print("=== DRY RUN – es werden keine Mails verschoben ===\n")
 
-    print(f"Verbinde mit Protonmail Bridge … Ziel: {target_folder}")
+    print(f"Verbinde mit Protonmail Bridge … Quelle: {folder}, Ziel: {target_folder}")
     mail = connect()
 
     try:
-        mail.select("INBOX", readonly=dry_run)
+        quoted = f'"{folder}"' if " " in folder else folder
+        mail.select(quoted, readonly=dry_run)
         total = 0
 
         for sender in absender:

@@ -34,12 +34,12 @@ def create_dirs():
         time.sleep(1)
 
 
-def move_emails(dry_run: bool):
+def move_emails(dry_run: bool, folder: str = "INBOX"):
     for ordner, absender in ZUORDNUNGEN.items():
         print(f"\n--- Verschiebe nach: {ordner} ---")
-        run(absender, target_folder=ordner, dry_run=dry_run)
+        run(absender, target_folder=ordner, folder=folder, dry_run=dry_run)
 
 
 if __name__ == "__main__":
     create_dirs()
-    move_emails(dry_run=False)
+    move_emails(dry_run=False, folder="All Mail")
