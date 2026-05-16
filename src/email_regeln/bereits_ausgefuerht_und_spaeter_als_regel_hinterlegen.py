@@ -2516,3 +2516,135 @@ ZUORDNUNGEN15: dict[str, list[str]] = {
 FOLDERS_TO_BE_CREATED15: list[str] = [
     "zepp",
 ]
+
+
+
+
+ZUORDNUNGEN16: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/spotify": [
+        "no-reply@alerts.spotify.com",
+    ],
+    "Folders/filter-andwendungen/allgeier": [
+        "recruiting@allgeier-itc.ch",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "no-reply-cc@apcoa.com",
+        "brb@blueribbonbags.com",
+        "all@confirmation.all.com",
+        "specialoffer@flyedelweiss.com",
+    ],
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "gerrit@boardlab.de",
+        "florian@freistetter.org",
+    ],
+    "Folders/filter-andwendungen/events": [
+        "service@bookandplay.de",
+        "noreply@brasil.tomorrowland.com",
+        "noreply@campaign.eventbrite.com",
+        "tickets@eventix.nl",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "tony.doan@brains-work.de",
+        "pavlos.batziakas@cyprec.com",
+        "sina@dev-x.tech",
+    ],
+    "Folders/filter-andwendungen/chess": [
+        "info@bryghtlabs.com",
+        "notification@crowdcontrol.co",
+    ],
+    "Folders/filter-andwendungen/stadt-hamburg": [
+        "noreply@callabike.de",
+    ],
+    "Folders/filter-andwendungen/emirates": [
+        "survey@care.emirates.email",
+    ],
+    "Folders/filter-andwendungen/eversports": [
+        "fitone@cc.magicline.com",
+    ],
+    "Folders/filter-andwendungen/ikea": [
+        "information@cm.order.email.ikea.com",
+    ],
+    "Folders/filter-andwendungen/nespresso": [
+        "noreply@contact.nespresso.com",
+    ],
+    "Folders/filter-andwendungen/american-express": [
+        "accountmanagement@corp.sixt.de",
+        "noreply@h5.hilton.com",
+    ],
+    "Folders/filter-andwendungen/patreon": [
+        "docile_alligator@creator.patreon.com",
+    ],
+    "Folders/filter-andwendungen/cursor": [
+        "no-reply@cursor.sh",
+    ],
+    "Folders/filter-andwendungen/deutsche-bahn": [
+        "noreply@db-fn.de",
+    ],
+    "Folders/filter-andwendungen/dhl-post": [
+        "n.kosselt@dhl.com",
+    ],
+    "Folders/filter-andwendungen/xing": [
+        "info@e-mail.xing.com",
+    ],
+    "Folders/filter-andwendungen/miro": [
+        "team@e.miro.com",
+    ],
+    "Folders/filter-andwendungen/uber": [
+        "contact_0d944e26-8d3b-458e-ad9e-077f1614d756@email-support.uber.com",
+    ],
+    "Folders/filter-andwendungen/antrophic": [
+        "no-reply@email.claude.com",
+    ],
+    "Folders/filter-andwendungen/google": [
+        "googledev-noreply@google.com",
+    ],
+    "Folders/filter-andwendungen/gintech": [
+        "ben@haffer.at",
+    ],
+    "Folders/filter-andwendungen/smartflow-consulting": [
+        "versand@belege.lexware.de",
+    ],
+    "Folders/shopping": [
+        "hello@evy.eu",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/h-und-m": [
+        "autoemail@autoemail.hm.com",
+        "membership@email.hm.com",
+    ],
+    "Folders/filter-andwendungen/hkl24": [
+        "online_miete@hkl24.com",
+    ],
+    "Folders/filter-andwendungen/gpodder": [
+        "no-reply@gpodder.net",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "support@cronometer.com",
+        "notifications@cuisine.rudirocks.com",
+        "recommendations@discover.pinterest.com",
+        "no-reply@email.alltrails.com",
+        "no-reply@fathom.video",
+        "reviews@feedback-ekomi.com",
+        "fred@fireflies.ai",
+        "notifications@forefront.ai",
+        "webmaster@futo.org",
+        "contact@hungry4.io",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED16: list[str] = [
+    "h-und-m",
+    "hkl24",
+    "gpodder",
+]
