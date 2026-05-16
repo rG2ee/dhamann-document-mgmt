@@ -2848,3 +2848,49 @@ FOLDERS_TO_BE_CREATED17: list[str] = [
     "jetbrains",
     "outline",
 ]
+
+
+
+
+ZUORDNUNGEN18: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/booking.com": [
+        "property.booking.com",
+    ],
+    "Folders/filter-andwendungen/kaufland": [
+        "kaufland-marketplace.com",
+    ],
+    "Folders/filter-andwendungen/stripe": [
+        "invoice+statements+acct_1apfzwjetinljgaa@stripe.com",
+    ],
+    "Folders/filter-andwendungen/refurbed": [
+        "ticket.refurbed.io",
+    ],
+    "Folders/filter-andwendungen/smartflow-consulting": [
+        "hubspotstarter.eu1.hs-send.com",
+    ],
+    "Folders/filter-andwendungen/chaos-computer-club": [
+        "37c3-tickets@cccv.de",
+        "39c3-tickets@cccv.de",
+    ],
+    "Folders/filter-andwendungen/fem-ai": [
+        "otter.ai",
+    ],
+    "Folders/filter-andwendungen/gesundheit": [
+        "no-q.info",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "wildpark-schwarze-berge.de",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "decathlon.com",
+        "deped.gov.ph",
+        "e-reply.eis.de",
+    ],
+}
