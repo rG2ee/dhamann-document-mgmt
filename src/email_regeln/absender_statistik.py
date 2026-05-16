@@ -5,6 +5,7 @@ from __future__ import annotations
 import imaplib
 import json
 import pprint
+import re
 from collections import defaultdict
 from email.header import decode_header
 from email.utils import parseaddr, parsedate_to_datetime
@@ -72,6 +73,10 @@ def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
                 if lower.startswith("from:"):
                     decoded = _decode_header_value(line[5:].strip())
                     _, from_addr = parseaddr(decoded)
+                    if not from_addr:
+                        m = re.search(r"<([^>]+)>", decoded)
+                        if m:
+                            from_addr = m.group(1)
                     from_addr = from_addr.lower()
                 elif lower.startswith("date:"):
                     try:
