@@ -41,13 +41,19 @@ def run(
     target_folder: str = TARGET_FOLDER,
     folder: str = "INBOX",
     dry_run: bool = True,
-) -> None:
-    """Verschiebt alle Mails der gegebenen Absender aus *folder* in den Zielordner."""
-    if dry_run:
-        print("=== DRY RUN – es werden keine Mails verschoben ===\n")
+    mail: imaplib.IMAP4 | None = None,
+) -> int:
+    """Verschiebt alle Mails der gegebenen Absender aus *folder* in den Zielordner.
 
-    print(f"Verbinde mit Protonmail Bridge … Quelle: {folder}, Ziel: {target_folder}")
-    mail = connect()
+    Gibt die Gesamtanzahl (gefunden bzw. verschoben) zurueck.
+    Wird *mail* uebergeben, wird die Verbindung NICHT geschlossen (Caller verwaltet sie).
+    """
+    own_connection = mail is None
+    if own_connection:
+        if dry_run:
+            print("=== DRY RUN – es werden keine Mails verschoben ===\n")
+        print(f"Verbinde mit Protonmail Bridge … Quelle: {folder}, Ziel: {target_folder}")
+        mail = connect()
 
     try:
         quoted = f'"{folder}"' if " " in folder else folder
@@ -59,23 +65,27 @@ def run(
             count = len(msg_ids)
 
             if count == 0:
-                print(f"  {sender}: keine Mails gefunden")
                 continue
 
             if dry_run:
                 print(f"  {sender}: {count} Mail(s) wuerden verschoben")
+                total += count
             else:
                 moved = _move_messages(mail, msg_ids, target_folder)
                 total += moved
                 print(f"  {sender}: {moved} Mail(s) verschoben")
 
-        print()
-        if dry_run:
-            print("Dry-Run abgeschlossen. Mit dry_run=False ausfuehren zum Verschieben.")
-        else:
-            print(f"Fertig. {total} Mail(s) insgesamt verschoben.")
+        if own_connection:
+            print()
+            if dry_run:
+                print("Dry-Run abgeschlossen. Mit dry_run=False ausfuehren zum Verschieben.")
+            else:
+                print(f"Fertig. {total} Mail(s) insgesamt verschoben.")
+
+        return total
     finally:
-        mail.logout()
+        if own_connection:
+            mail.logout()
 
 
 def undo(*, dry_run: bool = True) -> None:
