@@ -2420,3 +2420,99 @@ FOLDERS_TO_BE_CREATED14: list[str] = [
     "x-ai",
     "documentsgpt",
 ]
+
+
+
+
+ZUORDNUNGEN15: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/gesundheit": [
+        "kontakt@orthopaedikum-neuer-wall.de",
+        "no-reply@vicoach.io",
+        "automailer@terminland.de",
+        "saschahoff@yahoo.de",
+    ],
+    "Folders/filter-andwendungen/proton": [
+        "no-reply@recovery.proton.me",
+    ],
+    "Folders/filter-andwendungen/serverschrank24": [
+        "info@serverschrank24.de",
+    ],
+    "Folders/filter-andwendungen/stakingrewards": [
+        "mirko@stakingrewards.com",
+    ],
+    "Folders/filter-andwendungen/tap-milesandgo": [
+        "no-reply@tapmilesandgo.com",
+        "promo@tapmilesandgo.com",
+    ],
+    "Folders/filter-andwendungen/tivoli": [
+        "karten@tivoli.de",
+    ],
+    "Folders/filter-andwendungen/vorwerk": [
+        "dialog-service-center@vorwerk.de",
+        "auto-reply@rezeptwelt.de",
+        "support@trp.tmecosys.com",
+    ],
+    "Folders/filter-andwendungen/12go-asia": [
+        "noreply@12go.asia",
+    ],
+    "Folders/filter-andwendungen/swiss": [
+        "noreply@upgradebargain.swiss.com",
+    ],
+    "Folders/filter-andwendungen/microsoft": [
+        "account-security-noreply@accountprotection.microsoft.com",
+    ],
+    "Folders/filter-andwendungen/google": [
+        "noreply@youtube.com",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "coco@ruby-hotels.com",
+        "sanparks-no-reply@sanparks.org",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "guy.britton@source-technology.com",
+        "sam.pyzer@source-technology.com",
+    ],
+    "Folders/filter-andwendungen/events": [
+        "info@ticketswap.com",
+    ],
+    "Folders/filter-andwendungen/chaos-computer-club": [
+        "37c3-tickets@cccv.de",
+        "39c3-tickets@cccv.de",
+    ],
+    "Folders/shopping": [
+        "rating-noreply@trustedshops.com",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/zepp": [
+        "noreply@zepp.com",
+        "zeppos.support@zepp.com",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "sales2@refeedigital.com",
+        "jorg.brauer89@web.de",
+        "sigmar1.renner@web.de",
+        "pr@swapzone.io",
+        "support@texttodesign.ai",
+        "hi@tunemymusic.com",
+        "support@tunemymusic.com",
+        "bounces@updates.oknotify3.com",
+        "builderio@wootric.com",
+        "no-reply@serpapi.com",
+        "noreply@7pass.de",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED15: list[str] = [
+    "zepp",
+]
