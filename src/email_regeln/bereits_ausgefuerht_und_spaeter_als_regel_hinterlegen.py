@@ -1728,3 +1728,86 @@ ZUORDNUNGEN10: dict[str, list[str]] = {
         "windmuehle1@t-online.de",
     ],
 }
+
+
+ZUORDNUNGEN11: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/doctolib": [
+        "no-reply@infos.doctolib.com",
+    ],
+    "Folders/filter-andwendungen/hostelworld": [
+        "hostelworld@m.email.hostelworld.com",
+    ],
+    "Folders/filter-andwendungen/refurbed": [
+        "peter@n.refurbed.com",
+    ],
+    "Folders/filter-andwendungen/proton": [
+        "no-reply@notify.proton.me",
+    ],
+    "Folders/filter-andwendungen/trade-republic": [
+        "no-reply@traderepublic.com",
+    ],
+    "Folders/filter-andwendungen/computershare": [
+        "computershare.npcejhjeglgelmgegk@cpucommunications.com",
+        "computershare@cpucommunications.com",
+        "message.npcehcgebkfembhebj@cpucommunications.com",
+        "message.npcejbhedkbelkfedk@cpucommunications.com",
+        "message.npcejblefdjeldfefh@cpucommunications.com",
+        "message.npcejlmeclmebldekf@cpucommunications.com",
+    ],
+    "Folders/filter-andwendungen/stadt-hamburg": [
+        "noreply@callabike-interaktiv.de",
+    ],
+    "Folders/filter-andwendungen/etke-host": [
+        "partner@developer.etebase.com",
+    ],
+    "Folders/filter-andwendungen/booking.com": [
+        "no-reply@activitar.com",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "chloe@thryvetalent.com",
+        "oliver@thryvetalent.com",
+    ],
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/expedia": [
+        "expedia@eg.expedia.com",
+        "mail@eg.expedia.com",
+    ],
+    "Folders/filter-andwendungen/sunexpress": [
+        "bordkarte@sunexpress.com",
+        "webres@sunexpress.com",
+    ],
+    "Folders/filter-andwendungen/tap-milesandgo": [
+        "enews@info.tapmilesandgo.com",
+    ],
+    "Folders/filter-andwendungen/taures": [
+        "k_koeppen@taures.de",
+        "m_kuepers@taures.de",
+    ],
+    "Folders/filter-andwendungen/pleuger": [
+        "efaez@pleugerindustries.com",
+    ],
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "noreply@edigital.de",
+        "no-reply@realvnc.com",
+        "noreply@realvnc.com",
+        "cs@tricentis.com",
+        "m.turner@tricentis.com",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED11: list[str] = [
+    "expedia",
+    "sunexpress",
+    "tap-milesandgo",
+    "taures",
+    "pleuger",
+]

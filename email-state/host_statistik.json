@@ -29,9 +29,6 @@
   "accounts.expedia.com": {
     "2024": 4
   },
-  "activitar.com": {
-    "2025": 6
-  },
   "alerts.oknotify3.com": {
     "2024": 3
   },
@@ -142,11 +139,6 @@
   "bvg.de": {
     "2024": 2
   },
-  "callabike-interaktiv.de": {
-    "2022": 1,
-    "2023": 4,
-    "2024": 1
-  },
   "callabike.de": {
     "2026": 1
   },
@@ -216,11 +208,6 @@
   "coworkbooking.com": {
     "2026": 4
   },
-  "cpucommunications.com": {
-    "2023": 2,
-    "2024": 3,
-    "2025": 1
-  },
   "creator.patreon.com": {
     "2026": 1
   },
@@ -271,11 +258,6 @@
   "dev-x.tech": {
     "2024": 1
   },
-  "developer.etebase.com": {
-    "2023": 3,
-    "2024": 3,
-    "2025": 1
-  },
   "dhl.com": {
     "2024": 1
   },
@@ -315,15 +297,6 @@
   },
   "e.ray-ban.com": {
     "2025": 3
-  },
-  "edigital.de": {
-    "2020": 7,
-    "2023": 1
-  },
-  "eg.expedia.com": {
-    "2023": 1,
-    "2024": 2,
-    "2025": 4
   },
   "einfach-zypern.com": {
     "2026": 2
@@ -591,10 +564,6 @@
   "info.riverty.com": {
     "2024": 1
   },
-  "info.tapmilesandgo.com": {
-    "2025": 2,
-    "2026": 5
-  },
   "info.thetrainline.com": {
     "2025": 1
   },
@@ -603,12 +572,6 @@
   },
   "information.lufthansa.com": {
     "2025": 5
-  },
-  "infos.doctolib.com": {
-    "2022": 1,
-    "2023": 1,
-    "2024": 1,
-    "2026": 4
   },
   "infos.joyn.de": {
     "2023": 2
@@ -733,10 +696,6 @@
   "luxotticaretail.com": {
     "2025": 1
   },
-  "m.email.hostelworld.com": {
-    "2022": 4,
-    "2023": 3
-  },
   "m.maskworld.com": {
     "2024": 2,
     "2025": 3
@@ -825,9 +784,6 @@
   "mhpatent.de": {
     "2023": 3
   },
-  "michael": {
-    "2025": 1
-  },
   "microsoft account team": {
     "2024": 3,
     "2025": 3
@@ -878,10 +834,6 @@
   "myflexbox.de": {
     "2025": 1
   },
-  "n.refurbed.com": {
-    "2024": 1,
-    "2025": 6
-  },
   "netcup.de": {
     "2021": 3,
     "2023": 1
@@ -921,12 +873,6 @@
   },
   "notifications.microsoft.com": {
     "2024": 1
-  },
-  "notify.proton.me": {
-    "2023": 2,
-    "2024": 3,
-    "2025": 1,
-    "2026": 1
   },
   "novafind.eu": {
     "2025": 5
@@ -998,9 +944,6 @@
     "2024": 2,
     "2025": 2
   },
-  "pleugerindustries.com": {
-    "2024": 7
-  },
   "pm.me": {
     "2024": 3
   },
@@ -1058,10 +1001,6 @@
   "real-debrid.com": {
     "2021": 5,
     "2023": 1
-  },
-  "realvnc.com": {
-    "2021": 5,
-    "2024": 2
   },
   "recovery.proton.me": {
     "2024": 1,
@@ -1185,9 +1124,6 @@
   "stripe.com": {
     "2026": 1
   },
-  "sunexpress.com": {
-    "2024": 7
-  },
   "survey.flytap.com": {
     "2025": 4
   },
@@ -1208,10 +1144,6 @@
   },
   "tapmilesandgo.com": {
     "2025": 2
-  },
-  "taures.de": {
-    "2025": 6,
-    "2026": 1
   },
   "tdacservices.immigration.go.th": {
     "2026": 1
@@ -1238,9 +1170,6 @@
   "thermomix-rezeptwelt.maileon.de": {
     "2025": 1
   },
-  "thryvetalent.com": {
-    "2024": 8
-  },
   "ticketswap.com": {
     "2024": 2
   },
@@ -1261,19 +1190,12 @@
   "tomorrowland.com": {
     "2024": 1
   },
-  "traderepublic.com": {
-    "2025": 7
-  },
   "trakt.tv": {
     "2021": 4,
     "2023": 2
   },
   "tresorit.com": {
     "2026": 1
-  },
-  "tricentis.com": {
-    "2022": 1,
-    "2023": 7
   },
   "trip": {
     "2025": 1
