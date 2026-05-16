@@ -236,6 +236,6 @@ def main(
 
 if __name__ == "__main__":
     main(#years=[2025, 2026],
-         min_num_mails=3,
+         min_num_mails=2,
     print_related_mails=True,
     print_year_distribution=False)
