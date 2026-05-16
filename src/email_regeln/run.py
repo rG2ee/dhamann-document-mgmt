@@ -62,8 +62,9 @@ def move_emails(dry_run: bool, folder: str = "INBOX"):
     finally:
         mail.logout()
 
-from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN6 as ZUORDNUNGEN
+from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN7 as ZUORDNUNGEN
 
 if __name__ == "__main__":
     # create_dirs()
+
     move_emails(dry_run=True, folder="All Mail")
