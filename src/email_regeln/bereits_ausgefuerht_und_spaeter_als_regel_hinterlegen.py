@@ -2894,3 +2894,26 @@ ZUORDNUNGEN18: dict[str, list[str]] = {
         "e-reply.eis.de",
     ],
 }
+
+
+ZUORDNUNGEN19: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "danja.kluever@bs-pinneberg.de",
+    ],
+    "Folders/filter-andwendungen/hkl24": [
+        "nico.maerker@hkl24.com",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+    ],
+}
