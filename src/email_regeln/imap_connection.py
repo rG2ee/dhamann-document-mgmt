@@ -72,27 +72,6 @@ def _folder_message_count(mail: imaplib.IMAP4, folder: str) -> int | None:
     return None
 
 
-def print_folder_tree(mail: imaplib.IMAP4 | None = None) -> None:
-    """Gibt die Ordnerstruktur als Baum auf stdout aus (mit Mail-Anzahl)."""
-    own_connection = mail is None
-    if own_connection:
-        mail = connect()
-
-    try:
-        folders = list_folders(mail)
-
-        for folder in folders:
-            depth = folder.count("/")
-            name = folder.rsplit("/", 1)[-1]
-            count = _folder_message_count(mail, folder)
-            count_str = f" ({count})" if count is not None else ""
-            print(f"{'  ' * depth}{name}{count_str}")
-    finally:
-        if own_connection:
-            mail.logout()
-
-
-
 def create_email_folder_in_filter_anwendungen(
     folder_name: str, *, mail: imaplib.IMAP4 | None = None
 ) -> str:
@@ -123,13 +102,6 @@ def create_email_folder_in_filter_anwendungen(
 
 
 if __name__ == '__main__':
-    print_folder_tree()
+    from email_regeln.folder_tree import main as folder_tree_main
 
-    """
-    from email_regeln.imap_connection import connect
-    mail = connect()
-    mail.subscribe("Folders/filter-andwendungen/test")
-    mail.logout()
-    """
-
-    # create_email_folder_in_filter_anwendungen(folder_name="test1")
+    folder_tree_main(refresh=True)

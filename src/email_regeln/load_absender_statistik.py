@@ -195,4 +195,4 @@ def main(
 
 if __name__ == "__main__":
     main(#years=[2025, 2026],
-         min_num_mails=10)
+         min_num_mails=3)
