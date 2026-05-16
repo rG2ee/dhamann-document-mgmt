@@ -1319,7 +1319,7 @@ ZUORDNUNGEN8: dict[str, list[str]] = {
 }
 
 
-FOLDERS_TO_BE_CREATED89: list[str] = [
+FOLDERS_TO_BE_CREATED8: list[str] = [
     "gintech",
     # "urvin-finance",
     "shbb-steuerberater",
@@ -1629,7 +1629,7 @@ ZUORDNUNGEN9: dict[str, list[str]] = {
 }
 
 
-FOLDERS_TO_BE_CREATED: list[str] = [
+FOLDERS_TO_BE_CREATED9: list[str] = [
     "stripe",
     "ups",
     "freelancer-agenturen/nemensis",
