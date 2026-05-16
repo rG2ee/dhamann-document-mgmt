@@ -12,7 +12,7 @@ from pathlib import Path
 
 from email_regeln.imap_connection import connect
 
-STATE_DIR = Path("email-state")
+STATE_DIR = Path("/home/user/alle-freelancer-rechnungen/email-state")
 _ABSENDER_FILE = STATE_DIR / "absender_statistik.json"
 _HOST_FILE = STATE_DIR / "host_statistik.json"
 
@@ -166,12 +166,8 @@ def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) ->
     )
 
 
-def main() -> None:
-    cached = _load_stats()
-    if cached is not None:
-        stats, host_stats = cached
-        print(f"Statistiken aus {STATE_DIR}/ geladen.\n")
-    else:
+def main(*, refresh: bool = False) -> None:
+    if refresh:
         print("Verbinde mit Protonmail Bridge …")
         mail = connect()
         try:
@@ -181,6 +177,15 @@ def main() -> None:
             _save_stats(stats, host_stats)
         finally:
             mail.logout()
+    else:
+        cached = _load_stats()
+        if cached is None:
+            raise SystemExit(
+                f"Keine Statistiken gefunden in {STATE_DIR}/.\n"
+                "Bitte zuerst mit refresh=True ausführen."
+            )
+        stats, host_stats = cached
+        print(f"Statistiken aus {STATE_DIR}/ geladen.\n")
 
     print()
     _print_table(stats)
@@ -198,4 +203,6 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+
+    main(refresh=True)
