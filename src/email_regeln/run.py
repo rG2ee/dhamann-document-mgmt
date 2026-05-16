@@ -25,6 +25,7 @@ ZUORDNUNGEN: dict[str, list[str]] = {
 
 
 FOLDERS_TO_BE_CREATED: list[str] = [
+
 ]
 
 
@@ -41,5 +42,5 @@ def move_emails(dry_run: bool):
 
 
 if __name__ == "__main__":
-    #create_dirs()
+    create_dirs()
     move_emails(dry_run=False)

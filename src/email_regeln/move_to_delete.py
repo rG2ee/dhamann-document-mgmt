@@ -11,7 +11,16 @@ TARGET_FOLDER = "Folders/to-be-deleted"
 
 def _search_by_sender(mail: imaplib.IMAP4, sender: str) -> list[bytes]:
     """Sucht in der aktuell selektierten Mailbox nach Mails eines Absenders."""
-    _status, data = mail.search(None, "FROM", f'"{sender}"')
+    quoted = f'"{sender}"'
+    if sender.isascii():
+        _status, data = mail.search(None, "FROM", quoted)
+    else:
+        prev_encoding = mail._encoding
+        mail._encoding = "utf-8"
+        try:
+            _status, data = mail.search("UTF-8", "FROM", quoted)
+        finally:
+            mail._encoding = prev_encoding
     return data[0].split()
 
 

@@ -1811,3 +1811,189 @@ FOLDERS_TO_BE_CREATED11: list[str] = [
     "taures",
     "pleuger",
 ]
+
+
+ZUORDNUNGEN12: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/cubicl": [
+        "christian@cubicl.de",
+    ],
+    "Folders/filter-andwendungen/remarkable": [
+        "orders@email.remarkable.com",
+        "support@email.remarkable.com",
+    ],
+    "Folders/filter-andwendungen/tap-milesandgo": [
+        "no-reply.upgrade@flytap.com",
+        "no-reply@flytap.com",
+    ],
+    "Folders/filter-andwendungen/hamburg-open-atp": [
+        "info@hamburgopenatp500.com",
+        "ticketing@hamburgopenatp500.com",
+    ],
+    "Folders/filter-andwendungen/wolt": [
+        "julia@mail.wolt.com",
+    ],
+    "Folders/filter-andwendungen/booking.com": [
+        "4952642251-d6qr.fcns.hb7h.yd2q@property.booking.com",
+        "4952642251-w8wc.3jwe.szvj.wqxt@property.booking.com",
+        "5211139891-wc6e.vcqs.yrbt.wwzh@property.booking.com",
+        "6596025691-4qcr.gmg3.jdy6.myfp@property.booking.com",
+        "6647943121-hf69.a2gp.4bsn.3p2r@property.booking.com",
+    ],
+    "Folders/filter-andwendungen/amorelie": [
+        "support@amorelie.com",
+    ],
+    "Folders/filter-andwendungen/bitwarden": [
+        "accountsreceivable@bitwarden.com",
+        "care@bitwarden.com",
+        "support@bitwarden.com",
+    ],
+    "Folders/filter-andwendungen/vorwerk": [
+        "noreply@cookidoo.vorwerk.com",
+    ],
+    "Folders/filter-andwendungen/galaxus": [
+        "noreply@galaxus.de",
+    ],
+    "Folders/filter-andwendungen/cursor": [
+        "hi@mail.cursor.com",
+        "michael@mail.cursor.com",
+    ],
+    "Folders/filter-andwendungen/free-now": [
+        "no-reply@mail.free-now.com",
+    ],
+    "Folders/filter-andwendungen/doctolib": [
+        "no-reply@news.doctolib.com",
+    ],
+    "Folders/filter-andwendungen/moia": [
+        "noreply@payment.moia-mail.io",
+    ],
+
+    "Folders/filter-andwendungen/weird-events": [
+        "mail@tixforgigs.com",
+    ],
+    "Folders/filter-andwendungen/gesundheit": [
+        "orthopädikum",
+        "gigi@powherbeat.com",
+        "noreply@shore.com",
+        "hello@blackroll.com",
+        "shop.de@blackroll.com",
+    ],
+    "Folders/filter-andwendungen/newsletter": [
+        "info@e-mail.joyn.de",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "noreply@email.harveynash.com",
+        "datenschutz@digitalassociates.de",
+        "g.radev@digitalassociates.de",
+        "m.kodjabasheva@digitalassociates.de",
+    ],
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "tatjana_klamm@outlook.de",
+    ],
+    "Folders/filter-andwendungen/stadt-hamburg": [
+        "noreply@novafind.eu",
+    ],
+    "Folders/filter-andwendungen/kagi": [
+        "upcoming-invoice+acct_1onsbvcnwd9gsalm@stripe.com",
+        "invoice+statements+acct_1onsbvcnwd9gsalm@stripe.com",
+    ],
+    "Folders/shopping": [
+        "de@delivery.hm.com",
+        "aorus@gigabyte.com",
+        "mailing@m.maskworld.com",
+        "purchase@m.maskworld.com",
+        "contact@zenlap.com",
+        "petros@zenlap.com",
+    ],
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/chaos-computer-club": [
+        "37c3-tickets@cccv.de",
+        "39c3-tickets@cccv.de",
+    ],
+    "Folders/filter-andwendungen/huggingface": [
+        "michelle@huggingface.co",
+        "philipp@huggingface.co",
+        "website+xet@huggingface.co",
+        "website@huggingface.co",
+    ],
+    "Folders/filter-andwendungen/janado": [
+        "service@janado.de",
+    ],
+    "Folders/filter-andwendungen/kaufland": [
+        "noreply@kaufland-marktplatz.de",
+    ],
+    "Folders/filter-andwendungen/kopfundsteine": [
+        "ticketshop@kopfundsteine.de",
+    ],
+    "Folders/filter-andwendungen/microsoft": [
+        "microsoft account team",
+    ],
+    "Folders/filter-andwendungen/miro": [
+        "invite@notification.miro.com",
+        "no-reply@notification.miro.com",
+        "miroverse@mail.miro.com",
+        "team@mail.miro.com",
+    ],
+    "Folders/filter-andwendungen/paylogic": [
+        "no-reply@paylogic.com",
+    ],
+    "Folders/filter-andwendungen/easybank": [
+        "noreply@service.easybank.de",
+    ],
+    "Folders/filter-andwendungen/skribble": [
+        "no-reply@skribble.com",
+    ],
+    "Folders/filter-andwendungen/lufthansa": [
+        "newsletter@your.lufthansa-group.com",
+        "service@your.lufthansa-group.com",
+        "flight.service@information.lufthansa.com",
+    ],
+    "Folders/filter-andwendungen/fedex": [
+        "noreply@fedex.com",
+        "trackingupdates@fedex.com",
+    ],
+    "Folders/filter-andwendungen/letsencrypt": [
+        "noreply@letsencrypt.org",
+    ],
+    "Folders/filter-andwendungen/serverschrank24": [
+        "info@dsit.de",
+    ],
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "hello@email.wandb.com",
+        "hello@go.storj.io",
+        "noreply@real-debrid.com",
+        "support@trakt.tv",
+        "no-reply@gymmasteronline.com",
+        "noreply@mountainduck.io",
+        "store+58967031989@t.shopifyemail.com",
+        "store+84431700233@t.shopifyemail.com",
+        "info@twitter.com",
+        "verify@twitter.com",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED12: list[str] = [
+    "chaos-computer-club",
+    "huggingface",
+    "janado",
+    "kaufland",
+    "kopfundsteine",
+    "microsoft",
+    "miro",
+    "paylogic",
+    "easybank",
+    "skribble",
+    "lufthansa",
+    "fedex",
+    "letsencrypt",
+    "serverschrank24",
+]
+
