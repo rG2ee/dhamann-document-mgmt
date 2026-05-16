@@ -140,8 +140,8 @@ def _save_stats(
     def _serializable(d: dict[str, dict[int, int]]) -> dict[str, dict[str, int]]:
         return {addr: {str(y): c for y, c in yearly.items()} for addr, yearly in d.items()}
 
-    _ABSENDER_FILE.write_text(json.dumps(_serializable(stats), indent=2, ensure_ascii=False))
-    _HOST_FILE.write_text(json.dumps(_serializable(host_stats), indent=2, ensure_ascii=False))
+    _ABSENDER_FILE.write_text(json.dumps(_serializable(stats), indent=2, ensure_ascii=False, sort_keys=True))
+    _HOST_FILE.write_text(json.dumps(_serializable(host_stats), indent=2, ensure_ascii=False, sort_keys=True))
     print(f"Statistiken gespeichert in {STATE_DIR}/")
 
 

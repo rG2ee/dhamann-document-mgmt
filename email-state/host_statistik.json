@@ -1,1364 +1,571 @@
 {
-  "emirates.com": {
-    "2026": 2
-  },
-  "info.tapmilesandgo.com": {
-    "2026": 5,
-    "2025": 2
-  },
-  "kagi by with reach": {
-    "2026": 4,
-    "2025": 1
-  },
-  "immobilienscout24.de": {
-    "2026": 4
-  },
-  "t-online.de": {
-    "2026": 2,
-    "2025": 27,
-    "2024": 14,
-    "2023": 4
-  },
-  "confirmation.all.com": {
-    "2026": 1
-  },
-  "hermes zustellbenachrichtigung": {
-    "2026": 1,
-    "2025": 1
-  },
-  "property.booking.com": {
-    "2026": 1,
-    "2025": 4,
-    "2024": 1
-  },
-  "mail.notion.so": {
-    "2026": 1
-  },
-  "news.doctolib.com": {
-    "2026": 3,
-    "2025": 1,
-    "2023": 1
-  },
-  "care.emirates.email": {
-    "2026": 1
-  },
-  "notify.proton.me": {
-    "2026": 1,
-    "2025": 1,
-    "2024": 3,
-    "2023": 2
-  },
-  "hermes": {
-    "2026": 1,
-    "2025": 2
-  },
-  "shore.com": {
-    "2026": 1,
-    "2023": 5
-  },
-  "brasil.tomorrowland.com": {
-    "2026": 1
-  },
-  "hermes benachrichtigungsfunktion": {
-    "2026": 1
-  },
-  "service.easybank.de": {
-    "2026": 6
-  },
-  "x.ai": {
-    "2026": 3
-  },
-  "sita.aero": {
-    "2026": 2,
-    "2025": 1
-  },
-  "callabike.de": {
-    "2026": 1
-  },
-  "accounts.emirates.email": {
-    "2026": 2
-  },
-  "belege.lexware.de": {
-    "2026": 1
-  },
-  "infos.doctolib.com": {
-    "2026": 4,
-    "2024": 1,
-    "2023": 1,
-    "2022": 1
-  },
-  "winter.tomorrowland.com": {
-    "2026": 1
-  },
-  "leonard zimmermann": {
-    "2026": 1
-  },
-  "interactivebrokers.ie": {
-    "2026": 1,
-    "2024": 1,
-    "2023": 2
-  },
-  "email.prioritypass.com": {
-    "2026": 3,
-    "2025": 1
-  },
-  "cookidoo.vorwerk.com": {
-    "2026": 3,
-    "2025": 1,
-    "2024": 1
-  },
-  "mail.audible.com": {
-    "2026": 1
-  },
-  "id.atlassian.com": {
-    "2026": 3
-  },
-  "email.doctolib.com": {
-    "2026": 1,
-    "2025": 1
-  },
-  "blueribbonbags.com": {
-    "2026": 1
-  },
-  "updates.oknotify3.com": {
-    "2026": 1,
-    "2025": 1
-  },
-  "info.hostelworld.com": {
-    "2026": 2
-  },
-  "jetbrains.com": {
-    "2026": 1
-  },
-  "fusehostelsandtravel.com": {
-    "2026": 2
-  },
-  "tdacservices.immigration.go.th": {
-    "2026": 1
-  },
-  "mue-thaimassage.de": {
-    "2026": 1
-  },
-  "mail.postman.com": {
-    "2026": 1
-  },
   "12go.asia": {
-    "2026": 1
-  },
-  "mountainduck.io": {
-    "2026": 1,
-    "2025": 2,
-    "2024": 2
-  },
-  "elbphilharmonie laeiszhalle hamburg": {
-    "2026": 1,
-    "2025": 2
-  },
-  "allgeier-itc.ch": {
-    "2026": 1
-  },
-  "orthopädikum": {
-    "2026": 3,
-    "2025": 3
-  },
-  "mail.free-now.com": {
-    "2026": 1,
-    "2025": 2,
-    "2023": 2
-  },
-  "comspot.repair": {
-    "2026": 3
-  },
-  "mail.miro.com": {
-    "2026": 2,
-    "2025": 2,
-    "2024": 1
-  },
-  "insideapple.apple.com": {
-    "2026": 1
-  },
-  "taures.de": {
-    "2026": 1,
-    "2025": 6
-  },
-  "kadewe.de": {
-    "2026": 1
-  },
-  "moyn-ticket.de": {
-    "2026": 3
-  },
-  "joplincloud.com": {
-    "2026": 2,
-    "2023": 1
-  },
-  "modemfestival.com": {
-    "2026": 4
-  },
-  "coworkbooking.com": {
-    "2026": 4
-  },
-  "lichess.org": {
-    "2026": 1,
-    "2025": 1
-  },
-  "email.harveynash.com": {
-    "2026": 2,
-    "2025": 3,
-    "2024": 1
-  },
-  "fathom.video": {
     "2026": 1
   },
   "5612126.brevosend.com": {
     "2025": 2
   },
-  "t.email.hostelworld.com": {
-    "2026": 1
-  },
-  "developer.etebase.com": {
-    "2025": 1,
-    "2024": 3,
-    "2023": 3
-  },
-  "digitalassociates.de": {
-    "2025": 1,
-    "2024": 4
-  },
-  "accounts.dev": {
-    "2025": 3
-  },
-  "mail.cursor.com": {
-    "2025": 5
-  },
-  "valyue.de": {
-    "2025": 1,
-    "2024": 2
-  },
-  "email.alltrails.com": {
-    "2025": 1
-  },
-  "eventim-light.com": {
-    "2025": 2
-  },
-  "ing.de": {
-    "2025": 2
-  },
-  "groq.com": {
-    "2025": 2
-  },
-  "link.com": {
-    "2025": 4
-  },
-  "info.thetrainline.com": {
-    "2025": 1
-  },
-  "email.claude.com": {
-    "2025": 1
-  },
-  "e-mail.xing.com": {
-    "2025": 1
-  },
-  "sport.decathlon.de": {
-    "2025": 1
-  },
-  "notification.miro.com": {
-    "2025": 6
-  },
-  "account.traderepublic.com": {
-    "2025": 2
-  },
-  "buyzoxs.de": {
-    "2025": 2,
-    "2023": 2
-  },
-  "caseking.de": {
-    "2025": 2,
-    "2020": 1
-  },
-  "product.miro.com": {
+  "7pass.de": {
     "2025": 1
   },
   "abogado": {
     "2025": 1
   },
-  "h5.hilton.com": {
-    "2025": 1
+  "account.miro.com": {
+    "2024": 2
   },
-  "gymmasteronline.com": {
-    "2025": 5
+  "account.traderepublic.com": {
+    "2025": 2
   },
-  "audible.de": {
-    "2025": 1,
+  "accountprotection.microsoft.com": {
     "2024": 1
+  },
+  "accounts.dev": {
+    "2025": 3
+  },
+  "accounts.emirates.email": {
+    "2026": 2
+  },
+  "accounts.expedia.com": {
+    "2024": 4
   },
   "activitar.com": {
     "2025": 6
   },
-  "express.medallia.com": {
-    "2025": 2
-  },
-  "cccv.de": {
-    "2025": 3,
-    "2023": 2
-  },
-  "external.kadewe.com": {
-    "2025": 3,
-    "2024": 1
-  },
-  "information.lufthansa.com": {
-    "2025": 5
-  },
-  "recovery.proton.me": {
-    "2025": 1,
-    "2024": 1
-  },
-  "vicoach.io": {
-    "2025": 1,
-    "2024": 1
-  },
-  "playchessup.com": {
-    "2025": 2,
-    "2024": 2
-  },
-  "qemailserver.com": {
-    "2025": 2
-  },
-  "de": {
-    "2025": 2
-  },
-  "boardingpass.lufthansa.com": {
-    "2025": 2
-  },
-  "link2extreme.com": {
-    "2025": 2
-  },
-  "traderepublic.com": {
-    "2025": 7
-  },
-  "trip": {
-    "2025": 1
-  },
-  "updates.notion.so": {
-    "2025": 1
-  },
-  "rscw.de": {
-    "2025": 1
-  },
-  "e.ray-ban.com": {
-    "2025": 3
-  },
-  "luxotticaretail.com": {
-    "2025": 1
-  },
-  "paygenius.co.za": {
-    "2025": 2
-  },
-  "prosperalink-7.com": {
-    "2025": 1
-  },
-  "upgradebargain.swiss.com": {
-    "2025": 2
-  },
-  "boardingpass.swiss.com": {
-    "2025": 2
-  },
-  "cloudbeds.com": {
-    "2025": 3
-  },
-  "7pass.de": {
-    "2025": 1
-  },
-  "flyedelweiss.com": {
-    "2025": 1
-  },
-  "bitwarden.com": {
-    "2025": 1,
-    "2024": 2,
-    "2020": 2
-  },
-  "huggingface.co": {
-    "2025": 1,
-    "2024": 1,
-    "2023": 4
-  },
-  "eu1.storj.io": {
-    "2025": 3
-  },
-  "eg.expedia.com": {
-    "2025": 4,
-    "2024": 2,
-    "2023": 1
-  },
-  "mieterjournal.de": {
-    "2025": 1
-  },
-  "email-support.uber.com": {
-    "2025": 1
-  },
-  "gigabyte.com": {
-    "2025": 2,
-    "2021": 3
-  },
-  "ionos.de": {
-    "2025": 1
-  },
-  "gpodder.net": {
-    "2025": 1
-  },
-  "audible.com": {
-    "2025": 4
-  },
-  "communication.microsoft.com": {
-    "2025": 1,
-    "2024": 1
-  },
-  "venturi-group.com": {
-    "2025": 1
-  },
-  "novafind.eu": {
-    "2025": 5
-  },
-  "gamma.app": {
-    "2025": 3
-  },
-  "orthopaedie-elsterplatz.de": {
-    "2025": 2
-  },
-  "feedbackemail.americanexpress.com": {
-    "2025": 4
-  },
-  "email.hm.com": {
-    "2025": 1
-  },
-  "sixt.com": {
-    "2025": 3,
-    "2021": 1
-  },
-  "zepp.com": {
-    "2025": 2
-  },
-  "email-marriott.com": {
-    "2025": 3
-  },
-  "h6.hilton.com": {
-    "2025": 4
-  },
-  "multisafepay.com": {
-    "2025": 1,
-    "2024": 1
-  },
-  "stadtradhamburg.de": {
-    "2025": 1,
-    "2024": 1,
-    "2023": 1,
-    "2022": 1
-  },
-  "sanparks.org": {
-    "2025": 2
-  },
-  "survey.flytap.com": {
-    "2025": 4
-  },
-  "dsit.de": {
-    "2025": 2,
+  "alerts.oknotify3.com": {
     "2024": 3
   },
-  "mailing.rewe.de": {
-    "2025": 1,
-    "2024": 1
-  },
-  "serverschrank24.de": {
-    "2025": 1,
-    "2024": 1
-  },
-  "my-notification.flytap.com": {
-    "2025": 4
-  },
-  "info.flytap.com": {
-    "2025": 2
-  },
-  "noti.swiss.com": {
-    "2025": 1
-  },
-  "mail.wolt.com": {
-    "2025": 1,
-    "2024": 2,
-    "2023": 2,
-    "2022": 1
-  },
-  "your.lufthansa-group.com": {
-    "2025": 6
-  },
-  "flytap.com": {
-    "2025": 6
-  },
-  "yolawo.de": {
-    "2025": 1
-  },
-  "connect.lieferando.de": {
-    "2025": 2
-  },
-  "brains-work.de": {
-    "2025": 1
-  },
-  "corp.sixt.de": {
+  "alerts.spotify.com": {
     "2025": 1
   },
   "ali": {
     "2025": 4
   },
-  "telegram.org": {
-    "2025": 1
-  },
-  "documentsgpt.com": {
-    "2025": 3
-  },
-  "email.remarkable.com": {
-    "2025": 1,
-    "2024": 3,
-    "2023": 1,
-    "2022": 1
-  },
-  "rezeptwelt.de": {
-    "2025": 1,
-    "2024": 1
-  },
-  "haspa.de": {
-    "2025": 2
-  },
-  "✅": {
-    "2025": 1
-  },
-  "contact.nespresso.com": {
-    "2025": 1
-  },
-  "de.nespresso.com": {
-    "2025": 4
-  },
-  "email.meetup.com": {
-    "2025": 2
-  },
-  "galaxus.de": {
-    "2025": 4,
-    "2023": 1
-  },
-  "security.galaxus.de": {
-    "2025": 1,
-    "2024": 1,
-    "2023": 1
-  },
-  "hinge.co": {
-    "2025": 3
-  },
-  "hamburgopenatp500.com": {
-    "2025": 5,
+  "allgeier-itc.ch": {
     "2026": 1
-  },
-  "news.de.shein.com": {
-    "2025": 1,
-    "2024": 2
-  },
-  "delivery.hm.com": {
-    "2025": 6
-  },
-  "mieterverein-newsletter.de": {
-    "2025": 1
-  },
-  "insolvenzschutz-mail.drsf.reise": {
-    "2025": 1,
-    "2024": 1
-  },
-  "michael": {
-    "2025": 1
-  },
-  "autoemail.hm.com": {
-    "2025": 1
-  },
-  "alerts.spotify.com": {
-    "2025": 1
-  },
-  "deiters.de": {
-    "2025": 2
-  },
-  "interactive brokers ireland limited": {
-    "2025": 1,
-    "2024": 1,
-    "2023": 1,
-    "2022": 1
-  },
-  "cpucommunications.com": {
-    "2025": 1,
-    "2024": 3,
-    "2023": 2
-  },
-  "fireflies.ai": {
-    "2025": 1
-  },
-  "kaufland-marktplatz.de": {
-    "2025": 6
-  },
-  "n.refurbed.com": {
-    "2025": 6,
-    "2024": 1
-  },
-  "letsencrypt.org": {
-    "2025": 4,
-    "2022": 1
-  },
-  "ds_e-sales_gmbh | mc4zw3q": {
-    "2025": 2
-  },
-  "encarnação": {
-    "2025": 1
-  },
-  "tisso.de": {
-    "2025": 1,
-    "2026": 2
-  },
-  "vaporexmachina.de": {
-    "2025": 3
-  },
-  "powherbeat.com": {
-    "2025": 5,
-    "2024": 1
-  },
-  "wetransfer.com": {
-    "2025": 1,
-    "2024": 2
-  },
-  "wootric.com": {
-    "2025": 2
-  },
-  "info.ebay.de": {
-    "2025": 2
-  },
-  "inspire.pinterest.com": {
-    "2025": 1
-  },
-  "source-technology.com": {
-    "2025": 1,
-    "2024": 1
-  },
-  "myflexbox.de": {
-    "2025": 1
-  },
-  "klarna.gr": {
-    "2025": 1
-  },
-  "skribble.com": {
-    "2025": 6
-  },
-  "tapmilesandgo.com": {
-    "2025": 2
-  },
-  "apcoa.com": {
-    "2025": 1
-  },
-  "futo.org": {
-    "2025": 1
-  },
-  "zulip.futo.org": {
-    "2025": 4
-  },
-  "vorwerk.com": {
-    "2025": 1
-  },
-  "microsoft account team": {
-    "2025": 3,
-    "2024": 3
-  },
-  "smile.austrian.com": {
-    "2025": 1
-  },
-  "noreply.market.home24.de": {
-    "2025": 4
-  },
-  "audioplay-events.com": {
-    "2025": 2
-  },
-  "mail.hinge.co": {
-    "2025": 4
-  },
-  "fedex.com": {
-    "2025": 1,
-    "2024": 4
-  },
-  "m.maskworld.com": {
-    "2025": 3,
-    "2024": 2
-  },
-  "thermomix-rezeptwelt.maileon.de": {
-    "2025": 1
-  },
-  "ruby-hotels.com": {
-    "2025": 2
-  },
-  "bvg.de": {
-    "2024": 2
-  },
-  "jsanconsulting.com": {
-    "2025": 3
-  },
-  "info.riverty.com": {
-    "2024": 1
-  },
-  "everfit-mail.com": {
-    "2025": 2
-  },
-  "elbphilharmonie.de": {
-    "2025": 1
-  },
-  "xcover.com": {
-    "2024": 3
-  },
-  "cursor.sh": {
-    "2024": 1
-  },
-  "alerts.oknotify3.com": {
-    "2024": 3
-  },
-  "tivoli.de": {
-    "2024": 2
-  },
-  "pm.me": {
-    "2024": 3
-  },
-  "texttodesign.ai": {
-    "2024": 2
-  },
-  "sendcloud.com": {
-    "2024": 3
-  },
-  "t.shopifyemail.com": {
-    "2024": 5
-  },
-  "larsglobisch.com": {
-    "2025": 1
-  },
-  "progressiverecruitment.com": {
-    "2024": 1
-  },
-  "physio-lutterothstrasse.de": {
-    "2024": 1,
-    "2023": 1
-  },
-  "wger.de": {
-    "2024": 1
-  },
-  "bryghtlabs.com": {
-    "2024": 1
-  },
-  "koe-hair.de": {
-    "2024": 1
-  },
-  "sunexpress.com": {
-    "2024": 7
-  },
-  "promo.istyle.id": {
-    "2024": 1
-  },
-  "krimi-trails.de": {
-    "2024": 1
-  },
-  "amorelie.com": {
-    "2024": 5
-  },
-  "crowdcontrol.co": {
-    "2024": 1
-  },
-  "blackroll.com": {
-    "2024": 5
-  },
-  "emmy-sharing.de": {
-    "2024": 1,
-    "2022": 1
-  },
-  "maskworld.com": {
-    "2024": 4
-  },
-  "trp.tmecosys.com": {
-    "2024": 2
-  },
-  "skins4u.de": {
-    "2024": 3
-  },
-  "feedback-ekomi.com": {
-    "2024": 1
-  },
-  "goflink.com": {
-    "2024": 3
-  },
-  "cubicl.de": {
-    "2024": 6
-  },
-  "e.blizzard.com": {
-    "2024": 2
-  },
-  "payment.moia-mail.io": {
-    "2024": 2,
-    "2023": 3
-  },
-  "vorwerk.de": {
-    "2024": 2
-  },
-  "mail.cronometer.com": {
-    "2024": 1
-  },
-  "cyprec.com": {
-    "2024": 1
-  },
-  "outlook.com": {
-    "2024": 2
-  },
-  "cblank.de": {
-    "2024": 1,
-    "2020": 2
-  },
-  "canva.com": {
-    "2024": 3
-  },
-  "estelleyoga.com": {
-    "2024": 2
-  },
-  "axitera.de": {
-    "2024": 1
-  },
-  "opentable | go by steffen henssler hamburg reservierung": {
-    "2024": 2
-  },
-  "amoriabond.com": {
-    "2024": 2
-  },
-  "opentable.de": {
-    "2024": 1,
-    "2023": 3
-  },
-  "evy.eu": {
-    "2024": 1
-  },
-  "sc-fahrpreisnacherhebung.de": {
-    "2024": 1
-  },
-  "kopfundsteine.de": {
-    "2024": 6
-  },
-  "db-fn.de": {
-    "2024": 1
-  },
-  "trustedshops.com": {
-    "2024": 1,
-    "2022": 1
-  },
-  "account.miro.com": {
-    "2024": 2
-  },
-  "eventix.nl": {
-    "2024": 1
-  },
-  "hva-systemes.com": {
-    "2024": 1
-  },
-  "e.miro.com": {
-    "2024": 1
-  },
-  "matratzen-concord.de": {
-    "2024": 4
-  },
-  "tunemymusic.com": {
-    "2024": 2
-  },
-  "dhl.com": {
-    "2024": 1
-  },
-  "pozngo.com": {
-    "2024": 2
-  },
-  "vodafone.com": {
-    "2024": 1
-  },
-  "ruggell.li": {
-    "2024": 3
-  },
-  "email.etsy.com": {
-    "2024": 1,
-    "2023": 1,
-    "2022": 1
-  },
-  "campingwagner.de": {
-    "2024": 4
-  },
-  "feedback.decathlon.com": {
-    "2024": 2
-  },
-  "refurbed service": {
-    "2024": 1
-  },
-  "janado.de": {
-    "2024": 6
-  },
-  "realvnc.com": {
-    "2024": 2,
-    "2021": 5
-  },
-  "messages.xoom.com": {
-    "2024": 1
-  },
-  "lexoffice.de": {
-    "2024": 2
-  },
-  "enterprise.com": {
-    "2024": 2
-  },
-  "services.decathlon.de": {
-    "2024": 3
-  },
-  "service.decathlon.com": {
-    "2024": 1
-  },
-  "partners.decathlon.com": {
-    "2024": 2
-  },
-  "external.kadewegroup.com": {
-    "2024": 4
-  },
-  "ticketswap.com": {
-    "2024": 2
-  },
-  "service.refurbed.com": {
-    "2024": 1
-  },
-  "cronometer.com": {
-    "2024": 1
-  },
-  "paylogic.com": {
-    "2024": 3,
-    "2023": 2,
-    "2022": 1
-  },
-  "creatorkit.com": {
-    "2024": 2,
-    "2023": 1
-  },
-  "servicepaket93.de": {
-    "2024": 1
-  },
-  "pentrovill.de": {
-    "2024": 1
-  },
-  "sushifuerhamburg.com": {
-    "2024": 1
-  },
-  "laruche-logistique.fr": {
-    "2024": 2
-  },
-  "iterate.ch": {
-    "2024": 1
-  },
-  "profacts.eu": {
-    "2024": 1
-  },
-  "patrick gordon | elbeit consult gmbh": {
-    "2024": 2
-  },
-  "delivery-status.com": {
-    "2024": 2
-  },
-  "digichance.eu": {
-    "2024": 1,
-    "2023": 3
-  },
-  "battle.net": {
-    "2024": 2
-  },
-  "zenlap.com": {
-    "2024": 5
-  },
-  "sheinemail.com": {
-    "2024": 1
-  },
-  "ngrok.com": {
-    "2024": 4
-  },
-  "wandb.com": {
-    "2024": 4
-  },
-  "email.wandb.com": {
-    "2024": 6
-  },
-  "managilityltd.com": {
-    "2024": 1
-  },
-  "infomail.microsoft.com": {
-    "2024": 1
-  },
-  "bengalurologicalsociety.org": {
-    "2024": 1
-  },
-  "notifications.microsoft.com": {
-    "2024": 1
-  },
-  "notificationmail.microsoft.com": {
-    "2024": 1
-  },
-  "macincloud.com": {
-    "2024": 4
-  },
-  "accountprotection.microsoft.com": {
-    "2024": 1
-  },
-  "progressive.de": {
-    "2024": 1
-  },
-  "mail.beehiiv.com": {
-    "2024": 1
-  },
-  "callabike-interaktiv.de": {
-    "2024": 1,
-    "2023": 4,
-    "2022": 1
-  },
-  "refeedigital.com": {
-    "2024": 2
-  },
-  "ideas.pinterest.com": {
-    "2024": 1
-  },
-  "foxmail.com": {
-    "2024": 2
-  },
-  "susanne-friedrich.com": {
-    "2024": 1
-  },
-  "de.expediamail.com": {
-    "2024": 2,
-    "2023": 1
-  },
-  "accounts.expedia.com": {
-    "2024": 4
-  },
-  "boardlab.de": {
-    "2024": 1
-  },
-  "tiuldi.createsend7.com": {
-    "2024": 1
-  },
-  "expedia.com": {
-    "2024": 1,
-    "2023": 1
-  },
-  "sg.booking.com": {
-    "2024": 1
-  },
-  "th.expediamail.com": {
-    "2024": 1
-  },
-  "mint": {
-    "2024": 1
-  },
-  "info.filebase.com": {
-    "2024": 1
-  },
-  "tomorrowland.com": {
-    "2024": 1
-  },
-  "koh": {
-    "2024": 1
-  },
-  "constaff.com": {
-    "2024": 2
-  },
-  "mund-consulting.de": {
-    "2024": 1
-  },
-  "wabcon.de": {
-    "2024": 1
-  },
-  "haffer.at": {
-    "2024": 1
-  },
-  "eversports.com": {
-    "2024": 2
-  },
-  "pcs-it.at": {
-    "2024": 1
-  },
-  "pleugerindustries.com": {
-    "2024": 7
-  },
-  "gulp.de": {
-    "2024": 1
-  },
-  "sthree.com": {
-    "2024": 3
-  },
-  "mindsquare.de": {
-    "2024": 2
-  },
-  "thryvetalent.com": {
-    "2024": 8
-  },
-  "p": {
-    "2024": 1
-  },
-  "joyit-berlin.de": {
-    "2024": 1
-  },
-  "team-hy.de": {
-    "2024": 2
-  },
-  "dev-x.tech": {
-    "2024": 1
-  },
-  "icloud.com": {
-    "2024": 1
-  },
-  "pvs-se.de": {
-    "2023": 4
-  },
-  "celona.com": {
-    "2023": 3
-  },
-  "gelenketesch.de": {
-    "2023": 2
-  },
-  "trakt.tv": {
-    "2023": 2,
-    "2021": 4
-  },
-  "lawrenceharvey.com": {
-    "2023": 1
-  },
-  "zoxs.de": {
-    "2023": 4
-  },
-  "streber24.de": {
-    "2023": 4
-  },
-  "m.email.hostelworld.com": {
-    "2023": 3,
-    "2022": 4
-  },
-  "pca.levillagebyca.com": {
-    "2023": 1
-  },
-  "builder.dontvacuum.me": {
-    "2023": 3
-  },
-  "bookandplay.de": {
-    "2023": 1
-  },
-  "mail.gorillasapp.de": {
-    "2023": 1,
-    "2022": 2
-  },
-  "web.de": {
-    "2023": 2
-  },
-  "whitebit.promo": {
-    "2023": 1
-  },
-  "email.patreon.com": {
-    "2023": 2
-  },
-  "edigital.de": {
-    "2023": 1,
-    "2020": 7
-  },
-  "spectrumemails.com": {
-    "2023": 1
-  },
-  "outlook.de": {
-    "2023": 1,
-    "2022": 1,
-    "2021": 2,
-    "2020": 1
-  },
-  "reddit.com": {
-    "2023": 1,
-    "2021": 1,
-    "2020": 1
-  },
-  "x.com": {
-    "2023": 1
-  },
-  "mhpatent.de": {
-    "2023": 3
-  },
-  "bahn.de": {
-    "2023": 2
-  },
-  "ra.co": {
-    "2023": 1
-  },
-  "mailing.mgs-eportal.de": {
-    "2023": 2
-  },
-  "freistetter.org": {
-    "2023": 1
-  },
-  "cc.magicline.com": {
-    "2023": 1
-  },
-  "manuelhehle.com": {
-    "2023": 3
-  },
-  "terminland.de": {
-    "2023": 2
-  },
-  "discover.pinterest.com": {
-    "2023": 1
-  },
-  "twitter.com": {
-    "2023": 3,
-    "2021": 2
-  },
-  "e-mail.joyn.de": {
-    "2023": 4,
-    "2022": 2
-  },
-  "justcom.de": {
-    "2023": 3,
-    "2022": 1
-  },
-  "infos.joyn.de": {
-    "2023": 2
-  },
-  "swapzone.io": {
-    "2023": 2
   },
   "alternate.de": {
     "2023": 2
   },
-  "biogena.com": {
-    "2023": 2
+  "amorelie.com": {
+    "2024": 5
   },
-  "pass.proton.me": {
-    "2023": 1
-  },
-  "forefront.ai": {
-    "2023": 1
-  },
-  "notifications.huggingface.co": {
-    "2023": 2
-  },
-  "biogena.at": {
-    "2023": 2
-  },
-  "laion.ai": {
-    "2023": 3
-  },
-  "stakingrewards.com": {
-    "2023": 2
-  },
-  "norsan.de": {
-    "2023": 2
-  },
-  "youtube.com": {
-    "2023": 1,
-    "2021": 1
-  },
-  "mitgliederverwaltung.fitness": {
-    "2023": 1,
-    "2022": 2
-  },
-  "go.storj.io": {
-    "2023": 1,
-    "2022": 5
-  },
-  "lenovo.com": {
-    "2023": 1
-  },
-  "cuisine.rudirocks.com": {
-    "2023": 1
-  },
-  "serpapi.com": {
-    "2023": 2
-  },
-  "tricentis.com": {
-    "2023": 7,
-    "2022": 1
-  },
-  "service.emmy-sharing.de": {
-    "2023": 1
-  },
-  "mail.openai.com": {
-    "2023": 1
-  },
-  "postbank.de": {
-    "2023": 4
-  },
-  "tixforgigs.com": {
-    "2023": 2,
-    "2021": 3
-  },
-  "netcup.de": {
-    "2023": 1,
-    "2021": 3
-  },
-  "real-debrid.com": {
-    "2023": 1,
-    "2021": 5
-  },
-  "yahoo.de": {
-    "2023": 2
-  },
-  "kalo-hamburg.de": {
-    "2023": 1,
-    "2022": 2
-  },
-  "mail.getoutline.com": {
-    "2023": 1
-  },
-  "etesync.com": {
-    "2022": 1,
-    "2023": 1
-  },
-  "the-ascott.com": {
-    "2022": 2,
-    "2023": 1
-  },
-  "apotheke am hauptbahnhof via no-q digital customer queueing": {
-    "2022": 2
-  },
-  "buy me a coffee": {
-    "2021": 1
-  },
-  "rathaus-apotheke via no-q digital customer queueing": {
-    "2021": 2
+  "amoriabond.com": {
+    "2024": 2
   },
   "antares-apotheke hohe weide via no-q digital customer queueing": {
     "2021": 2,
     "2022": 1
   },
-  "wir": {
+  "apcoa.com": {
+    "2025": 1
+  },
+  "apotheke am hauptbahnhof via no-q digital customer queueing": {
+    "2022": 2
+  },
+  "audible.com": {
+    "2025": 4
+  },
+  "audible.de": {
+    "2024": 1,
+    "2025": 1
+  },
+  "audioplay-events.com": {
+    "2025": 2
+  },
+  "autoemail.hm.com": {
+    "2025": 1
+  },
+  "axitera.de": {
+    "2024": 1
+  },
+  "bahn.de": {
+    "2023": 2
+  },
+  "battle.net": {
+    "2024": 2
+  },
+  "belege.lexware.de": {
+    "2026": 1
+  },
+  "bengalurologicalsociety.org": {
+    "2024": 1
+  },
+  "biogena.at": {
+    "2023": 2
+  },
+  "biogena.com": {
+    "2023": 2
+  },
+  "bitwarden.com": {
+    "2020": 2,
+    "2024": 2,
+    "2025": 1
+  },
+  "blackroll.com": {
+    "2024": 5
+  },
+  "blueribbonbags.com": {
+    "2026": 1
+  },
+  "boardingpass.lufthansa.com": {
+    "2025": 2
+  },
+  "boardingpass.swiss.com": {
+    "2025": 2
+  },
+  "boardlab.de": {
+    "2024": 1
+  },
+  "bookandplay.de": {
+    "2023": 1
+  },
+  "brains-work.de": {
+    "2025": 1
+  },
+  "brasil.tomorrowland.com": {
+    "2026": 1
+  },
+  "bryghtlabs.com": {
+    "2024": 1
+  },
+  "builder.dontvacuum.me": {
+    "2023": 3
+  },
+  "buy me a coffee": {
     "2021": 1
   },
-  "wildpark schwarze berge online shop": {
-    "2021": 2
+  "buyzoxs.de": {
+    "2023": 2,
+    "2025": 2
   },
-  "creator.patreon.com": {
+  "bvg.de": {
+    "2024": 2
+  },
+  "callabike-interaktiv.de": {
+    "2022": 1,
+    "2023": 4,
+    "2024": 1
+  },
+  "callabike.de": {
     "2026": 1
   },
   "campaign.eventbrite.com": {
     "2026": 1
   },
-  "posteo.de": {
+  "campingwagner.de": {
+    "2024": 4
+  },
+  "canva.com": {
+    "2024": 3
+  },
+  "care.emirates.email": {
+    "2026": 1
+  },
+  "caseking.de": {
+    "2020": 1,
+    "2025": 2
+  },
+  "cblank.de": {
+    "2020": 2,
+    "2024": 1
+  },
+  "cc.magicline.com": {
+    "2023": 1
+  },
+  "cccv.de": {
+    "2023": 2,
+    "2025": 3
+  },
+  "celona.com": {
+    "2023": 3
+  },
+  "cloudbeds.com": {
+    "2025": 3
+  },
+  "cm.order.email.ikea.com": {
+    "2026": 1
+  },
+  "communication.microsoft.com": {
+    "2024": 1,
+    "2025": 1
+  },
+  "comspot.repair": {
     "2026": 3
   },
-  "mkt.flytap.com": {
-    "2026": 2
-  },
-  "news.traderepublic.com": {
+  "confirmation.all.com": {
     "2026": 1
   },
-  "lemniscus.de": {
+  "connect.lieferando.de": {
+    "2025": 2
+  },
+  "constaff.com": {
+    "2024": 2
+  },
+  "contact.nespresso.com": {
+    "2025": 1
+  },
+  "cookidoo.vorwerk.com": {
+    "2024": 1,
+    "2025": 1,
+    "2026": 3
+  },
+  "corp.sixt.de": {
+    "2025": 1
+  },
+  "coworkbooking.com": {
+    "2026": 4
+  },
+  "cpucommunications.com": {
+    "2023": 2,
+    "2024": 3,
+    "2025": 1
+  },
+  "creator.patreon.com": {
     "2026": 1
   },
-  "mailing.milesandmore.com": {
-    "2026": 1
+  "creatorkit.com": {
+    "2023": 1,
+    "2024": 2
+  },
+  "cronometer.com": {
+    "2024": 1
+  },
+  "crowdcontrol.co": {
+    "2024": 1
+  },
+  "cubicl.de": {
+    "2024": 6
+  },
+  "cuisine.rudirocks.com": {
+    "2023": 1
+  },
+  "cursor.sh": {
+    "2024": 1
+  },
+  "cyprec.com": {
+    "2024": 1
+  },
+  "db-fn.de": {
+    "2024": 1
+  },
+  "de": {
+    "2025": 2
+  },
+  "de.expediamail.com": {
+    "2023": 1,
+    "2024": 2
+  },
+  "de.nespresso.com": {
+    "2025": 4
+  },
+  "deiters.de": {
+    "2025": 2
+  },
+  "delivery-status.com": {
+    "2024": 2
+  },
+  "delivery.hm.com": {
+    "2025": 6
+  },
+  "dev-x.tech": {
+    "2024": 1
+  },
+  "developer.etebase.com": {
+    "2023": 3,
+    "2024": 3,
+    "2025": 1
+  },
+  "dhl.com": {
+    "2024": 1
+  },
+  "digichance.eu": {
+    "2023": 3,
+    "2024": 1
+  },
+  "digitalassociates.de": {
+    "2024": 4,
+    "2025": 1
+  },
+  "discover.pinterest.com": {
+    "2023": 1
+  },
+  "documentsgpt.com": {
+    "2025": 3
+  },
+  "ds_e-sales_gmbh | mc4zw3q": {
+    "2025": 2
+  },
+  "dsit.de": {
+    "2024": 3,
+    "2025": 2
+  },
+  "e-mail.joyn.de": {
+    "2022": 2,
+    "2023": 4
+  },
+  "e-mail.xing.com": {
+    "2025": 1
+  },
+  "e.blizzard.com": {
+    "2024": 2
+  },
+  "e.miro.com": {
+    "2024": 1
+  },
+  "e.ray-ban.com": {
+    "2025": 3
+  },
+  "edigital.de": {
+    "2020": 7,
+    "2023": 1
+  },
+  "eg.expedia.com": {
+    "2023": 1,
+    "2024": 2,
+    "2025": 4
   },
   "einfach-zypern.com": {
     "2026": 2
+  },
+  "elbphilharmonie laeiszhalle hamburg": {
+    "2025": 2,
+    "2026": 1
+  },
+  "elbphilharmonie.de": {
+    "2025": 1
+  },
+  "email-marriott.com": {
+    "2025": 3
+  },
+  "email-support.uber.com": {
+    "2025": 1
+  },
+  "email.alltrails.com": {
+    "2025": 1
+  },
+  "email.claude.com": {
+    "2025": 1
+  },
+  "email.doctolib.com": {
+    "2025": 1,
+    "2026": 1
+  },
+  "email.etsy.com": {
+    "2022": 1,
+    "2023": 1,
+    "2024": 1
+  },
+  "email.harveynash.com": {
+    "2024": 1,
+    "2025": 3,
+    "2026": 2
+  },
+  "email.hm.com": {
+    "2025": 1
+  },
+  "email.hostelworld.com": {
+    "2026": 2
+  },
+  "email.meetup.com": {
+    "2025": 2
+  },
+  "email.patreon.com": {
+    "2023": 2
+  },
+  "email.prioritypass.com": {
+    "2025": 1,
+    "2026": 3
+  },
+  "email.remarkable.com": {
+    "2022": 1,
+    "2023": 1,
+    "2024": 3,
+    "2025": 1
+  },
+  "email.wandb.com": {
+    "2024": 6
+  },
+  "emirates.com": {
+    "2026": 2
+  },
+  "emmy-sharing.de": {
+    "2022": 1,
+    "2024": 1
+  },
+  "encarnação": {
+    "2025": 1
+  },
+  "enterprise.com": {
+    "2024": 2
+  },
+  "estelleyoga.com": {
+    "2024": 2
+  },
+  "etesync.com": {
+    "2022": 1,
+    "2023": 1
+  },
+  "eu1.storj.io": {
+    "2025": 3
+  },
+  "eventim-light.com": {
+    "2025": 2
+  },
+  "eventix.nl": {
+    "2024": 1
+  },
+  "everfit-mail.com": {
+    "2025": 2
+  },
+  "eversports.com": {
+    "2024": 2
+  },
+  "evy.eu": {
+    "2024": 1
+  },
+  "expedia.com": {
+    "2023": 1,
+    "2024": 1
+  },
+  "express.medallia.com": {
+    "2025": 2
+  },
+  "external.kadewe.com": {
+    "2024": 1,
+    "2025": 3
+  },
+  "external.kadewegroup.com": {
+    "2024": 4
+  },
+  "fathom.video": {
+    "2026": 1
+  },
+  "fedex.com": {
+    "2024": 4,
+    "2025": 1
+  },
+  "feedback-ekomi.com": {
+    "2024": 1
+  },
+  "feedback.decathlon.com": {
+    "2024": 2
+  },
+  "feedbackemail.americanexpress.com": {
+    "2025": 4
+  },
+  "fireflies.ai": {
+    "2025": 1
+  },
+  "flyedelweiss.com": {
+    "2025": 1
+  },
+  "flytap.com": {
+    "2025": 6
+  },
+  "forefront.ai": {
+    "2023": 1
+  },
+  "foxmail.com": {
+    "2024": 2
+  },
+  "freistetter.org": {
+    "2023": 1
+  },
+  "fusehostelsandtravel.com": {
+    "2026": 2
+  },
+  "futo.org": {
+    "2025": 1
+  },
+  "galaxus.de": {
+    "2023": 1,
+    "2025": 4
+  },
+  "gamma.app": {
+    "2025": 3
+  },
+  "gelenketesch.de": {
+    "2023": 2
+  },
+  "gigabyte.com": {
+    "2021": 3,
+    "2025": 2
+  },
+  "go.storj.io": {
+    "2022": 5,
+    "2023": 1
+  },
+  "goflink.com": {
+    "2024": 3
+  },
+  "google.com": {
+    "2026": 1
+  },
+  "gpodder.net": {
+    "2025": 1
+  },
+  "groq.com": {
+    "2025": 2
+  },
+  "gulp.de": {
+    "2024": 1
+  },
+  "gymmasteronline.com": {
+    "2025": 5
+  },
+  "h5.hilton.com": {
+    "2025": 1
+  },
+  "h6.hilton.com": {
+    "2025": 4
+  },
+  "haffer.at": {
+    "2024": 1
+  },
+  "hamburgopenatp500.com": {
+    "2025": 5,
+    "2026": 1
+  },
+  "haspa.de": {
+    "2025": 2
+  },
+  "hermes": {
+    "2025": 2,
+    "2026": 1
+  },
+  "hermes benachrichtigungsfunktion": {
+    "2026": 1
+  },
+  "hermes zustellbenachrichtigung": {
+    "2025": 1,
+    "2026": 1
+  },
+  "hinge.co": {
+    "2025": 3
+  },
+  "hkl24.com": {
+    "2026": 1
+  },
+  "huggingface.co": {
+    "2023": 4,
+    "2024": 1,
+    "2025": 1
+  },
+  "hungry4.io": {
+    "2026": 1
+  },
+  "hva-systemes.com": {
+    "2024": 1
+  },
+  "icloud.com": {
+    "2024": 1
+  },
+  "id.atlassian.com": {
+    "2026": 3
+  },
+  "ideas.pinterest.com": {
+    "2024": 1
   },
   "ifttt.com": {
     "2026": 1
@@ -1366,43 +573,830 @@
   "ikea.com": {
     "2026": 2
   },
-  "cm.order.email.ikea.com": {
-    "2026": 1
+  "immobilienscout24.de": {
+    "2026": 4
   },
-  "xceed.me": {
-    "2026": 1
+  "info.ebay.de": {
+    "2025": 2
   },
-  "hungry4.io": {
-    "2026": 1
+  "info.filebase.com": {
+    "2024": 1
   },
-  "google.com": {
-    "2026": 1
+  "info.flytap.com": {
+    "2025": 2
   },
-  "email.hostelworld.com": {
+  "info.hostelworld.com": {
     "2026": 2
   },
-  "tresorit.com": {
+  "info.riverty.com": {
+    "2024": 1
+  },
+  "info.tapmilesandgo.com": {
+    "2025": 2,
+    "2026": 5
+  },
+  "info.thetrainline.com": {
+    "2025": 1
+  },
+  "infomail.microsoft.com": {
+    "2024": 1
+  },
+  "information.lufthansa.com": {
+    "2025": 5
+  },
+  "infos.doctolib.com": {
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2026": 4
+  },
+  "infos.joyn.de": {
+    "2023": 2
+  },
+  "ing.de": {
+    "2025": 2
+  },
+  "insideapple.apple.com": {
     "2026": 1
   },
-  "order.email.ikea.com": {
-    "2026": 3
+  "insolvenzschutz-mail.drsf.reise": {
+    "2024": 1,
+    "2025": 1
   },
-  "hkl24.com": {
+  "inspire.pinterest.com": {
+    "2025": 1
+  },
+  "interactive brokers ireland limited": {
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+  },
+  "interactivebrokers.ie": {
+    "2023": 2,
+    "2024": 1,
     "2026": 1
   },
-  "mail.doppelgaenger.io": {
+  "ionos.de": {
+    "2025": 1
+  },
+  "iterate.ch": {
+    "2024": 1
+  },
+  "janado.de": {
+    "2024": 6
+  },
+  "jetbrains.com": {
     "2026": 1
   },
-  "stripe.com": {
+  "joplincloud.com": {
+    "2023": 1,
+    "2026": 2
+  },
+  "joyit-berlin.de": {
+    "2024": 1
+  },
+  "jsanconsulting.com": {
+    "2025": 3
+  },
+  "justcom.de": {
+    "2022": 1,
+    "2023": 3
+  },
+  "kadewe.de": {
     "2026": 1
+  },
+  "kagi by with reach": {
+    "2025": 1,
+    "2026": 4
+  },
+  "kalo-hamburg.de": {
+    "2022": 2,
+    "2023": 1
+  },
+  "kaufland-marktplatz.de": {
+    "2025": 6
+  },
+  "klarna.gr": {
+    "2025": 1
+  },
+  "koe-hair.de": {
+    "2024": 1
+  },
+  "koh": {
+    "2024": 1
+  },
+  "kopfundsteine.de": {
+    "2024": 6
+  },
+  "krimi-trails.de": {
+    "2024": 1
+  },
+  "laion.ai": {
+    "2023": 3
+  },
+  "larsglobisch.com": {
+    "2025": 1
+  },
+  "laruche-logistique.fr": {
+    "2024": 2
+  },
+  "lawrenceharvey.com": {
+    "2023": 1
+  },
+  "lemniscus.de": {
+    "2026": 1
+  },
+  "lenovo.com": {
+    "2023": 1
+  },
+  "leonard zimmermann": {
+    "2026": 1
+  },
+  "letsencrypt.org": {
+    "2022": 1,
+    "2025": 4
+  },
+  "lexoffice.de": {
+    "2024": 2
+  },
+  "lichess.org": {
+    "2025": 1,
+    "2026": 1
+  },
+  "link.com": {
+    "2025": 4
+  },
+  "link2extreme.com": {
+    "2025": 2
+  },
+  "luxotticaretail.com": {
+    "2025": 1
+  },
+  "m.email.hostelworld.com": {
+    "2022": 4,
+    "2023": 3
+  },
+  "m.maskworld.com": {
+    "2024": 2,
+    "2025": 3
+  },
+  "macincloud.com": {
+    "2024": 4
   },
   "mail.anthropic.com": {
     "2026": 1
   },
-  "ui.com": {
+  "mail.audible.com": {
     "2026": 1
+  },
+  "mail.beehiiv.com": {
+    "2024": 1
+  },
+  "mail.cronometer.com": {
+    "2024": 1
+  },
+  "mail.cursor.com": {
+    "2025": 5
+  },
+  "mail.doppelgaenger.io": {
+    "2026": 1
+  },
+  "mail.free-now.com": {
+    "2023": 2,
+    "2025": 2,
+    "2026": 1
+  },
+  "mail.getoutline.com": {
+    "2023": 1
+  },
+  "mail.gorillasapp.de": {
+    "2022": 2,
+    "2023": 1
+  },
+  "mail.hinge.co": {
+    "2025": 4
+  },
+  "mail.miro.com": {
+    "2024": 1,
+    "2025": 2,
+    "2026": 2
+  },
+  "mail.notion.so": {
+    "2026": 1
+  },
+  "mail.openai.com": {
+    "2023": 1
+  },
+  "mail.postman.com": {
+    "2026": 1
+  },
+  "mail.wolt.com": {
+    "2022": 1,
+    "2023": 2,
+    "2024": 2,
+    "2025": 1
+  },
+  "mailing.mgs-eportal.de": {
+    "2023": 2
+  },
+  "mailing.milesandmore.com": {
+    "2026": 1
+  },
+  "mailing.rewe.de": {
+    "2024": 1,
+    "2025": 1
+  },
+  "managilityltd.com": {
+    "2024": 1
+  },
+  "manuelhehle.com": {
+    "2023": 3
+  },
+  "maskworld.com": {
+    "2024": 4
+  },
+  "matratzen-concord.de": {
+    "2024": 4
+  },
+  "messages.xoom.com": {
+    "2024": 1
+  },
+  "mhpatent.de": {
+    "2023": 3
+  },
+  "michael": {
+    "2025": 1
+  },
+  "microsoft account team": {
+    "2024": 3,
+    "2025": 3
+  },
+  "mieterjournal.de": {
+    "2025": 1
+  },
+  "mieterverein-newsletter.de": {
+    "2025": 1
+  },
+  "mindsquare.de": {
+    "2024": 2
+  },
+  "mint": {
+    "2024": 1
+  },
+  "mitgliederverwaltung.fitness": {
+    "2022": 2,
+    "2023": 1
+  },
+  "mkt.flytap.com": {
+    "2026": 2
+  },
+  "modemfestival.com": {
+    "2026": 4
+  },
+  "mountainduck.io": {
+    "2024": 2,
+    "2025": 2,
+    "2026": 1
+  },
+  "moyn-ticket.de": {
+    "2026": 3
+  },
+  "mue-thaimassage.de": {
+    "2026": 1
+  },
+  "multisafepay.com": {
+    "2024": 1,
+    "2025": 1
+  },
+  "mund-consulting.de": {
+    "2024": 1
+  },
+  "my-notification.flytap.com": {
+    "2025": 4
+  },
+  "myflexbox.de": {
+    "2025": 1
+  },
+  "n.refurbed.com": {
+    "2024": 1,
+    "2025": 6
+  },
+  "netcup.de": {
+    "2021": 3,
+    "2023": 1
+  },
+  "news.de.shein.com": {
+    "2024": 2,
+    "2025": 1
+  },
+  "news.doctolib.com": {
+    "2023": 1,
+    "2025": 1,
+    "2026": 3
+  },
+  "news.traderepublic.com": {
+    "2026": 1
+  },
+  "ngrok.com": {
+    "2024": 4
+  },
+  "noreply.market.home24.de": {
+    "2025": 4
+  },
+  "norsan.de": {
+    "2023": 2
+  },
+  "noti.swiss.com": {
+    "2025": 1
+  },
+  "notification.miro.com": {
+    "2025": 6
+  },
+  "notificationmail.microsoft.com": {
+    "2024": 1
+  },
+  "notifications.huggingface.co": {
+    "2023": 2
+  },
+  "notifications.microsoft.com": {
+    "2024": 1
+  },
+  "notify.proton.me": {
+    "2023": 2,
+    "2024": 3,
+    "2025": 1,
+    "2026": 1
+  },
+  "novafind.eu": {
+    "2025": 5
+  },
+  "opentable | go by steffen henssler hamburg reservierung": {
+    "2024": 2
+  },
+  "opentable.de": {
+    "2023": 3,
+    "2024": 1
+  },
+  "order.email.ikea.com": {
+    "2026": 3
+  },
+  "orthopaedie-elsterplatz.de": {
+    "2025": 2
+  },
+  "orthopädikum": {
+    "2025": 3,
+    "2026": 3
+  },
+  "outlook.com": {
+    "2024": 2
+  },
+  "outlook.de": {
+    "2020": 1,
+    "2021": 2,
+    "2022": 1,
+    "2023": 1
+  },
+  "p": {
+    "2024": 1
+  },
+  "partners.decathlon.com": {
+    "2024": 2
+  },
+  "pass.proton.me": {
+    "2023": 1
+  },
+  "patrick gordon | elbeit consult gmbh": {
+    "2024": 2
+  },
+  "paygenius.co.za": {
+    "2025": 2
+  },
+  "paylogic.com": {
+    "2022": 1,
+    "2023": 2,
+    "2024": 3
+  },
+  "payment.moia-mail.io": {
+    "2023": 3,
+    "2024": 2
+  },
+  "pca.levillagebyca.com": {
+    "2023": 1
+  },
+  "pcs-it.at": {
+    "2024": 1
+  },
+  "pentrovill.de": {
+    "2024": 1
+  },
+  "physio-lutterothstrasse.de": {
+    "2023": 1,
+    "2024": 1
+  },
+  "playchessup.com": {
+    "2024": 2,
+    "2025": 2
+  },
+  "pleugerindustries.com": {
+    "2024": 7
+  },
+  "pm.me": {
+    "2024": 3
+  },
+  "postbank.de": {
+    "2023": 4
+  },
+  "posteo.de": {
+    "2026": 3
+  },
+  "powherbeat.com": {
+    "2024": 1,
+    "2025": 5
+  },
+  "pozngo.com": {
+    "2024": 2
+  },
+  "product.miro.com": {
+    "2025": 1
+  },
+  "profacts.eu": {
+    "2024": 1
+  },
+  "progressive.de": {
+    "2024": 1
+  },
+  "progressiverecruitment.com": {
+    "2024": 1
+  },
+  "promo.istyle.id": {
+    "2024": 1
+  },
+  "property.booking.com": {
+    "2024": 1,
+    "2025": 4,
+    "2026": 1
+  },
+  "prosperalink-7.com": {
+    "2025": 1
   },
   "proton.me": {
     "2026": 1
+  },
+  "pvs-se.de": {
+    "2023": 4
+  },
+  "qemailserver.com": {
+    "2025": 2
+  },
+  "ra.co": {
+    "2023": 1
+  },
+  "rathaus-apotheke via no-q digital customer queueing": {
+    "2021": 2
+  },
+  "real-debrid.com": {
+    "2021": 5,
+    "2023": 1
+  },
+  "realvnc.com": {
+    "2021": 5,
+    "2024": 2
+  },
+  "recovery.proton.me": {
+    "2024": 1,
+    "2025": 1
+  },
+  "reddit.com": {
+    "2020": 1,
+    "2021": 1,
+    "2023": 1
+  },
+  "refeedigital.com": {
+    "2024": 2
+  },
+  "refurbed service": {
+    "2024": 1
+  },
+  "rezeptwelt.de": {
+    "2024": 1,
+    "2025": 1
+  },
+  "rscw.de": {
+    "2025": 1
+  },
+  "ruby-hotels.com": {
+    "2025": 2
+  },
+  "ruggell.li": {
+    "2024": 3
+  },
+  "sanparks.org": {
+    "2025": 2
+  },
+  "sc-fahrpreisnacherhebung.de": {
+    "2024": 1
+  },
+  "security.galaxus.de": {
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+  },
+  "sendcloud.com": {
+    "2024": 3
+  },
+  "serpapi.com": {
+    "2023": 2
+  },
+  "serverschrank24.de": {
+    "2024": 1,
+    "2025": 1
+  },
+  "service.decathlon.com": {
+    "2024": 1
+  },
+  "service.easybank.de": {
+    "2026": 6
+  },
+  "service.emmy-sharing.de": {
+    "2023": 1
+  },
+  "service.refurbed.com": {
+    "2024": 1
+  },
+  "servicepaket93.de": {
+    "2024": 1
+  },
+  "services.decathlon.de": {
+    "2024": 3
+  },
+  "sg.booking.com": {
+    "2024": 1
+  },
+  "sheinemail.com": {
+    "2024": 1
+  },
+  "shore.com": {
+    "2023": 5,
+    "2026": 1
+  },
+  "sita.aero": {
+    "2025": 1,
+    "2026": 2
+  },
+  "sixt.com": {
+    "2021": 1,
+    "2025": 3
+  },
+  "skins4u.de": {
+    "2024": 3
+  },
+  "skribble.com": {
+    "2025": 6
+  },
+  "smile.austrian.com": {
+    "2025": 1
+  },
+  "source-technology.com": {
+    "2024": 1,
+    "2025": 1
+  },
+  "spectrumemails.com": {
+    "2023": 1
+  },
+  "sport.decathlon.de": {
+    "2025": 1
+  },
+  "stadtradhamburg.de": {
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+  },
+  "stakingrewards.com": {
+    "2023": 2
+  },
+  "sthree.com": {
+    "2024": 3
+  },
+  "streber24.de": {
+    "2023": 4
+  },
+  "stripe.com": {
+    "2026": 1
+  },
+  "sunexpress.com": {
+    "2024": 7
+  },
+  "survey.flytap.com": {
+    "2025": 4
+  },
+  "susanne-friedrich.com": {
+    "2024": 1
+  },
+  "sushifuerhamburg.com": {
+    "2024": 1
+  },
+  "swapzone.io": {
+    "2023": 2
+  },
+  "t.email.hostelworld.com": {
+    "2026": 1
+  },
+  "t.shopifyemail.com": {
+    "2024": 5
+  },
+  "tapmilesandgo.com": {
+    "2025": 2
+  },
+  "taures.de": {
+    "2025": 6,
+    "2026": 1
+  },
+  "tdacservices.immigration.go.th": {
+    "2026": 1
+  },
+  "team-hy.de": {
+    "2024": 2
+  },
+  "telegram.org": {
+    "2025": 1
+  },
+  "terminland.de": {
+    "2023": 2
+  },
+  "texttodesign.ai": {
+    "2024": 2
+  },
+  "th.expediamail.com": {
+    "2024": 1
+  },
+  "the-ascott.com": {
+    "2022": 2,
+    "2023": 1
+  },
+  "thermomix-rezeptwelt.maileon.de": {
+    "2025": 1
+  },
+  "thryvetalent.com": {
+    "2024": 8
+  },
+  "ticketswap.com": {
+    "2024": 2
+  },
+  "tisso.de": {
+    "2025": 1,
+    "2026": 2
+  },
+  "tiuldi.createsend7.com": {
+    "2024": 1
+  },
+  "tivoli.de": {
+    "2024": 2
+  },
+  "tixforgigs.com": {
+    "2021": 3,
+    "2023": 2
+  },
+  "tomorrowland.com": {
+    "2024": 1
+  },
+  "traderepublic.com": {
+    "2025": 7
+  },
+  "trakt.tv": {
+    "2021": 4,
+    "2023": 2
+  },
+  "tresorit.com": {
+    "2026": 1
+  },
+  "tricentis.com": {
+    "2022": 1,
+    "2023": 7
+  },
+  "trip": {
+    "2025": 1
+  },
+  "trp.tmecosys.com": {
+    "2024": 2
+  },
+  "trustedshops.com": {
+    "2022": 1,
+    "2024": 1
+  },
+  "tunemymusic.com": {
+    "2024": 2
+  },
+  "twitter.com": {
+    "2021": 2,
+    "2023": 3
+  },
+  "ui.com": {
+    "2026": 1
+  },
+  "updates.notion.so": {
+    "2025": 1
+  },
+  "updates.oknotify3.com": {
+    "2025": 1,
+    "2026": 1
+  },
+  "upgradebargain.swiss.com": {
+    "2025": 2
+  },
+  "valyue.de": {
+    "2024": 2,
+    "2025": 1
+  },
+  "vaporexmachina.de": {
+    "2025": 3
+  },
+  "venturi-group.com": {
+    "2025": 1
+  },
+  "vicoach.io": {
+    "2024": 1,
+    "2025": 1
+  },
+  "vodafone.com": {
+    "2024": 1
+  },
+  "vorwerk.com": {
+    "2025": 1
+  },
+  "vorwerk.de": {
+    "2024": 2
+  },
+  "wabcon.de": {
+    "2024": 1
+  },
+  "wandb.com": {
+    "2024": 4
+  },
+  "web.de": {
+    "2023": 2
+  },
+  "wetransfer.com": {
+    "2024": 2,
+    "2025": 1
+  },
+  "wger.de": {
+    "2024": 1
+  },
+  "whitebit.promo": {
+    "2023": 1
+  },
+  "wildpark schwarze berge online shop": {
+    "2021": 2
+  },
+  "winter.tomorrowland.com": {
+    "2026": 1
+  },
+  "wir": {
+    "2021": 1
+  },
+  "wootric.com": {
+    "2025": 2
+  },
+  "x.ai": {
+    "2026": 3
+  },
+  "x.com": {
+    "2023": 1
+  },
+  "xceed.me": {
+    "2026": 1
+  },
+  "xcover.com": {
+    "2024": 3
+  },
+  "yahoo.de": {
+    "2023": 2
+  },
+  "yolawo.de": {
+    "2025": 1
+  },
+  "your.lufthansa-group.com": {
+    "2025": 6
+  },
+  "youtube.com": {
+    "2021": 1,
+    "2023": 1
+  },
+  "zenlap.com": {
+    "2024": 5
+  },
+  "zepp.com": {
+    "2025": 2
+  },
+  "zoxs.de": {
+    "2023": 4
+  },
+  "zulip.futo.org": {
+    "2025": 4
+  },
+  "✅": {
+    "2025": 1
   }
 }
