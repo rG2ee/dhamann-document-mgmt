@@ -2648,3 +2648,203 @@ FOLDERS_TO_BE_CREATED16: list[str] = [
     "hkl24",
     "gpodder",
 ]
+
+
+ZUORDNUNGEN17: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/antrophic": [
+        "no-reply-cxkvv_jtoe8amly2bqln7w@mail.anthropic.com",
+    ],
+    "Folders/filter-andwendungen/apple": [
+        "applesupport@insideapple.apple.com",
+    ],
+    "Folders/filter-andwendungen/audible": [
+        "noreply@mail.audible.com",
+    ],
+    "Folders/filter-andwendungen/booking.com": [
+        "email.campaign@sg.booking.com",
+    ],
+    "Folders/filter-andwendungen/doppelgaenger": [
+        "pip@mail.doppelgaenger.io",
+    ],
+    "Folders/filter-andwendungen/emmy": [
+        "magida@service.emmy-sharing.de",
+    ],
+    "Folders/filter-andwendungen/events": [
+        "noreply@ra.co",
+    ],
+    "Folders/filter-andwendungen/expedia": [
+        "expedia@th.expediamail.com",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "d.ipatii@progressive.de",
+        "feedback@progressiverecruitment.com",
+        "richard.thrien@venturi-group.com",
+        "s.dossantos@lawrenceharvey.com",
+        "a.voegel@pcs-it.at",
+        "alexander.wuthenow@wabcon.de",
+        "laura.martell@joyit-berlin.de",
+        "post@mund-consulting.de",
+        "ceren@team-hy.de",
+        "v.smith@managilityltd.com",
+    ],
+    "Folders/filter-andwendungen/gesundheit": [
+        "roesch@rscw.de",
+        "newsletter@mue-thaimassage.de",
+        "info@koe-hair.de",
+    ],
+    "Folders/filter-andwendungen/gintech": [
+        "receipts@iterate.ch",
+    ],
+    "Folders/filter-andwendungen/hostelworld": [
+        "hostelworld@t.email.hostelworld.com",
+    ],
+    "Folders/filter-andwendungen/ionos": [
+        "rechnungsstelle@ionos.de",
+    ],
+    "Folders/filter-andwendungen/kaufhaus-des-westens": [
+        "treasury@kadewe.de",
+    ],
+    "Folders/filter-andwendungen/klarna": [
+        "noreply-gr@klarna.gr",
+    ],
+    "Folders/filter-andwendungen/microsoft": [
+        "microsoft@notificationmail.microsoft.com",
+        "onedrive@infomail.microsoft.com",
+        "teams@notifications.microsoft.com",
+    ],
+    "Folders/filter-andwendungen/miles-and-more": [
+        "newsletter@mailing.milesandmore.com",
+    ],
+    "Folders/filter-andwendungen/mietverein-hamburg": [
+        "noreply@mieterverein-newsletter.de",
+    ],
+    "Folders/filter-andwendungen/miro": [
+        "your@product.miro.com",
+    ],
+    "Folders/filter-andwendungen/notion": [
+        "notify@updates.notion.so",
+        "team@mail.notion.so",
+    ],
+    "Folders/filter-andwendungen/openai": [
+        "noreply@mail.openai.com",
+    ],
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "dennis.hamann.mgmt@proton.me",
+        "mail@larsglobisch.com",
+        "info@susanne-friedrich.com",
+    ],
+    "Folders/filter-andwendungen/proton": [
+        "no-reply@pass.proton.me",
+    ],
+    "Folders/filter-andwendungen/ramona-mertens": [
+        "noreply@lemniscus.de",
+    ],
+    "Folders/filter-andwendungen/refurbed": [
+        "hello@service.refurbed.com",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "auto-confirm@info.thetrainline.com",
+        "no-reply@sc-fahrpreisnacherhebung.de",
+    ],
+    "Folders/filter-andwendungen/shein": [
+        "noreply@sheinemail.com",
+    ],
+    "Folders/filter-andwendungen/stakingrewards": [
+        "stakingrewards@mail.beehiiv.com",
+    ],
+    "Folders/filter-andwendungen/stripe": [
+        "invoice+statements+acct_1reyrsbnuncszfs9@stripe.com",
+    ],
+    "Folders/filter-andwendungen/swiss": [
+        "info@noti.swiss.com",
+    ],
+    "Folders/filter-andwendungen/trade-republic": [
+        "email@news.traderepublic.com",
+    ],
+    "Folders/filter-andwendungen/tresorit": [
+        "support@tresorit.com",
+    ],
+    "Folders/filter-andwendungen/ubiquiti": [
+        "account-noreply@ui.com",
+    ],
+    "Folders/filter-andwendungen/ups": [
+        "noreply@myflexbox.de",
+    ],
+    "Folders/filter-andwendungen/vodafone": [
+        "noreply@vodafone.com",
+    ],
+    "Folders/filter-andwendungen/vorwerk": [
+        "info@thermomix-rezeptwelt.maileon.de",
+        "no-reply-cookidoo@vorwerk.com",
+    ],
+    "Folders/filter-andwendungen/weird-events": [
+        "tickets.weird-events.com@tiuldi.createsend7.com",
+    ],
+    "Folders/filter-andwendungen/xceed": [
+        "tickets@xceed.me",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/jetbrains": [
+        "no_reply@jetbrains.com",
+    ],
+    "Folders/filter-andwendungen/outline": [
+        "hello@mail.getoutline.com",
+    ],
+
+    # =====================================================================
+    # SHOPPING
+    # =====================================================================
+    "Folders/shopping": [
+        "noreply@service.decathlon.com",
+        "noreply@sport.decathlon.de",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "info@tomorrowland.com",
+        "noreply@winter.tomorrowland.com",
+        "austrian@smile.austrian.com",
+        "pinterest-recommendations@ideas.pinterest.com",
+        "recommendations@inspire.pinterest.com",
+        "diegu.hax@icloud.com",
+        "mail@ifttt.com",
+        "noreply@telegram.org",
+        "noreply@mail.postman.com",
+        "hello@info.filebase.com",
+        "noreply1_iss@lenovo.com",
+        "verify@x.com",
+        "info@sushifuerhamburg.com",
+        "hello@wger.de",
+        "news@mail.cronometer.com",
+        "news@whitebit.promo",
+        "noreply-ptran@info.riverty.com",
+        "no-reply@messages.xoom.com",
+        "profactsteam@profacts.eu",
+        "shop@promo.istyle.id",
+        "support@hva-systemes.com",
+        "myaccount@spectrumemails.com",
+        "contact@pca.levillagebyca.com",
+        "info@krimi-trails.de",
+        "no-reply@yolawo.de",
+        "noreply@luxotticaretail.com",
+        "noreply@tdacservices.immigration.go.th",
+        "briefe@mieterjournal.de",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED17: list[str] = [
+    "h-und-m",
+    "hkl24",
+    "gpodder",
+    "jetbrains",
+    "outline",
+]

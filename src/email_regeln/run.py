@@ -25,9 +25,6 @@ ZUORDNUNGEN: dict[str, list[str]] = {
 
 
 FOLDERS_TO_BE_CREATED: list[str] = [
-    "h-und-m",
-    "hkl24",
-    "gpodder",
 ]
 
 

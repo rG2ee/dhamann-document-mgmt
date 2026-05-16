@@ -245,4 +245,4 @@ if __name__ == "__main__":
          min_num_mails=1,
     print_related_mails=True,
     print_year_distribution=False,
-    max_num_hosts=50)
+    max_num_hosts=100)
