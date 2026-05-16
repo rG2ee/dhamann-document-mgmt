@@ -72,7 +72,7 @@ def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
                     except Exception:
                         pass
 
-            if from_addr and year is not None:
+            if from_addr and "@" in from_addr and year is not None:
                 stats[from_addr][year] += 1
 
     return stats
