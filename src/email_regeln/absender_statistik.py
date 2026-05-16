@@ -1,4 +1,4 @@
-"""Liest die INBOX via Protonmail Bridge (IMAP) und gibt eine Absender-Statistik pro Jahr aus."""
+"""Liest einen IMAP-Ordner (default: INBOX) via Protonmail Bridge und gibt eine Absender-Statistik pro Jahr aus."""
 
 from __future__ import annotations
 
@@ -14,8 +14,19 @@ from pathlib import Path
 from email_regeln.imap_connection import connect
 
 STATE_DIR = Path("/home/user/alle-freelancer-rechnungen/email-state")
-_ABSENDER_FILE = STATE_DIR / "absender_statistik.json"
-_HOST_FILE = STATE_DIR / "host_statistik.json"
+
+
+def _folder_slug(folder: str) -> str:
+    """Wandelt einen Ordnernamen in einen dateisystem-freundlichen Slug um."""
+    return folder.lower().replace(" ", "_")
+
+
+def _state_files(folder: str) -> tuple[Path, Path]:
+    slug = _folder_slug(folder)
+    return (
+        STATE_DIR / f"absender_statistik_{slug}.json",
+        STATE_DIR / f"host_statistik_{slug}.json",
+    )
 
 
 def _decode_header_value(raw: str) -> str:
@@ -29,9 +40,10 @@ def _decode_header_value(raw: str) -> str:
     return "".join(parts)
 
 
-def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
-    """Holt FROM+DATE Header aller INBOX-Nachrichten und aggregiert nach Absender/Jahr."""
-    mail.select("INBOX", readonly=True)
+def _fetch_sender_stats(mail: imaplib.IMAP4, folder: str = "INBOX") -> dict[str, dict[int, int]]:
+    """Holt FROM+DATE Header aller Nachrichten in *folder* und aggregiert nach Absender/Jahr."""
+    quoted = f'"{folder}"' if " " in folder else folder
+    mail.select(quoted, readonly=True)
 
     _status, data = mail.search(None, "ALL")
     msg_ids = data[0].split()
@@ -103,7 +115,7 @@ def _aggregate_by_host(stats: dict[str, dict[int, int]]) -> dict[str, dict[int, 
 
 def _print_table(stats: dict[str, dict[int, int]], *, label: str = "Absender") -> None:
     if not stats:
-        print("Keine Nachrichten in der INBOX gefunden.")
+        print("Keine Nachrichten gefunden.")
         return
 
     all_years = sorted({y for yearly in stats.values() for y in yearly})
@@ -146,6 +158,7 @@ def _print_table(stats: dict[str, dict[int, int]], *, label: str = "Absender") -
 def _save_stats(
     stats: dict[str, dict[int, int]],
     host_stats: dict[str, dict[int, int]],
+    folder: str = "INBOX",
 ) -> None:
     """Speichert Absender- und Host-Statistiken als JSON-Dateien."""
     if not stats:
@@ -153,25 +166,27 @@ def _save_stats(
         return
 
     STATE_DIR.mkdir(exist_ok=True)
+    absender_file, host_file = _state_files(folder)
 
     def _serializable(d: dict[str, dict[int, int]]) -> dict[str, dict[str, int]]:
         return {addr: {str(y): c for y, c in yearly.items()} for addr, yearly in d.items()}
 
-    _ABSENDER_FILE.write_text(json.dumps(_serializable(stats), indent=2, ensure_ascii=False, sort_keys=True))
-    _HOST_FILE.write_text(json.dumps(_serializable(host_stats), indent=2, ensure_ascii=False, sort_keys=True))
-    print(f"Statistiken gespeichert in {STATE_DIR}/")
+    absender_file.write_text(json.dumps(_serializable(stats), indent=2, ensure_ascii=False, sort_keys=True))
+    host_file.write_text(json.dumps(_serializable(host_stats), indent=2, ensure_ascii=False, sort_keys=True))
+    print(f"Statistiken gespeichert in {STATE_DIR}/ (Ordner: {folder})")
 
 
-def _load_stats() -> tuple[dict[str, dict[int, int]], dict[str, dict[int, int]]] | None:
+def _load_stats(folder: str = "INBOX") -> tuple[dict[str, dict[int, int]], dict[str, dict[int, int]]] | None:
     """Liest Statistiken aus JSON-Dateien. Gibt None zurück wenn die Dateien fehlen."""
-    if not _ABSENDER_FILE.exists() or not _HOST_FILE.exists():
+    absender_file, host_file = _state_files(folder)
+    if not absender_file.exists() or not host_file.exists():
         return None
 
     def _parse(path: Path) -> dict[str, dict[int, int]]:
         raw: dict[str, dict[str, int]] = json.loads(path.read_text())
         return {addr: {int(y): c for y, c in yearly.items()} for addr, yearly in raw.items()}
 
-    return _parse(_ABSENDER_FILE), _parse(_HOST_FILE)
+    return _parse(absender_file), _parse(host_file)
 
 
 def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) -> list[str]:
@@ -183,26 +198,26 @@ def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) ->
     )
 
 
-def main(*, refresh: bool = False) -> None:
+def main(*, refresh: bool = False, folder: str = "INBOX") -> None:
     if refresh:
         print("Verbinde mit Protonmail Bridge …")
         mail = connect()
         try:
-            print("Lese INBOX …\n")
-            stats = _fetch_sender_stats(mail)
+            print(f"Lese {folder} …\n")
+            stats = _fetch_sender_stats(mail, folder=folder)
             host_stats = _aggregate_by_host(stats)
-            _save_stats(stats, host_stats)
+            _save_stats(stats, host_stats, folder=folder)
         finally:
             mail.logout()
     else:
-        cached = _load_stats()
+        cached = _load_stats(folder=folder)
         if cached is None:
             raise SystemExit(
-                f"Keine Statistiken gefunden in {STATE_DIR}/.\n"
+                f"Keine Statistiken gefunden in {STATE_DIR}/ fuer Ordner '{folder}'.\n"
                 "Bitte zuerst mit refresh=True ausführen."
             )
         stats, host_stats = cached
-        print(f"Statistiken aus {STATE_DIR}/ geladen.\n")
+        print(f"Statistiken aus {STATE_DIR}/ geladen (Ordner: {folder}).\n")
 
     print()
     _print_table(stats)
@@ -220,6 +235,4 @@ def main(*, refresh: bool = False) -> None:
 
 
 if __name__ == "__main__":
-    import sys
-
-    main(refresh=True)
+    main(refresh=True, folder="All Mail")
