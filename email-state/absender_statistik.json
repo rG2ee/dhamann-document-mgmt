@@ -5,9 +5,6 @@
   "account-noreply@ui.com": {
     "2026": 1
   },
-  "account-security-noreply@accountprotection.microsoft.com": {
-    "2024": 1
-  },
   "accountmanagement@corp.sixt.de": {
     "2025": 1
   },
@@ -26,22 +23,11 @@
   "auto-confirm@info.thetrainline.com": {
     "2025": 1
   },
-  "auto-reply@rezeptwelt.de": {
-    "2024": 1,
-    "2025": 1
-  },
   "autoemail@autoemail.hm.com": {
     "2025": 1
   },
-  "automailer@terminland.de": {
-    "2023": 2
-  },
   "ben@haffer.at": {
     "2024": 1
-  },
-  "bounces@updates.oknotify3.com": {
-    "2025": 1,
-    "2026": 1
   },
   "brb@blueribbonbags.com": {
     "2026": 1
@@ -49,14 +35,8 @@
   "briefe@mieterjournal.de": {
     "2025": 1
   },
-  "builderio@wootric.com": {
-    "2025": 2
-  },
   "ceren@team-hy.de": {
     "2024": 1
-  },
-  "coco@ruby-hotels.com": {
-    "2025": 2
   },
   "contact@hungry4.io": {
     "2026": 1
@@ -72,9 +52,6 @@
   },
   "dennis.hamann.mgmt@proton.me": {
     "2026": 1
-  },
-  "dialog-service-center@vorwerk.de": {
-    "2024": 2
   },
   "diegu.hax@icloud.com": {
     "2024": 1
@@ -109,9 +86,6 @@
   "googledev-noreply@google.com": {
     "2026": 1
   },
-  "guy.britton@source-technology.com": {
-    "2024": 1
-  },
   "hello@evy.eu": {
     "2024": 1
   },
@@ -125,9 +99,6 @@
     "2024": 1
   },
   "hello@wger.de": {
-    "2024": 1
-  },
-  "hi@tunemymusic.com": {
     "2024": 1
   },
   "hostelworld@t.email.hostelworld.com": {
@@ -148,10 +119,6 @@
   "info@noti.swiss.com": {
     "2025": 1
   },
-  "info@serverschrank24.de": {
-    "2024": 1,
-    "2025": 1
-  },
   "info@susanne-friedrich.com": {
     "2024": 1
   },
@@ -161,9 +128,6 @@
   "info@thermomix-rezeptwelt.maileon.de": {
     "2025": 1
   },
-  "info@ticketswap.com": {
-    "2024": 2
-  },
   "info@tomorrowland.com": {
     "2024": 1
   },
@@ -172,12 +136,6 @@
   },
   "invoice+statements+acct_1reyrsbnuncszfs9@stripe.com": {
     "2026": 1
-  },
-  "jorg.brauer89@web.de": {
-    "2023": 1
-  },
-  "karten@tivoli.de": {
-    "2024": 2
   },
   "laura.martell@joyit-berlin.de": {
     "2024": 1
@@ -196,9 +154,6 @@
   },
   "microsoft@notificationmail.microsoft.com": {
     "2024": 1
-  },
-  "mirko@stakingrewards.com": {
-    "2023": 2
   },
   "myaccount@spectrumemails.com": {
     "2023": 1
@@ -251,22 +206,8 @@
   "no-reply@pass.proton.me": {
     "2023": 1
   },
-  "no-reply@recovery.proton.me": {
-    "2024": 1,
-    "2025": 1
-  },
   "no-reply@sc-fahrpreisnacherhebung.de": {
     "2024": 1
-  },
-  "no-reply@serpapi.com": {
-    "2023": 2
-  },
-  "no-reply@tapmilesandgo.com": {
-    "2025": 1
-  },
-  "no-reply@vicoach.io": {
-    "2024": 1,
-    "2025": 1
   },
   "no-reply@yolawo.de": {
     "2025": 1
@@ -282,12 +223,6 @@
   },
   "noreply1_iss@lenovo.com": {
     "2023": 1
-  },
-  "noreply@12go.asia": {
-    "2026": 1
-  },
-  "noreply@7pass.de": {
-    "2025": 1
   },
   "noreply@brasil.tomorrowland.com": {
     "2026": 1
@@ -346,21 +281,11 @@
   "noreply@telegram.org": {
     "2025": 1
   },
-  "noreply@upgradebargain.swiss.com": {
-    "2025": 2
-  },
   "noreply@vodafone.com": {
     "2024": 1
   },
   "noreply@winter.tomorrowland.com": {
     "2026": 1
-  },
-  "noreply@youtube.com": {
-    "2021": 1,
-    "2023": 1
-  },
-  "noreply@zepp.com": {
-    "2025": 1
   },
   "notification@crowdcontrol.co": {
     "2024": 1
@@ -392,17 +317,7 @@
   "post@mund-consulting.de": {
     "2024": 1
   },
-  "pr@swapzone.io": {
-    "2023": 2
-  },
   "profactsteam@profacts.eu": {
-    "2024": 1
-  },
-  "promo@tapmilesandgo.com": {
-    "2025": 1
-  },
-  "rating-noreply@trustedshops.com": {
-    "2022": 1,
     "2024": 1
   },
   "receipts@iterate.ch": {
@@ -432,26 +347,11 @@
   "s.dossantos@lawrenceharvey.com": {
     "2023": 1
   },
-  "sales2@refeedigital.com": {
-    "2024": 2
-  },
-  "sam.pyzer@source-technology.com": {
-    "2025": 1
-  },
-  "sanparks-no-reply@sanparks.org": {
-    "2025": 2
-  },
-  "saschahoff@yahoo.de": {
-    "2023": 2
-  },
   "service@bookandplay.de": {
     "2023": 1
   },
   "shop@promo.istyle.id": {
     "2024": 1
-  },
-  "sigmar1.renner@web.de": {
-    "2023": 1
   },
   "sina@dev-x.tech": {
     "2024": 1
@@ -468,17 +368,8 @@
   "support@hva-systemes.com": {
     "2024": 1
   },
-  "support@texttodesign.ai": {
-    "2024": 2
-  },
   "support@tresorit.com": {
     "2026": 1
-  },
-  "support@trp.tmecosys.com": {
-    "2024": 2
-  },
-  "support@tunemymusic.com": {
-    "2024": 1
   },
   "survey@care.emirates.email": {
     "2026": 1
@@ -520,9 +411,6 @@
     "2025": 1
   },
   "your@product.miro.com": {
-    "2025": 1
-  },
-  "zeppos.support@zepp.com": {
     "2025": 1
   }
 }

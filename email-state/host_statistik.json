@@ -1,13 +1,4 @@
 {
-  "12go.asia": {
-    "2026": 1
-  },
-  "7pass.de": {
-    "2025": 1
-  },
-  "accountprotection.microsoft.com": {
-    "2024": 1
-  },
   "alerts.spotify.com": {
     "2025": 1
   },
@@ -320,35 +311,11 @@
   "ra.co": {
     "2023": 1
   },
-  "recovery.proton.me": {
-    "2024": 1,
-    "2025": 1
-  },
-  "refeedigital.com": {
-    "2024": 2
-  },
-  "rezeptwelt.de": {
-    "2024": 1,
-    "2025": 1
-  },
   "rscw.de": {
     "2025": 1
   },
-  "ruby-hotels.com": {
-    "2025": 2
-  },
-  "sanparks.org": {
-    "2025": 2
-  },
   "sc-fahrpreisnacherhebung.de": {
     "2024": 1
-  },
-  "serpapi.com": {
-    "2023": 2
-  },
-  "serverschrank24.de": {
-    "2024": 1,
-    "2025": 1
   },
   "service.decathlon.com": {
     "2024": 1
@@ -368,18 +335,11 @@
   "smile.austrian.com": {
     "2025": 1
   },
-  "source-technology.com": {
-    "2024": 1,
-    "2025": 1
-  },
   "spectrumemails.com": {
     "2023": 1
   },
   "sport.decathlon.de": {
     "2025": 1
-  },
-  "stakingrewards.com": {
-    "2023": 2
   },
   "stripe.com": {
     "2026": 1
@@ -390,14 +350,8 @@
   "sushifuerhamburg.com": {
     "2024": 1
   },
-  "swapzone.io": {
-    "2023": 2
-  },
   "t.email.hostelworld.com": {
     "2026": 1
-  },
-  "tapmilesandgo.com": {
-    "2025": 2
   },
   "tdacservices.immigration.go.th": {
     "2026": 1
@@ -408,26 +362,14 @@
   "telegram.org": {
     "2025": 1
   },
-  "terminland.de": {
-    "2023": 2
-  },
-  "texttodesign.ai": {
-    "2024": 2
-  },
   "th.expediamail.com": {
     "2024": 1
   },
   "thermomix-rezeptwelt.maileon.de": {
     "2025": 1
   },
-  "ticketswap.com": {
-    "2024": 2
-  },
   "tiuldi.createsend7.com": {
     "2024": 1
-  },
-  "tivoli.de": {
-    "2024": 2
   },
   "tomorrowland.com": {
     "2024": 1
@@ -435,34 +377,13 @@
   "tresorit.com": {
     "2026": 1
   },
-  "trp.tmecosys.com": {
-    "2024": 2
-  },
-  "trustedshops.com": {
-    "2022": 1,
-    "2024": 1
-  },
-  "tunemymusic.com": {
-    "2024": 2
-  },
   "ui.com": {
     "2026": 1
   },
   "updates.notion.so": {
     "2025": 1
   },
-  "updates.oknotify3.com": {
-    "2025": 1,
-    "2026": 1
-  },
-  "upgradebargain.swiss.com": {
-    "2025": 2
-  },
   "venturi-group.com": {
-    "2025": 1
-  },
-  "vicoach.io": {
-    "2024": 1,
     "2025": 1
   },
   "vodafone.com": {
@@ -471,14 +392,8 @@
   "vorwerk.com": {
     "2025": 1
   },
-  "vorwerk.de": {
-    "2024": 2
-  },
   "wabcon.de": {
     "2024": 1
-  },
-  "web.de": {
-    "2023": 2
   },
   "wger.de": {
     "2024": 1
@@ -489,26 +404,13 @@
   "winter.tomorrowland.com": {
     "2026": 1
   },
-  "wootric.com": {
-    "2025": 2
-  },
   "x.com": {
     "2023": 1
   },
   "xceed.me": {
     "2026": 1
   },
-  "yahoo.de": {
-    "2023": 2
-  },
   "yolawo.de": {
     "2025": 1
-  },
-  "youtube.com": {
-    "2021": 1,
-    "2023": 1
-  },
-  "zepp.com": {
-    "2025": 2
   }
 }
