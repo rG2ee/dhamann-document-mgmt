@@ -3,12 +3,18 @@
 from __future__ import annotations
 
 import imaplib
+import json
 import pprint
 from collections import defaultdict
 from email.header import decode_header
 from email.utils import parseaddr, parsedate_to_datetime
+from pathlib import Path
 
 from email_regeln.imap_connection import connect
+
+STATE_DIR = Path("email-state")
+_ABSENDER_FILE = STATE_DIR / "absender_statistik.json"
+_HOST_FILE = STATE_DIR / "host_statistik.json"
 
 
 def _decode_header_value(raw: str) -> str:
@@ -124,6 +130,33 @@ def _print_table(stats: dict[str, dict[int, int]], *, label: str = "Absender") -
     print(f" | {grand_total:>{col_w}}")
 
 
+def _save_stats(
+    stats: dict[str, dict[int, int]],
+    host_stats: dict[str, dict[int, int]],
+) -> None:
+    """Speichert Absender- und Host-Statistiken als JSON-Dateien."""
+    STATE_DIR.mkdir(exist_ok=True)
+
+    def _serializable(d: dict[str, dict[int, int]]) -> dict[str, dict[str, int]]:
+        return {addr: {str(y): c for y, c in yearly.items()} for addr, yearly in d.items()}
+
+    _ABSENDER_FILE.write_text(json.dumps(_serializable(stats), indent=2, ensure_ascii=False))
+    _HOST_FILE.write_text(json.dumps(_serializable(host_stats), indent=2, ensure_ascii=False))
+    print(f"Statistiken gespeichert in {STATE_DIR}/")
+
+
+def _load_stats() -> tuple[dict[str, dict[int, int]], dict[str, dict[int, int]]] | None:
+    """Liest Statistiken aus JSON-Dateien. Gibt None zurück wenn die Dateien fehlen."""
+    if not _ABSENDER_FILE.exists() or not _HOST_FILE.exists():
+        return None
+
+    def _parse(path: Path) -> dict[str, dict[int, int]]:
+        raw: dict[str, dict[str, int]] = json.loads(path.read_text())
+        return {addr: {int(y): c for y, c in yearly.items()} for addr, yearly in raw.items()}
+
+    return _parse(_ABSENDER_FILE), _parse(_HOST_FILE)
+
+
 def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) -> list[str]:
     """Gibt alle Absender zurück, die seit *since_year* (inklusive) keine Mail mehr geschickt haben."""
     return sorted(
@@ -134,27 +167,34 @@ def _inactive_since(stats: dict[str, dict[int, int]], since_year: int = 2023) ->
 
 
 def main() -> None:
-    print("Verbinde mit Protonmail Bridge …")
-    mail = connect()
-    try:
-        print("Lese INBOX …\n")
-        stats = _fetch_sender_stats(mail)
-        print()
-        _print_table(stats)
+    cached = _load_stats()
+    if cached is not None:
+        stats, host_stats = cached
+        print(f"Statistiken aus {STATE_DIR}/ geladen.\n")
+    else:
+        print("Verbinde mit Protonmail Bridge …")
+        mail = connect()
+        try:
+            print("Lese INBOX …\n")
+            stats = _fetch_sender_stats(mail)
+            host_stats = _aggregate_by_host(stats)
+            _save_stats(stats, host_stats)
+        finally:
+            mail.logout()
 
-        inactive = _inactive_since(stats, since_year=2023)
-        print(f"\n\nAbsender ohne Mails seit 2023 ({len(inactive)}):\n")
-        pprint.pprint(inactive)
+    print()
+    _print_table(stats)
 
-        host_stats = _aggregate_by_host(stats)
-        print("\n\n--- Statistik nach Host/Domain ---\n")
-        _print_table(host_stats, label="Host")
+    inactive = _inactive_since(stats, since_year=2023)
+    print(f"\n\nAbsender ohne Mails seit 2023 ({len(inactive)}):\n")
+    pprint.pprint(inactive)
 
-        inactive_hosts = _inactive_since(host_stats, since_year=2023)
-        print(f"\n\nHosts ohne Mails seit 2023 ({len(inactive_hosts)}):\n")
-        pprint.pprint(inactive_hosts)
-    finally:
-        mail.logout()
+    print("\n\n--- Statistik nach Host/Domain ---\n")
+    _print_table(host_stats, label="Host")
+
+    inactive_hosts = _inactive_since(host_stats, since_year=2023)
+    print(f"\n\nHosts ohne Mails seit 2023 ({len(inactive_hosts)}):\n")
+    pprint.pprint(inactive_hosts)
 
 
 if __name__ == "__main__":

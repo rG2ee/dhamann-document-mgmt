@@ -34,6 +34,9 @@ htmlcov/
 
 .env
 
+# E-Mail State (generierte Statistiken)
+email-state/
+
 # E-Mail Backup
 backup/
 /dokumente/backup-mails/
