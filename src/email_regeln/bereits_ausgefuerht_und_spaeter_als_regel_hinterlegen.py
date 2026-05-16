@@ -1997,3 +1997,215 @@ FOLDERS_TO_BE_CREATED12: list[str] = [
     "serverschrank24",
 ]
 
+
+
+
+ZUORDNUNGEN13: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/audible": [
+        "customersupport@audible.com",
+        "do_not_reply@audible.com",
+        "donotreply@audible.com",
+    ],
+    "Folders/filter-andwendungen/expedia": [
+        "do-not-reply@accounts.expedia.com",
+        "expedia@de.expediamail.com",
+    ],
+    "Folders/filter-andwendungen/nespresso": [
+        "noreply@de.nespresso.com",
+    ],
+    "Folders/filter-andwendungen/kaufhaus-des-westens": [
+        "dennis.hamann@external.kadewe.com",
+        "dennis.hamann@external.kadewegroup.com",
+        "uwe.herpertz@external.kadewegroup.com",
+    ],
+    "Folders/filter-andwendungen/american-express": [
+        "noreply@feedbackemail.americanexpress.com",
+        "noreply@h6.hilton.com",
+        "marriottbonvoy@email-marriott.com",
+        "no-reply@sixt.com",
+        "ride@sixt.com",
+        "info@email.prioritypass.com",
+    ],
+    "Folders/filter-andwendungen/interactive-brokers": [
+        "interactive brokers ireland limited",
+        "noreply@interactivebrokers.ie",
+    ],
+    "Folders/filter-andwendungen/tap-milesandgo": [
+        "info@my-notification.flytap.com",
+        "tapsurvey@survey.flytap.com",
+        "no-reply@sita.aero",
+        "wtradmin@sita.aero",
+    ],
+    "Folders/filter-andwendungen/netcup": [
+        "server@netcup.de",
+    ],
+    "Folders/filter-andwendungen/home24": [
+        "marketplace@noreply.market.home24.de",
+    ],
+    "Folders/filter-andwendungen/stadt-hamburg": [
+        "noreply@stadtradhamburg.de",
+    ],
+    "Folders/filter-andwendungen/gorillas": [
+        "feedback@mail.gorillasapp.de",
+    ],
+    "Folders/filter-andwendungen/flink": [
+        "support@goflink.com",
+    ],
+    "Folders/filter-andwendungen/shein": [
+        "info@news.de.shein.com",
+    ],
+    "Folders/filter-andwendungen/ikea": [
+        "no.reply@order.email.ikea.com",
+    ],
+    "Folders/filter-andwendungen/reddit": [
+        "noreply@reddit.com",
+    ],
+    "Folders/filter-andwendungen/galaxus": [
+        "noreply@security.galaxus.de",
+    ],
+    "Folders/filter-andwendungen/etsy": [
+        "email@email.etsy.com",
+    ],
+    "Folders/filter-andwendungen/gesundheit": [
+        "orthopädikum",
+        "info@pvs-se.de",
+        "ko@pvs-se.de",
+        "no-reply@pvs-se.de",
+        "antares-apotheke hohe weide via no-q digital customer queueing",
+        "info@tisso.de",
+        "praktikant@tisso.de",
+        "noreply@mitgliederverwaltung.fitness",
+    ],
+    "Folders/filter-andwendungen/dampfdorado": [
+        "info@vaporexmachina.de",
+        "rechnung@vaporexmachina.de",
+    ],
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "ali",
+        "henrik.falk@posteo.de",
+        "jonathanba98@pm.me",
+    ],
+    "Folders/filter-andwendungen/cubicl": [
+        "mail@cblank.de",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "asimina.kafida@valyue.de",
+        "e.guellue@sthree.com",
+        "noreply@sthree.com",
+        "rsramanukolanu@jsanconsulting.com",
+    ],
+    "Folders/filter-andwendungen/stripe": [
+        "notifications@link.com",
+    ],
+    "Folders/filter-andwendungen/dhl-post": [
+        "no-reply@sendcloud.com",
+    ],
+    "Folders/shopping": [
+        "kaufs@buyzoxs.de",
+        "noreply@buyzoxs.de",
+        "no-reply@zoxs.de",
+        "info@campingwagner.de",
+        "service@campingwagner.de",
+        "support@maskworld.com",
+        "noreply-sendungsverfolgung@matratzen-concord.de",
+        "info@skins4u.de",
+        "info@caseking.de",
+        "news@e.ray-ban.com",
+        "noreply@services.decathlon.de",
+        "hamburg-jungfernstieg@comspot.repair",
+        "info@comspot.repair",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/modemfestival": [
+        "shop@modemfestival.com",
+    ],
+    "Folders/filter-andwendungen/events": [
+        "elbphilharmonie laeiszhalle hamburg",
+        "ticket@moyn-ticket.de",
+    ],
+    "Folders/filter-andwendungen/immobilienscout24": [
+        "myscout@immobilienscout24.de",
+    ],
+    "Folders/filter-andwendungen/justcom": [
+        "email@justcom.de",
+        "info@justcom.de",
+    ],
+    "Folders/filter-andwendungen/apple": [
+        "support@macincloud.com",
+    ],
+    "Folders/filter-andwendungen/dating-apps": [
+        "hello@hinge.co",
+        "hello@mail.hinge.co",
+    ],
+    "Folders/filter-andwendungen/ngrok": [
+        "billing@ngrok.com",
+        "contact@ngrok.com",
+        "no-reply@ngrok.com",
+    ],
+    "Folders/filter-andwendungen/chess": [
+        "info@playchessup.com",
+    ],
+    "Folders/filter-andwendungen/postbank": [
+        "direkt@postbank.de",
+    ],
+    "Folders/filter-andwendungen/hermes": [
+        "hermes",
+    ],
+    "Folders/filter-andwendungen/kalo-hamburg": [
+        "ablesung@kalo-hamburg.de",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "admin@cloudbeds.com",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "hello@coworkbooking.com",
+        "no-reply@opentable.de",
+        "frontoffice.skyvilla@the-ascott.com",
+        "luca.franke@wandb.com",
+        "support@wandb.com",
+        "noreply-e7bllkiuoxc6hvpndqsqvxej@zulip.futo.org",
+        "noreply-hhs7n2s5ljg6mftuvoucrezo@zulip.futo.org",
+        "noreply-nr25rq7y6tucqrza7vg4a3i2@zulip.futo.org",
+        "noreply-uaep6tztra2i2op47ib6swrk@zulip.futo.org",
+        "certyno@streber24.de",
+        "varyt52@streber24.de",
+        "noreply@xcover.com",
+        "support@xcover.com",
+        "do.not.reply@celona.com",
+        "no-reply@canva.com",
+        "hello@gamma.app",
+        "notifications@gamma.app",
+        "noreply@eu1.storj.io",
+        "open-assistent@laion.ai",
+        "tatjana.buechel@ruggell.li",
+
+        "builder@builder.dontvacuum.me",
+        "notifications@accounts.dev",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED13: list[str] = [
+    "modemfestival",
+    "events",
+    "immobilienscout24",
+    "justcom",
+    "apple",
+    "dating-apps",
+    "ngrok",
+    "chess",
+    "postbank",
+    "hermes",
+    "kalo-hamburg",
+    "reisebuchungen",
+]
