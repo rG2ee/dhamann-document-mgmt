@@ -76,7 +76,31 @@ def run(
         mail.logout()
 
 
-if __name__ == '__main__':
+def undo(*, dry_run: bool = True) -> None:
+    """Verschiebt alle Mails aus Folders/to-be-deleted zurueck in die INBOX."""
+    if dry_run:
+        print("=== DRY RUN – es werden keine Mails verschoben ===\n")
 
-    run(["communications@iohk.io",
-         "info@dfinity.org"], dry_run=False)
+    print("Verbinde mit Protonmail Bridge …")
+    mail = connect()
+
+    try:
+        mail.select(TARGET_FOLDER, readonly=dry_run)
+        _status, data = mail.search(None, "ALL")
+        msg_ids = data[0].split()
+
+        if not msg_ids:
+            print("Keine Mails in Folders/to-be-deleted gefunden.")
+            return
+
+        if dry_run:
+            print(f"{len(msg_ids)} Mail(s) wuerden zurueck in INBOX verschoben.")
+        else:
+            moved = _move_messages(mail, msg_ids, "INBOX")
+            print(f"{moved} Mail(s) zurueck in INBOX verschoben.")
+    finally:
+        mail.logout()
+
+
+if __name__ == '__main__':
+    undo(dry_run=False)

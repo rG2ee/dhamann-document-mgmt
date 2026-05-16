@@ -2209,3 +2209,214 @@ FOLDERS_TO_BE_CREATED13: list[str] = [
     "kalo-hamburg",
     "reisebuchungen",
 ]
+
+
+
+ZUORDNUNGEN14: dict[str, list[str]] = {
+    # =====================================================================
+    # BESTEHENDE ORDNER (bereits in filter-andwendungen vorhanden)
+    # =====================================================================
+    "Folders/filter-andwendungen/gesundheit": [
+        "kontakt@orthopaedikum-neuer-wall.de",
+        "versand@biogena.at",
+        "info@biogena.com",
+        "post@norsan.de",
+        "service@norsan.de",
+        "christian@gelenketesch.de",
+        "no-reply@mailing.mgs-eportal.de",
+        "praxis@orthopaedie-elsterplatz.de",
+        "l.gleiss@physio-lutterothstrasse.de",
+        "physioteam-huepeden@outlook.com",
+        "apotheke am hauptbahnhof via no-q digital customer queueing",
+    ],
+    "Folders/filter-andwendungen/persoenliche-kontakte": [
+        "ali",
+    ],
+    "Folders/filter-andwendungen/gintech": [
+        "kai.gammelin@digichance.eu",
+        "bankmann@mhpatent.de",
+        "kauer@mhpatent.de",
+        "stuerwald@mhpatent.de",
+        "mh@manuelhehle.com",
+    ],
+    "Folders/filter-andwendungen/miro": [
+        "your@account.miro.com",
+    ],
+    "Folders/filter-andwendungen/trade-republic": [
+        "info@account.traderepublic.com",
+    ],
+    "Folders/filter-andwendungen/emirates": [
+        "do-not-reply@accounts.emirates.email",
+        "crfss@emirates.com",
+    ],
+    "Folders/filter-andwendungen/alternate": [
+        "noreply@alternate.de",
+        "reklamation@alternate.de",
+    ],
+    "Folders/filter-andwendungen/audible": [
+        "do_not_reply@audible.de",
+    ],
+    "Folders/filter-andwendungen/deutsche-bahn": [
+        "buchungsbestaetigung@bahn.de",
+    ],
+    "Folders/filter-andwendungen/blizzard": [
+        "noreply@battle.net",
+        "noreply@e.blizzard.com",
+    ],
+    "Folders/filter-andwendungen/lufthansa": [
+        "service@boardingpass.lufthansa.com",
+    ],
+    "Folders/filter-andwendungen/swiss": [
+        "service@boardingpass.swiss.com",
+    ],
+    "Folders/filter-andwendungen/microsoft": [
+        "msa@communication.microsoft.com",
+    ],
+    "Folders/filter-andwendungen/lieferando": [
+        "no-reply@connect.lieferando.de",
+    ],
+    "Folders/filter-andwendungen/doctolib": [
+        "no-reply@email.doctolib.com",
+    ],
+    "Folders/filter-andwendungen/hostelworld": [
+        "noreply@email.hostelworld.com",
+        "noreply@info.hostelworld.com",
+        "nhatrang@fusehostelsandtravel.com",
+    ],
+    "Folders/filter-andwendungen/meetup": [
+        "info@email.meetup.com",
+    ],
+    "Folders/filter-andwendungen/patreon": [
+        "no-reply@email.patreon.com",
+    ],
+    "Folders/filter-andwendungen/emmy": [
+        "kontakt@emmy-sharing.de",
+    ],
+    "Folders/filter-andwendungen/eventim": [
+        "no-reply@eventim-light.com",
+    ],
+    "Folders/filter-andwendungen/eversports": [
+        "support@eversports.com",
+        "info@estelleyoga.com",
+        "account@everfit-mail.com",
+        "welcome@everfit-mail.com",
+    ],
+    "Folders/filter-andwendungen/expedia": [
+        "donotreply@expedia.com",
+    ],
+    "Folders/filter-andwendungen/airbnb": [
+        "airbnb@express.medallia.com",
+    ],
+    "Folders/filter-andwendungen/haspa": [
+        "dennis.rossow@haspa.de",
+    ],
+    "Folders/filter-andwendungen/ikea": [
+        "do-not-reply@ikea.com",
+        "no.reply@ikea.com",
+    ],
+    "Folders/filter-andwendungen/ebay": [
+        "ebay@info.ebay.de",
+    ],
+    "Folders/filter-andwendungen/tap-milesandgo": [
+        "no-reply@info.flytap.com",
+        "newsletter@mkt.flytap.com",
+    ],
+    "Folders/filter-andwendungen/ing": [
+        "info@ing.de",
+    ],
+    "Folders/filter-andwendungen/rewe": [
+        "kundenkonto@mailing.rewe.de",
+    ],
+    "Folders/filter-andwendungen/huggingface": [
+        "billing@notifications.huggingface.co",
+    ],
+    "Folders/filter-andwendungen/chess": [
+        "noreply@lichess.org",
+    ],
+    "Folders/filter-andwendungen/newsletter": [
+        "info@infos.joyn.de",
+    ],
+    "Folders/filter-andwendungen/freelancer-agenturen": [
+        "maurice.schneider@constaff.com",
+        "rebecca.pfeffer@constaff.com",
+        "kewan.butt@amoriabond.com",
+        "sascha.fiebranz@amoriabond.com",
+        "chantal.thiede@mindsquare.de",
+        "patrick gordon | elbeit consult gmbh",
+    ],
+    "Folders/filter-andwendungen/reisebuchungen": [
+        "noreply@insolvenzschutz-mail.drsf.reise",
+        "no-reply@enterprise.com",
+        "notification@paygenius.co.za",
+        "appsupport@bvg.de",
+        "no-reply@bvg.de",
+    ],
+    "Folders/shopping": [
+        "decathlon@feedback.decathlon.com",
+        "noreply-marketplace@partners.decathlon.com",
+        "onlineshop@deiters.de",
+        "yfood@delivery-status.com",
+    ],
+    "Folders/filter-andwendungen/events": [
+        "info@audioplay-events.com",
+    ],
+    "Folders/filter-andwendungen/etke-host": [
+        "tom@etesync.com",
+    ],
+    "Folders/filter-andwendungen/serverschrank24": [
+        "noreply@multisafepay.com",
+    ],
+
+    # =====================================================================
+    # NEUE ORDNER
+    # =====================================================================
+    "Folders/filter-andwendungen/wohnungs-reparatur": [
+        "rechnungsversand@lexoffice.de",
+    ],
+    "Folders/filter-andwendungen/atlassian": [
+        "noreply+22cf2bd@id.atlassian.com",
+        "noreply+7f8f6c6@id.atlassian.com",
+        "noreply+a5f2204@id.atlassian.com",
+    ],
+    "Folders/filter-andwendungen/joplincloud": [
+        "no-reply@joplincloud.com",
+    ],
+    "Folders/filter-andwendungen/groq": [
+        "noreply@groq.com",
+    ],
+    "Folders/filter-andwendungen/wetransfer": [
+        "noreply@wetransfer.com",
+    ],
+    "Folders/filter-andwendungen/x-ai": [
+        "noreply@x.ai",
+    ],
+    "Folders/filter-andwendungen/documentsgpt": [
+        "pavel@documentsgpt.com",
+    ],
+
+    # =====================================================================
+    # TO-BE-DELETED
+    # =====================================================================
+    "Folders/to-be-deleted": [
+        "bounces@alerts.oknotify3.com",
+        "info@5612126.brevosend.com",
+        "noreply@qemailserver.com",
+        "info@einfach-zypern.com",
+        "nugine@foxmail.com",
+        "contact@laruche-logistique.fr",
+        "info@link2extreme.com",
+        "hello@creatorkit.com",
+        "noreply@pozngo.com",
+    ],
+}
+
+
+FOLDERS_TO_BE_CREATED14: list[str] = [
+    "wohnungs-reparatur",
+    "atlassian",
+    "joplincloud",
+    "groq",
+    "wetransfer",
+    "x-ai",
+    "documentsgpt",
+]
