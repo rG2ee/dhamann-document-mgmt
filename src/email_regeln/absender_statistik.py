@@ -57,9 +57,17 @@ def _fetch_sender_stats(mail: imaplib.IMAP4) -> dict[str, dict[int, int]]:
             if isinstance(raw_header, bytes):
                 raw_header = raw_header.decode("utf-8", errors="replace")
 
+            # RFC 2822: Fortsetzungszeilen (beginnen mit Whitespace) entfalten
+            unfolded_lines: list[str] = []
+            for line in raw_header.splitlines():
+                if line and line[0] in (" ", "\t") and unfolded_lines:
+                    unfolded_lines[-1] += " " + line.strip()
+                else:
+                    unfolded_lines.append(line)
+
             from_addr = ""
             year = None
-            for line in raw_header.splitlines():
+            for line in unfolded_lines:
                 lower = line.lower()
                 if lower.startswith("from:"):
                     decoded = _decode_header_value(line[5:].strip())
@@ -135,6 +143,10 @@ def _save_stats(
     host_stats: dict[str, dict[int, int]],
 ) -> None:
     """Speichert Absender- und Host-Statistiken als JSON-Dateien."""
+    if not stats:
+        print("WARNUNG: Keine Daten zum Speichern – bestehende Dateien werden NICHT überschrieben.")
+        return
+
     STATE_DIR.mkdir(exist_ok=True)
 
     def _serializable(d: dict[str, dict[int, int]]) -> dict[str, dict[str, int]]:

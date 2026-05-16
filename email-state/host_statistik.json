@@ -1,1 +1,36 @@
-{}
+{
+  "decathlon.com": {
+    "2025": 1
+  },
+  "deped.gov.ph": {
+    "2025": 1
+  },
+  "e-reply.eis.de": {
+    "2021": 1
+  },
+  "hubspotstarter.eu1.hs-send.com": {
+    "2026": 1
+  },
+  "kaufland-marketplace.com": {
+    "2025": 2
+  },
+  "no-q.info": {
+    "2021": 2
+  },
+  "otter.ai": {
+    "2025": 4
+  },
+  "property.booking.com": {
+    "2024": 3,
+    "2025": 4
+  },
+  "stripe.com": {
+    "2021": 1
+  },
+  "ticket.refurbed.io": {
+    "2024": 1
+  },
+  "wildpark-schwarze-berge.de": {
+    "2021": 2
+  }
+}
