@@ -27,6 +27,31 @@ def _load_stats() -> tuple[YearlyStats, YearlyStats] | None:
     return _parse_json(_ABSENDER_FILE), _parse_json(_HOST_FILE)
 
 
+def _print_simple(stats: YearlyStats, *, label: str = "Absender") -> None:
+    """Gibt nur die Gesamtanzahl der Mails pro Eintrag aus (ohne Jahresaufschlüsselung)."""
+    if not stats:
+        print("Keine Daten gefunden.")
+        return
+
+    totals = {addr: sum(yearly.values()) for addr, yearly in stats.items()}
+    sorted_addrs = sorted(totals, key=lambda a: totals[a], reverse=True)
+
+    addr_width = max(len(a) for a in sorted_addrs)
+    addr_width = max(addr_width, len(label))
+    col_w = 6
+
+    print(f"{label:<{addr_width}} | {'Gesamt':>{col_w}}")
+    sep = "-" * addr_width + "-+-" + "-" * col_w
+    print(sep)
+
+    for addr in sorted_addrs:
+        print(f"{addr:<{addr_width}} | {totals[addr]:>{col_w}}")
+
+    print(sep)
+    grand_total = sum(totals.values())
+    print(f"{'TOTAL':<{addr_width}} | {grand_total:>{col_w}}")
+
+
 def _print_table(stats: YearlyStats, *, label: str = "Absender") -> None:
     if not stats:
         print("Keine Daten gefunden.")
@@ -100,55 +125,61 @@ def _build_host_to_emails(stats: YearlyStats) -> dict[str, list[str]]:
     return mapping
 
 
-def _print_host_with_emails(
+def _print_host_table(
     host_stats: YearlyStats,
     host_to_emails: dict[str, list[str]],
+    *,
+    print_year_distribution: bool = True,
+    print_related_mails: bool = True,
 ) -> None:
-    """Gibt die Host-Tabelle aus mit den zugehörigen E-Mail-Adressen pro Host."""
+    """Gibt die Host-Tabelle aus, optional mit Jahresverteilung und E-Mail-Adressen."""
     if not host_stats:
         print("Keine Hosts gefunden.")
         return
 
-    all_years = sorted({y for yearly in host_stats.values() for y in yearly})
     totals = {host: sum(yearly.values()) for host, yearly in host_stats.items()}
     sorted_hosts = sorted(totals, key=lambda h: totals[h], reverse=True)
-
+    all_years = sorted({y for yearly in host_stats.values() for y in yearly}) if print_year_distribution else []
     col_w = 6
-    addr_width = max(
+
+    name_width = max(
         max((len(h) for h in sorted_hosts), default=4),
-        max(
-            (len(f"  {e}") for emails in host_to_emails.values() for e in emails),
-            default=4,
-        ),
         len("Host"),
     )
+    if print_related_mails:
+        name_width = max(
+            name_width,
+            max(
+                (len(f"  {e}") for emails in host_to_emails.values() for e in emails),
+                default=4,
+            ),
+        )
 
-    header = f"{'Host':<{addr_width}}"
+    header = f"{'Host':<{name_width}}"
     for y in all_years:
         header += f" | {y:>{col_w}}"
     header += f" | {'Gesamt':>{col_w}}"
     print(header)
 
-    sep = "-" * addr_width
+    sep = "-" * name_width
     for _ in all_years:
         sep += "-+-" + "-" * col_w
     sep += "-+-" + "-" * col_w
     print(sep)
 
     for host in sorted_hosts:
-        row = f"{host:<{addr_width}}"
+        row = f"{host:<{name_width}}"
         for y in all_years:
-            count = host_stats[host].get(y, 0)
-            row += f" | {count:>{col_w}}"
+            row += f" | {host_stats[host].get(y, 0):>{col_w}}"
         row += f" | {totals[host]:>{col_w}}"
         print(row)
 
-        emails = host_to_emails.get(host, [])
-        for email in sorted(emails):
-            print(f"  {email}")
+        if print_related_mails:
+            for email in sorted(host_to_emails.get(host, [])):
+                print(f"  {email}")
 
     print(sep)
-    print(f"{'TOTAL':<{addr_width}}", end="")
+    print(f"{'TOTAL':<{name_width}}", end="")
     for y in all_years:
         year_total = sum(host_stats[h].get(y, 0) for h in sorted_hosts)
         print(f" | {year_total:>{col_w}}", end="")
@@ -160,6 +191,8 @@ def main(
     *,
     years: list[int] | None = None,
     min_num_mails: int = 1,
+    print_year_distribution: bool = True,
+    print_related_mails: bool = True,
 ) -> None:
     cached = _load_stats()
     if cached is None:
@@ -185,14 +218,24 @@ def main(
     print(f"[{label}]\n")
 
     print("--- Absender-Statistik ---\n")
-    _print_table(absender_filtered)
+    if print_year_distribution:
+        _print_table(absender_filtered)
+    else:
+        _print_simple(absender_filtered)
 
-    print("\n\n--- Host-Statistik (mit E-Mails) ---\n")
+    print("\n\n--- Host-Statistik ---\n")
     absender_year_filtered = _filter_stats(absender_stats, years=years, min_num_mails=1)
     host_to_emails_map = _build_host_to_emails(absender_year_filtered)
-    _print_host_with_emails(host_filtered, host_to_emails_map)
+    _print_host_table(
+        host_filtered,
+        host_to_emails_map,
+        print_year_distribution=print_year_distribution,
+        print_related_mails=print_related_mails,
+    )
 
 
 if __name__ == "__main__":
     main(#years=[2025, 2026],
-         min_num_mails=5)
+         min_num_mails=3,
+    print_related_mails=True,
+    print_year_distribution=False)
