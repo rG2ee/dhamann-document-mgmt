@@ -131,6 +131,7 @@ def _print_host_table(
     *,
     print_year_distribution: bool = True,
     print_related_mails: bool = True,
+        max_num_hosts: int | None = None
 ) -> None:
     """Gibt die Host-Tabelle aus, optional mit Jahresverteilung und E-Mail-Adressen."""
     if not host_stats:
@@ -167,6 +168,9 @@ def _print_host_table(
     sep += "-+-" + "-" * col_w
     print(sep)
 
+    if max_num_hosts is not None:
+        sorted_hosts = sorted_hosts[:max_num_hosts]
+
     for host in sorted_hosts:
         row = f"{host:<{name_width}}"
         for y in all_years:
@@ -193,6 +197,7 @@ def main(
     min_num_mails: int = 1,
     print_year_distribution: bool = True,
     print_related_mails: bool = True,
+    max_num_hosts: int | None = None
 ) -> None:
     cached = _load_stats()
     if cached is None:
@@ -231,11 +236,13 @@ def main(
         host_to_emails_map,
         print_year_distribution=print_year_distribution,
         print_related_mails=print_related_mails,
+        max_num_hosts=max_num_hosts
     )
 
 
 if __name__ == "__main__":
     main(#years=[2025, 2026],
-         min_num_mails=2,
+         min_num_mails=1,
     print_related_mails=True,
-    print_year_distribution=False)
+    print_year_distribution=False,
+    max_num_hosts=30)
