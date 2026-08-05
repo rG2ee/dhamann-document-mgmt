@@ -1368,7 +1368,9 @@ ZUORDNUNGEN9: dict[str, list[str]] = {
         "sarahflensburg95@gmail.com",
         "dennis.hamann.dev@gmail.com",
         # protonmail.com
-        "dennis.hamann@protonmail.com",
+        # Eigene Adresse – entfernt, weil sie in "All Mail" auf jede gesendete
+        # Mail passt und damit den kompletten Sent-Ordner verschiebt.
+        # "dennis.hamann@protonmail.com",
         "lars.globisch@protonmail.com",
         "danja.kluever@protonmail.com",
         # t-online.de

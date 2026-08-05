@@ -8,10 +8,11 @@ Protonmail-Ordner exklusiv sind, wurde damit der komplette Sent-Ordner
 nach persoenliche-kontakte verschoben.
 
 Dieses Skript verschiebt Mails mit der eigenen Adresse im From-Header aus dem
-Quellordner in einen Wiederherstellungs-Ordner. Standard ist ein Dry-Run.
+Quellordner zurueck nach "Sent". Standard ist ein Dry-Run.
 
-Direkt zurueck nach "Sent" geht nicht: Die Protonmail Bridge behandelt Sent als
-Systemordner und lehnt COPY dorthin ab. Deshalb der eigene Zielordner.
+Die Bridge akzeptiert COPY nach "Sent" und sortiert dabei selbst nach Charakter
+der Nachricht: Entwuerfe landen in "Drafts", Mails an die eigene Adresse
+zusaetzlich in der INBOX.
 """
 
 from __future__ import annotations
@@ -27,9 +28,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from email_regeln.imap_connection import connect
+from email_regeln.move_to_delete import own_addresses
 
 SOURCE_FOLDER = "Folders/filter-andwendungen/persoenliche-kontakte"
-RESTORE_FOLDER = "Folders/sent-wiederhergestellt"
+RESTORE_FOLDER = "Sent"
 
 _BATCH_SIZE = 200
 _UID_RE = re.compile(rb"UID (\d+)")
@@ -38,6 +40,21 @@ _UID_RE = re.compile(rb"UID (\d+)")
 def _own_address() -> str:
     load_dotenv(Path(__file__).resolve().parents[2] / ".env")
     return os.environ["IMAP_Username"]
+
+
+def _search_own(mail: imaplib.IMAP4, adressen: list[str]) -> list[bytes]:
+    """Sucht Mails, deren From-Header eine der eigenen Adressen enthaelt."""
+    gefunden: list[bytes] = []
+    gesehen: set[bytes] = set()
+    for adresse in adressen:
+        status, data = mail.uid("SEARCH", None, "FROM", f'"{adresse}"')
+        if status != "OK" or not data or not data[0]:
+            continue
+        for uid in data[0].split():
+            if uid not in gesehen:
+                gesehen.add(uid)
+                gefunden.append(uid)
+    return gefunden
 
 
 def _decode(raw: str | None) -> str:
@@ -134,11 +151,12 @@ def restore(
     die Notizen an sich selbst im Quellordner liegen.
     """
     own_address = _own_address()
+    adressen = own_addresses()
     mode = "DRY RUN" if dry_run else "LIVE"
     print(f"=== {mode} ===")
     print(f"Quelle : {source}")
     print(f"Ziel   : {target}")
-    print(f"Filter : From enthaelt {own_address}")
+    print(f"Filter : From enthaelt eine von {', '.join(adressen)}")
     if only_to_others:
         print("         nur Mails an fremde Empfaenger")
     print()
@@ -150,8 +168,7 @@ def restore(
         if status != "OK":
             raise RuntimeError(f"Quellordner nicht selektierbar: {source}")
 
-        status, data = mail.uid("SEARCH", None, "FROM", f'"{own_address}"')
-        uids = data[0].split() if status == "OK" and data and data[0] else []
+        uids = _search_own(mail, adressen)
         if not uids:
             print("Keine passenden Mails gefunden.")
             return 0

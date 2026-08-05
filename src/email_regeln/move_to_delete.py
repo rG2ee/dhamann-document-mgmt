@@ -31,26 +31,50 @@ _MIN_SENDER_LENGTH = 6
 # Mehr IDs pro COPY/STORE macht die IMAP-Kommandozeile unnoetig lang.
 _BATCH_SIZE = 200
 
+# Protonmail liefert zu jedem Konto Aliasse auf diesen Domains. Gesendete Mails
+# koennen jede davon im From-Header tragen.
+_PROTON_DOMAINS = ("protonmail.com", "protonmail.ch", "pm.me", "proton.me")
+
 
 def own_address() -> str:
-    """Die eigene Mailadresse aus der .env."""
+    """Die primaere eigene Mailadresse aus der .env."""
     load_dotenv(Path(__file__).resolve().parents[2] / ".env")
     return os.environ["IMAP_Username"]
 
 
+def own_addresses() -> list[str]:
+    """Alle Adressen, unter denen eigene Mails verschickt werden.
+
+    Das sind die primaere Adresse, die Protonmail-Aliasse mit gleichem lokalen
+    Teil und optional weitere aus ``OWN_ALIASES`` in der .env (kommagetrennt).
+    """
+    primary = own_address().lower()
+    local = primary.split("@")[0]
+
+    adressen = {primary}
+    adressen |= {f"{local}@{domain}" for domain in _PROTON_DOMAINS}
+    adressen |= {
+        alias.strip().lower()
+        for alias in os.environ.get("OWN_ALIASES", "").split(",")
+        if alias.strip()
+    }
+    return sorted(adressen)
+
+
 def validate_absender(absender: list[str], *, target_folder: str = "?") -> None:
     """Prueft die Suchbegriffe auf Muster, die den Sent-Ordner leerraeumen wuerden."""
-    own = own_address().lower()
+    eigene = own_addresses()
 
     for sender in absender:
         needle = sender.strip().lower()
         if not needle:
             raise ValueError(f"Leerer Suchbegriff in der Zuordnung fuer {target_folder}.")
 
-        if needle in own or own in needle:
+        treffer = next((own for own in eigene if needle in own or own in needle), None)
+        if treffer:
             raise ValueError(
                 f"Suchbegriff {sender!r} (Ziel {target_folder}) passt auf die eigene "
-                f"Adresse {own}. Damit wuerde jede gesendete Mail mitverschoben. "
+                f"Adresse {treffer}. Damit wuerde jede gesendete Mail mitverschoben. "
                 "Bitte den Eintrag aus der Zuordnung entfernen."
             )
 
@@ -71,7 +95,8 @@ def _search_by_sender(
     """
     criteria: list[str] = ["FROM", f'"{sender}"']
     if protect_own:
-        criteria += ["NOT", "FROM", f'"{own_address()}"']
+        for own in own_addresses():
+            criteria += ["NOT", "FROM", f'"{own}"']
 
     if all(c.isascii() for c in criteria):
         status, data = mail.uid("SEARCH", None, *criteria)

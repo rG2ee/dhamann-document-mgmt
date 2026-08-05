@@ -141,13 +141,28 @@ def copy_mailbox(
     source_folder: str,
     *,
     dry_run: bool = True,
+    accept_move: bool = False,
 ) -> int:
     """Kopiert alle Mails aus *source_folder* in einen Backup-Ordner.
 
     Zielordner: ``Folders/backup/<source_folder>_<datum>``
 
+    ACHTUNG: Protonmail-Ordner sind exklusiv. Ein IMAP-COPY in einen Ordner
+    unter ``Folders/`` ist deshalb kein Kopieren, sondern ein Verschieben – die
+    Nachricht verschwindet aus ihrem bisherigen Ordner. Bei ``All Mail`` als
+    Quelle wuerde das die gesamte Mailbox in den Backup-Ordner umziehen und
+    INBOX, Sent und alle Filter-Ordner leeren. Fuer echte Backups
+    ``export_all_folders()`` verwenden, das nur liest.
+
     Gibt die Anzahl der kopierten Nachrichten zurueck.
     """
+    if not dry_run and not accept_move:
+        raise ValueError(
+            "copy_mailbox() verschiebt bei Protonmail statt zu kopieren und wuerde "
+            f"{source_folder} leerraeumen. Fuer ein Backup export_all_folders() nutzen. "
+            "Wenn das Verschieben gewollt ist: accept_move=True setzen."
+        )
+
     today = date.today().isoformat()
     target_folder = f"Folders/backup/{source_folder}_{today}"
 
@@ -190,8 +205,11 @@ def copy_mailbox(
     return copied
 
 
-def copy_all_mail(*, dry_run: bool = True) -> None:
-    """Kopiert All Mail in einen serverseitigen Backup-Ordner."""
+def copy_all_mail(*, dry_run: bool = True, accept_move: bool = False) -> None:
+    """Kopiert All Mail in einen serverseitigen Backup-Ordner.
+
+    Siehe Warnung in copy_mailbox(): serverseitig ist das ein Verschieben.
+    """
     if dry_run:
         print("=== DRY RUN – es werden keine Mails kopiert ===")
 
@@ -199,7 +217,7 @@ def copy_all_mail(*, dry_run: bool = True) -> None:
     mail = connect()
 
     try:
-        copy_mailbox(mail, "All Mail", dry_run=dry_run)
+        copy_mailbox(mail, "All Mail", dry_run=dry_run, accept_move=accept_move)
     finally:
         mail.logout()
 
