@@ -6,7 +6,7 @@ import time
 
 from email_regeln.imap_connection import connect, create_email_folder_in_filter_anwendungen
 
-from email_regeln.move_to_delete import run
+from email_regeln.move_to_delete import own_address, run, validate_absender
 
 """
 ZUORDNUNGEN: dict[str, list[str]] = {
@@ -39,6 +39,19 @@ def create_dirs():
 def move_emails(dry_run: bool, folder: str = "INBOX"):
     mode = "DRY RUN" if dry_run else "LIVE"
     print(f"=== {mode} === Quelle: {folder}\n")
+
+    # Alle Zuordnungen vorab pruefen, damit ein fehlerhafter Suchbegriff den Lauf
+    # nicht erst zur Haelfte abbricht.
+    for ordner, absender in ZUORDNUNGEN.items():
+        validate_absender(absender, target_folder=ordner)
+
+    if folder == "All Mail":
+        print(
+            "Hinweis: 'All Mail' enthaelt auch Sent, Drafts, Archive und Trash.\n"
+            f"Mails mit '{own_address()}' im From-Header werden deshalb "
+            "grundsaetzlich uebersprungen.\n"
+        )
+
     print("Verbinde mit Protonmail Bridge …")
     mail = connect()
 
@@ -62,9 +75,9 @@ def move_emails(dry_run: bool, folder: str = "INBOX"):
     finally:
         mail.logout()
 
-from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN8 as ZUORDNUNGEN
+from email_regeln.bereits_ausgefuerht_und_spaeter_als_regel_hinterlegen import ZUORDNUNGEN13 as ZUORDNUNGEN
 
 if __name__ == "__main__":
     # create_dirs()
 
-    move_emails(dry_run=False, folder="All Mail")
+    move_emails(dry_run=True, folder="All Mail")

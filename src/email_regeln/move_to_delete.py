@@ -1,38 +1,120 @@
-"""Verschiebt alle Mails bestimmter Absender aus der INBOX in einen konfigurierbaren Zielordner."""
+"""Verschiebt alle Mails bestimmter Absender aus einem Quellordner in einen Zielordner.
+
+Schutzmechanismen (siehe README.md):
+  * Gesendete Mails und Entwuerfe werden nie erfasst, weil jede Suche um
+    NOT FROM <eigene Adresse> erweitert wird.
+  * Sent und Drafts sind als Quellordner gesperrt.
+  * Suchbegriffe, die auf die eigene Adresse passen, brechen den Lauf ab.
+  * Geloescht wird erst, nachdem das COPY nachweislich erfolgreich war.
+"""
 
 from __future__ import annotations
 
 import imaplib
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
 
 from email_regeln.imap_connection import connect
 
 TARGET_FOLDER = "Folders/to-be-deleted"
 
+# Aus diesen Ordnern darf nicht sortiert werden: sie enthalten ausschliesslich
+# Mails mit der eigenen Adresse im From-Header.
+PROTECTED_SOURCE_FOLDERS = frozenset({"Sent", "Drafts"})
 
-def _search_by_sender(mail: imaplib.IMAP4, sender: str) -> list[bytes]:
-    """Sucht in der aktuell selektierten Mailbox nach Mails eines Absenders."""
-    quoted = f'"{sender}"'
-    if sender.isascii():
-        _status, data = mail.search(None, "FROM", quoted)
+# Suchbegriffe ohne @ sind Teilstring-Suchen ueber den ganzen From-Header und
+# treffen unterhalb dieser Laenge viel zu breit.
+_MIN_SENDER_LENGTH = 6
+
+# Mehr IDs pro COPY/STORE macht die IMAP-Kommandozeile unnoetig lang.
+_BATCH_SIZE = 200
+
+
+def own_address() -> str:
+    """Die eigene Mailadresse aus der .env."""
+    load_dotenv(Path(__file__).resolve().parents[2] / ".env")
+    return os.environ["IMAP_Username"]
+
+
+def validate_absender(absender: list[str], *, target_folder: str = "?") -> None:
+    """Prueft die Suchbegriffe auf Muster, die den Sent-Ordner leerraeumen wuerden."""
+    own = own_address().lower()
+
+    for sender in absender:
+        needle = sender.strip().lower()
+        if not needle:
+            raise ValueError(f"Leerer Suchbegriff in der Zuordnung fuer {target_folder}.")
+
+        if needle in own or own in needle:
+            raise ValueError(
+                f"Suchbegriff {sender!r} (Ziel {target_folder}) passt auf die eigene "
+                f"Adresse {own}. Damit wuerde jede gesendete Mail mitverschoben. "
+                "Bitte den Eintrag aus der Zuordnung entfernen."
+            )
+
+        if "@" not in needle and len(needle) < _MIN_SENDER_LENGTH:
+            print(
+                f"  WARNUNG: Suchbegriff {sender!r} (Ziel {target_folder}) ist sehr kurz "
+                "und wird als Teilstring im gesamten From-Header gesucht."
+            )
+
+
+def _search_by_sender(
+    mail: imaplib.IMAP4, sender: str, *, protect_own: bool = True
+) -> list[bytes]:
+    """Sucht in der aktuell selektierten Mailbox nach Mails eines Absenders.
+
+    Gibt UIDs zurueck. Mit protect_own werden eigene Mails (Sent, Drafts,
+    Notizen an sich selbst) vom Ergebnis ausgeschlossen.
+    """
+    criteria: list[str] = ["FROM", f'"{sender}"']
+    if protect_own:
+        criteria += ["NOT", "FROM", f'"{own_address()}"']
+
+    if all(c.isascii() for c in criteria):
+        status, data = mail.uid("SEARCH", None, *criteria)
     else:
         prev_encoding = mail._encoding
         mail._encoding = "utf-8"
         try:
-            _status, data = mail.search("UTF-8", "FROM", quoted)
+            status, data = mail.uid("SEARCH", "CHARSET", "UTF-8", *criteria)
         finally:
             mail._encoding = prev_encoding
+
+    if status != "OK" or not data or not data[0]:
+        return []
     return data[0].split()
 
 
-def _move_messages(
-    mail: imaplib.IMAP4, msg_ids: list[bytes], target_folder: str
-) -> int:
-    """Verschiebt Nachrichten per COPY + STORE \\Deleted + EXPUNGE. Gibt Anzahl zurueck."""
-    id_set = b",".join(msg_ids)
-    mail.copy(id_set, target_folder)
-    mail.store(id_set, "+FLAGS", "\\Deleted")
-    mail.expunge()
-    return len(msg_ids)
+def _move_messages(mail: imaplib.IMAP4, uids: list[bytes], target_folder: str) -> int:
+    """Verschiebt Nachrichten per UID COPY + STORE \\Deleted + EXPUNGE.
+
+    Bricht ab, bevor etwas geloescht wird, wenn das COPY fehlschlaegt.
+    """
+    moved = 0
+    for start in range(0, len(uids), _BATCH_SIZE):
+        chunk = uids[start : start + _BATCH_SIZE]
+        id_set = ",".join(uid.decode() for uid in chunk)
+
+        status, response = mail.uid("COPY", id_set, f'"{target_folder}"')
+        if status != "OK":
+            raise RuntimeError(
+                f"COPY nach {target_folder} fehlgeschlagen ({status}: {response!r}). "
+                f"Es wurde nichts geloescht ({moved} Mail(s) vorher verschoben)."
+            )
+
+        status, response = mail.uid("STORE", id_set, "+FLAGS", "\\Deleted")
+        if status != "OK":
+            raise RuntimeError(
+                f"STORE \\Deleted fehlgeschlagen ({status}: {response!r}). "
+                f"Die Mails liegen jetzt zusaetzlich in {target_folder}."
+            )
+
+        mail.expunge()
+        moved += len(chunk)
+    return moved
 
 
 def run(
@@ -42,12 +124,21 @@ def run(
     folder: str = "INBOX",
     dry_run: bool = True,
     mail: imaplib.IMAP4 | None = None,
+    protect_own: bool = True,
 ) -> int:
     """Verschiebt alle Mails der gegebenen Absender aus *folder* in den Zielordner.
 
     Gibt die Gesamtanzahl (gefunden bzw. verschoben) zurueck.
     Wird *mail* uebergeben, wird die Verbindung NICHT geschlossen (Caller verwaltet sie).
     """
+    if folder in PROTECTED_SOURCE_FOLDERS:
+        raise ValueError(
+            f"{folder} ist als Quellordner gesperrt. Dort liegen ausschliesslich "
+            "eigene Mails, die von jedem Absender-Filter erfasst wuerden."
+        )
+
+    validate_absender(absender, target_folder=target_folder)
+
     own_connection = mail is None
     if own_connection:
         if dry_run:
@@ -61,8 +152,8 @@ def run(
         total = 0
 
         for sender in absender:
-            msg_ids = _search_by_sender(mail, sender)
-            count = len(msg_ids)
+            uids = _search_by_sender(mail, sender, protect_own=protect_own)
+            count = len(uids)
 
             if count == 0:
                 continue
@@ -71,7 +162,7 @@ def run(
                 print(f"  {sender}: {count} Mail(s) wuerden verschoben")
                 total += count
             else:
-                moved = _move_messages(mail, msg_ids, target_folder)
+                moved = _move_messages(mail, uids, target_folder)
                 total += moved
                 print(f"  {sender}: {moved} Mail(s) verschoben")
 
@@ -98,21 +189,21 @@ def undo(*, dry_run: bool = True) -> None:
 
     try:
         mail.select(TARGET_FOLDER, readonly=dry_run)
-        _status, data = mail.search(None, "ALL")
-        msg_ids = data[0].split()
+        _status, data = mail.uid("SEARCH", None, "ALL")
+        uids = data[0].split() if data and data[0] else []
 
-        if not msg_ids:
+        if not uids:
             print("Keine Mails in Folders/to-be-deleted gefunden.")
             return
 
         if dry_run:
-            print(f"{len(msg_ids)} Mail(s) wuerden zurueck in INBOX verschoben.")
+            print(f"{len(uids)} Mail(s) wuerden zurueck in INBOX verschoben.")
         else:
-            moved = _move_messages(mail, msg_ids, "INBOX")
+            moved = _move_messages(mail, uids, "INBOX")
             print(f"{moved} Mail(s) zurueck in INBOX verschoben.")
     finally:
         mail.logout()
 
 
 if __name__ == '__main__':
-    undo(dry_run=False)
+    undo(dry_run=True)
